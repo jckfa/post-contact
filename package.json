@@ -1,0 +1,46 @@
+{
+  "name": "Jack-Halten-Fahnestock",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Designer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jckfa/jackf.me.git"
+  },
+  "author": "Jack Halten Fahnestock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jckfa/jackf.me.git/issues"
+  },
+  "homepage": "https://jackf.me",
+  "devDependencies": {
+    "flow-bin": "^0.95.1",
+    "react-scripts": "^3.4.1",
+    "shelljs": "^0.8.3",
+    "sw-precache": "^5.2.1"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-imgix": "^8.6.4",
+    "react-router-dom": "^5.1.2",
+    "react-snapshot": "^1.3.0",
+    "styled-components": "^4.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "prebuild": "node ./src/updated.js",
+    "deploy": "npm run-script build && node ./deploy.js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "flow": "flow"
+  },
+  "main": "deploy.js",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
