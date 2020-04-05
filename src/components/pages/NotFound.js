@@ -2,19 +2,11 @@ import React from 'react'
 import styled from 'styled-components'
 import media from '../utils/media'
 
-const BG = styled.div`
-  width: 100%;
-  height: 100%;
-  background-color: #00f;
-
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1;
-`
-
-const P = styled.p`
+const Main = styled.main`
   color: white;
+  width: 100vw;
+  height: 100vh;
+  background-color: #00f;
   padding: 0.5em;
 
   ${media.s`
@@ -22,13 +14,10 @@ const P = styled.p`
   `}
 `
 
-const NoFound = ({ location }) => (
-  <main>
-    <BG/>
-    <P>
-      404 Not found
-    </P>
-  </main>
+const NotFound = ({ location }) => (
+  <Main>
+    <p>404 Not Found</p>
+  </Main>
 )
 
-export default NoFound
+export default NotFound
