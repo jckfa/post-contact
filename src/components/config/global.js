@@ -17,6 +17,7 @@ const GlobalStyle = createGlobalStyle`
   ::selection {
     color: white;
     background-color: #aa00ff;
+    background-color: ${colors.black};
   }
 
   body {
@@ -24,12 +25,13 @@ const GlobalStyle = createGlobalStyle`
     font: 1.2rem/1.2 ${fonts.sans};
     background-color: ${colors.white};
     ${'' /* letter-spacing: 0.025em; */}
+    hyphens: auto;
 
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-
     -webkit-tap-highlight-color: transparent;
+
 
     ${media.s`
       font-size: 1.6rem;
