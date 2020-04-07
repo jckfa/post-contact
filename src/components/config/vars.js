@@ -1,17 +1,9 @@
 export const site = {
-  name: 'Jack H.F.',
-  description: 'graphic+type+web design',
+  site_title: '__________',
+  description: '____________________',
   email: 'buttface@jackf.me',
-  pgp: 'https://keybase.io/jckfa',
-  github: 'https://github.com/jckfa',
-  twitter: 'https://twitter.com/jckfa',
-  instagram: 'https://www.instagram.com/jckfa',
-  arena: 'https://www.are.na/jack-f/channels',
-  wikimedia: 'https://commons.wikimedia.org/wiki/User:Jckfa',
-  cv: 'https://drive.google.com/open?id=1e6NZIoYraVubnSwVomWu8YaDX2r_nvmv',
-  pofo: 'https://drive.google.com/open?id=1c2d1YL4j3FUlc1QlmUH5nscn89hJ0rTb',
-  source: 'https://github.com/jckfa/jackf.me',
-  imgix_url: 'https://jackf.imgix.net/',
+  instagram: 'https://www.instagram.com/__________',
+  source_code: 'https://github.com/jckfa/__________',
 }
 
 export const colors = {
@@ -20,7 +12,7 @@ export const colors = {
   black: 'black'
 }
 
-const fallback = 'arial, BlinkMacSystemFont, "-apple-system", "helvetica neue", helvetica, sans-serif'
+const fallback = 'BlinkMacSystemFont, "-apple-system", arial, "helvetica neue", helvetica, sans-serif'
 
 export const fonts = {
   sans: `standard_vinyl, ${fallback}`,
