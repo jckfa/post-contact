@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import {site} from './config/vars'
 import media from './utils/media'
 import updated from './data/updated_time'
 // eslint-disable-next-line
@@ -31,7 +32,7 @@ const Metadata = styled.section``
 const Info = () => (
   <ProjectInfo>
     <section>
-      <Heading>Quarantine Posters</Heading>
+      <Heading>{site.title}</Heading>
       Open Call for Submissions
     </section>
 

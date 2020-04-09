@@ -1,9 +1,9 @@
 export const site = {
-  site_title: '__________',
-  description: '____________________',
+  title: 'Post-Contact',
+  description: 'a physical site for open, artistic commentary in response a world in which human contact is outlawed as a result of the coronavirus pandemic.',
   email: 'buttface@jackf.me',
-  instagram: 'https://www.instagram.com/__________',
-  source_code: 'https://github.com/jckfa/__________',
+  instagram: 'https://www.instagram.com/post_contact',
+  source_code: 'https://github.com/jckfa/post-contact',
 }
 
 export const colors = {
