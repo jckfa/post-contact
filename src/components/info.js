@@ -121,7 +121,7 @@ const Info = () => (
         Choose from the available paper colors: <Color>White</Color> <Color color="WhiteSmoke">Light Gray</Color> <Color color="#fff6a7">Pale Yellow</Color> <Color color="Papayawhip">Papayawhip</Color> <Color color="PeachPuff">Peach</Color> <Color color="#ff9900">Orange</Color>
       </p>
 
-      <p>Send artwork in PDF format (with bleeds and crop marks if necessary), including paper choice, a name, and a website URL or social media handle, to <a href={"mailto:" + site.email + site.email_body} target="_blank" rel="noopener noreferrer">{site.email}</a>. Not all submissions will be accepted. There is no deadline. The project ends when the pandemic ends.</p>
+      <p>Send artwork in PDF format (with bleeds and crop marks if necessary), including paper choice(s), a name, and a website URL or social media handle, to <a href={"mailto:" + site.email + site.email_body} target="_blank" rel="noopener noreferrer">{site.email}</a>. Not all submissions will be accepted. There is no deadline. The project ends when the pandemic ends.</p>
     </section>
 
     <Footer/>
