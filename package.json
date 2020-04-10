@@ -1,20 +1,20 @@
 {
-  "name": "Jack-Halten-Fahnestock",
+  "name": "Post-Contact",
   "version": "0.0.1",
   "private": true,
-  "description": "Designer",
+  "description": "A public site for open, artistic commentary in response to the coronavirus pandemic.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jckfa/jackf.me.git"
+    "url": "git+https://github.com/jckfa/post-contact.git"
   },
   "author": "Jack Halten Fahnestock",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jckfa/jackf.me.git/issues"
+    "url": "https://github.com/jckfa/post-contact.git/issues"
   },
-  "homepage": "https://jackf.me",
+  "homepage": "https://post-contact.site",
   "devDependencies": {
-    "flow-bin": "^0.95.1",
+    "flow-bin": "^0.122.0",
     "react-scripts": "^3.4.1",
     "shelljs": "^0.8.3",
     "sw-precache": "^5.2.1"
@@ -22,11 +22,10 @@
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-imgix": "^8.6.4",
     "react-router-dom": "^5.1.2",
     "react-snapshot": "^1.3.0",
     "react-svg": "^11.0.17",
-    "styled-components": "^4.4.1"
+    "styled-components": "^5.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
