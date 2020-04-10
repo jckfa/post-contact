@@ -1,21 +1,21 @@
 export const site = {
   title: 'Post-Contact',
-  description: 'a physical site for open, artistic commentary in response to a world in which human contact is outlawed as a result of the coronavirus pandemic.',
-  email: 'buttface@jackf.me',
-  instagram: 'https://www.instagram.com/post_contact',
+  description: 'a public site for open, artistic commentary in response to the implications of social distancing as a result of the coronavirus pandemic.',
+  email: 'mail@jackf.me',
+  instagram_handle: 'post_contact',
   source_code: 'https://github.com/jckfa/post-contact',
 }
 
 export const colors = {
   white: 'white',
   orange: '#ff9900',
-  black: 'black'
+  black: '#90f'
 }
 
 const fallback = 'BlinkMacSystemFont, "-apple-system", arial, "helvetica neue", helvetica, sans-serif'
 
 export const fonts = {
-  sans: `standard_vinyl, ${fallback}`,
+  sans: `standard_mod, ${fallback}`,
   // italic: `standard_italic, ${fallback}`
 }
 

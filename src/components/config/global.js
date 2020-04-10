@@ -48,18 +48,27 @@ const GlobalStyle = createGlobalStyle`
   }
 
   a {
-    color: ${colors.white};
-    background-color: ${colors.black};
-    text-decoration: none;
+    color: inherit;
+    // color: ${colors.white};
+    // background-color: ${colors.black};
+    // text-decoration: none;
 
-    display: inline-block;
-    border-radius: 100px;
-    padding: 0 0.5em;
-    margin: 1px 0;
+    // display: inline-block;
+    // border-radius: 100px;
+    // padding: 0 0.5em;
+    // margin: 1px 0;
   }
 
   .active {
     border-bottom: 0.075em solid currentColor;
+  }
+
+  i {
+    font-style: italic;
+  }
+
+  li {
+    margin-left: 1em;
   }
 `
 

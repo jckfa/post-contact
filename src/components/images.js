@@ -1,16 +1,18 @@
 import React from 'react'
 import styled from 'styled-components'
-import {colors} from './config/vars'
+import {site, colors} from './config/vars'
 import media from './utils/media'
 import posterList from './data/posterlist'
 
 const Posters = styled.div`
   width: 100%;
-  min-height: 50vh;
+  min-height: 75vh;
   padding: 0.5em;
   ${'' /* display: inline-block; */}
   color: ${colors.black};
   background-color: ${colors.orange};
+  color: white;
+  background-color: ${colors.black};
   position: relative;
 
   & img {
@@ -61,6 +63,7 @@ const Next = styled(NavBtn)`
 const Count = styled.div`
   font-variant-numeric: tabular-nums;
   font-variant-numeric: slashed-zero;
+  margin-bottom: 0.5em;
 `
 
 function zero_pad(n) {
@@ -73,8 +76,8 @@ function zero_pad(n) {
   }
 }
 
-const PosterInfo = styled.ul`
-  list-style: none;
+const PosterInfo = styled.div`
+  margin-bottom: 2em;
 `
 
 const Images = (props) => (
@@ -85,25 +88,16 @@ const Images = (props) => (
     <img src={"assets/img/posters/" + posterList[props.count].image} alt=""/>
 
     <PosterInfo>
-      <li>
-        <Count>
-          {zero_pad(props.count + 1)}/{zero_pad(props.totalCount + 1)}
-        </Count>
-      </li>
-      <li>
-        {posterList[props.count].title} by {posterList[props.count].author_url ?
+      <Count>
+        {zero_pad(props.count + 1)}/{zero_pad(props.totalCount + 1)}
+      </Count>
+      <div>
+        {posterList[props.count].author_url ?
           <a href={posterList[props.count].author_url} target="_blank" rel="noopener noreferrer">{posterList[props.count].author}</a>
         :
-        posterList[props.count].author}
-      </li>
-      <li>
-        Installed on {posterList[props.count].install_date}
-      </li>
+        posterList[props.count].author}, {site.title + " " + zero_pad(posterList[props.count].id)}, {posterList[props.count].size}, Installed on {posterList[props.count].install_date}
+      </div>
     </PosterInfo>
-
-    {/* <p dangerouslySetInnerHTML={{__html:
-      posterList[props.count].caption
-    }} /> */}
   </Posters>
 )
 
