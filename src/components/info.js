@@ -2,8 +2,8 @@ import React from 'react'
 import styled, {keyframes} from 'styled-components'
 import {site} from './config/vars'
 import media from './utils/media'
-import updated from './data/updated_time'
 import {SmallPosterIcon, BigPosterIcon} from './poster_icon'
+import Footer from './footer'
 
 const ProjectInfo = styled.div`
   width: 100%;
@@ -26,13 +26,6 @@ const Header = styled.section`
   margin-bottom: 3em;
 `
 
-const Heading = styled.span`
-  font-weight: bold;
-  ${'' /* color: ${colors.orange}; */}
-  text-transform: uppercase;
-  display: block;
-`
-
 const Beta = styled.span`
   font-size: 0.5em;
   line-height: 0.5;
@@ -45,12 +38,6 @@ const Beta = styled.span`
   bottom: 0.3em;
 `
 
-const Footer = styled.section`
-  padding-top: 3em;
-`
-
-const Metadata = styled.section``
-
 const blink = keyframes`
     0% {opacity: 1}
    50% {opacity: 0.25}
@@ -60,6 +47,13 @@ const blink = keyframes`
 const BlinkText = styled.span`
   animation: ${blink} 2s linear infinite;
   display: inline-block;
+`
+
+const Heading = styled.span`
+  font-weight: bold;
+  ${'' /* color: ${colors.orange}; */}
+  text-transform: uppercase;
+  display: block;
 `
 
 const SizingShell = styled.div`
@@ -125,16 +119,7 @@ const Info = () => (
       <p>Send artwork in PDF format (with bleeds and crop marks if necessary), including paper choice, a name, and a website URL or social media handle, to <a href={"mailto:" + site.email + site.email_body} target="_blank" rel="noopener noreferrer">{site.email}</a>. Not all submissions will be accepted. There is no deadline. The project ends when the pandemic ends.</p>
     </section>
 
-    <Footer>
-      <Metadata>
-        <p>
-          Visit the site in person at <a href={site.address_url} target="_blank" rel="noopener noreferrer">{site.address}</a> or on Instagram <a href={"https://instagram.com/" + site.instagram_handle} target="_blank" rel="noopener noreferrer">@{site.instagram_handle}</a>. Stay safe out there.
-        </p>
-        <p>
-          Last updated: {updated} <a href="https://time.is/UTC" target="_blank" rel="noopener noreferrer">UTC</a> • <a href={site.source_code} target="_blank" rel="noopener noreferrer">Source Code</a>
-        </p>
-      </Metadata>
-    </Footer>
+    <Footer/>
   </ProjectInfo>
 )
 
