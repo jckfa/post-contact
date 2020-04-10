@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import media from '../utils/media'
 import Images from '../images'
-import ProjectInfo from '../info'
+import Info from '../info'
 
 const Main = styled.main`
   display: flex;
@@ -20,7 +20,7 @@ const Main = styled.main`
 const Home = (props) => (
   <Main>
     <Images {...props} />
-    <ProjectInfo/>
+    <Info/>
   </Main>
 )
 

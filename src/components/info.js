@@ -3,10 +3,7 @@ import styled, {keyframes} from 'styled-components'
 import {site} from './config/vars'
 import media from './utils/media'
 import updated from './data/updated_time'
-import {
-  SmallPosterIcon,
-  BigPosterIcon,
-} from './poster_icon'
+import {SmallPosterIcon, BigPosterIcon} from './poster_icon'
 
 const ProjectInfo = styled.div`
   width: 100%;
@@ -100,8 +97,7 @@ const Info = () => (
 
     <section>
       <p><i>{site.title}</i> is {site.description}</p>
-      {/* <p>It offers a small outlet for both contributing artists and a local residential community to process the mental and physical tolls of the crisis, and perhaps find solace or spread hope.</p> */}
-      <p>It offers a small, ephemeral outlet for both contributing artists and a local residential community to process the mental and physical tolls of the crisis, to express outrage or frustration, to spread love or hope, or to perhaps find solace.</p>
+      <p>It offers a visible community platform to process the mental and physical tolls of the crisis, to express outrage or frustration, to spread love or hope, or to perhaps find solace.</p>
     </section>
 
     <section>
@@ -126,13 +122,13 @@ const Info = () => (
         Choose from the available paper colors: <Color>White</Color> <Color color="WhiteSmoke">Light Gray</Color> <Color color="#fff6a7">Pale Yellow</Color> <Color color="Papayawhip">Papayawhip</Color> <Color color="PeachPuff">Peach</Color> <Color color="DarkOrange">Orange</Color>
       </p>
 
-      <p>Send artwork in PDF format (with bleeds and crop marks if necessary) to <a href={"mailto:" + site.email + "?=Post-Contact Submission"} rel="noopener noreferrer">{site.email}</a>. Not all submissions will be accepted. There is no deadline. The project ends when the pandemic ends.</p>
+      <p>Send artwork in PDF format (with bleeds and crop marks if necessary), including paper choice, a name, and a website URL or social media handle, to <a href={"mailto:" + site.email + site.email_body} target="_blank" rel="noopener noreferrer">{site.email}</a>. Not all submissions will be accepted. There is no deadline. The project ends when the pandemic ends.</p>
     </section>
 
     <Footer>
       <Metadata>
         <p>
-          Follow <a href={"https://instagram.com/" + site.instagram_handle} target="_blank" rel="noopener noreferrer">@{site.instagram_handle}</a> on Instagram and stay safe out there.
+          Visit the site in person at <a href={site.address_url} target="_blank" rel="noopener noreferrer">{site.address}</a> or on Instagram <a href={"https://instagram.com/" + site.instagram_handle} target="_blank" rel="noopener noreferrer">@{site.instagram_handle}</a>. Stay safe out there.
         </p>
         <p>
           Last updated: {updated} <a href="https://time.is/UTC" target="_blank" rel="noopener noreferrer">UTC</a> • <a href={site.source_code} target="_blank" rel="noopener noreferrer">Source Code</a>
