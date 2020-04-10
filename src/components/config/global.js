@@ -63,6 +63,10 @@ const GlobalStyle = createGlobalStyle`
     border-bottom: 0.075em solid currentColor;
   }
 
+  p {
+    max-width: 32em;
+  }
+
   i {
     font-style: italic;
   }
