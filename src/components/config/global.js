@@ -52,11 +52,6 @@ const GlobalStyle = createGlobalStyle`
     // color: ${colors.white};
     // background-color: ${colors.black};
     // text-decoration: none;
-
-    // display: inline-block;
-    // border-radius: 100px;
-    // padding: 0 0.5em;
-    // margin: 1px 0;
   }
 
   .active {
