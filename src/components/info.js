@@ -100,13 +100,13 @@ const Info = () => (
 
     <section>
       <p><i>{site.title}</i> is {site.description}</p>
-      <p>It offers a small outlet for both contributing artists and a local residential community to process the mental and physical tolls of the crisis.</p>
+      {/* <p>It offers a small outlet for both contributing artists and a local residential community to process the mental and physical tolls of the crisis, and perhaps find solace or spread hope.</p> */}
+      <p>It offers a small, ephemeral outlet for both contributing artists and a local residential community to process the mental and physical tolls of the crisis, to express outrage or frustration, to spread love or hope, or to perhaps find solace.</p>
     </section>
 
     <section>
       <Heading>Contribute</Heading>
-      {/* <p>Submit artwork to be printed as B&W posters tiled up to 30"W×40"H and wheatpasted to the façade of a residential apartment building in Providence, Rhode Island (USA).</p> */}
-      <p>Please create new material sized at one of the options below to be printed as a B&W poster and wheatpasted to the façade of a neighborhood apartment building in Providence, Rhode Island (USA).</p>
+      <p>Please create new material sized at one of the options below to be printed as a B&W poster and wheat-pasted to the façade of a neighborhood apartment building in Providence, Rhode Island (USA).</p>
 
       <SizingShell>
         <Size>
@@ -123,7 +123,7 @@ const Info = () => (
       <p><i>Posters are tiled with 7½"W×10"H pages which yields various framing possibilities. Consider treating the canvas as a group of smaller canvases.</i></p>
 
       <p>
-        Available paper colors: <Color>White</Color> <Color color="WhiteSmoke">Light Gray</Color> <Color color="#fff6a7">Pale Yellow</Color> <Color color="Papayawhip">Papayawhip</Color> <Color color="PeachPuff">Peach</Color> <Color color="DarkOrange">Orange</Color>
+        Choose from the available paper colors: <Color>White</Color> <Color color="WhiteSmoke">Light Gray</Color> <Color color="#fff6a7">Pale Yellow</Color> <Color color="Papayawhip">Papayawhip</Color> <Color color="PeachPuff">Peach</Color> <Color color="DarkOrange">Orange</Color>
       </p>
 
       <p>Send artwork in PDF format (with bleeds and crop marks if necessary) to <a href={"mailto:" + site.email + "?=Post-Contact Submission"} rel="noopener noreferrer">{site.email}</a>. Not all submissions will be accepted. There is no deadline. The project ends when the pandemic ends.</p>
