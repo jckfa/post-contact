@@ -96,7 +96,7 @@ const Info = () => (
 
     <section>
       <Heading>Contribute</Heading>
-      <p>Please create new material sized at one of the options below to be printed as a B&W poster and wheat-pasted to the façade of a neighborhood apartment building in Providence, Rhode Island (USA).</p>
+      <p>Please create new material sized at one of the options below to be printed as a B&W poster and wheat-pasted to the façade of a <a href={site.address_url} target="_blank" rel="noopener noreferrer">neighborhood apartment building</a> in Providence, Rhode Island (USA).</p>
 
       <SizingShell>
         <Size>

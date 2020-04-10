@@ -15,7 +15,7 @@ const Footer = (props) => (
     </p>
 
     <p>
-      Special thanks to Stella Herzog for allowing the use of her building in this way; to Ramon Tejada, Paul Soulellis, and Jacqueline Shaw for their crucial feedback; and to Lucy Hitchcock and Sue Mazzucco for securing RISD GD funding for supplies necessary to make this possible.
+      Special thanks to Stella Herzog for allowing the use of her building in this way; to Ramon Tejada, Paul Soulellis, and Jacqueline Shaw for their crucial feedback; and to Lucy Hitchcock and Sue Mazzucco for securing RISD GD funding for supplies necessary to make this project possible.
     </p>
 
     <p>
