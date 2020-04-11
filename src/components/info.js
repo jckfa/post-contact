@@ -85,10 +85,12 @@ const Color = styled.span`
     background-color: ${props.color};
   `}
 
-  &:hover {
-    color: transparent;
-    cursor: default;
-  }
+  ${props => props.white || `
+    &:hover {
+      color: transparent;
+      cursor: default;
+    }
+  `}
 `
 
 const Info = () => (
@@ -122,7 +124,7 @@ const Info = () => (
       <p><i>Posters are tiled with 7½"W×10"H pages which yields various framing possibilities. Consider treating the canvas as a group of smaller canvases.</i></p>
 
       <p>
-        Choose from the available paper colors: <Color>White</Color> <Color color='WhiteSmoke'>Light Gray</Color> <Color color='#fff6a7'>Pale Yellow</Color> <Color color='Papayawhip'>Papayawhip</Color> <Color color='PeachPuff'>Peach</Color> <Color color='#ff9900'>Orange</Color>
+        Choose from the available paper colors: <Color white>White</Color> <Color color='WhiteSmoke'>Light Gray</Color> <Color color='#fff6a7'>Pale Yellow</Color> <Color color='Papayawhip'>Papayawhip</Color> <Color color='PeachPuff'>Peach</Color> <Color color='#fa2'>Orange</Color>
       </p>
 
       <p>Send artwork in PDF format (with bleeds and crop marks if necessary), including paper choice(s), a name, and a website URL or social media handle, to <a href={'mailto:' + site.email + site.email_body} target='_blank' rel='noopener noreferrer'>{site.email}</a>. Not all submissions will be accepted. There is no deadline. The project ends when the pandemic ends.</p>
