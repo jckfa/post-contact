@@ -2,11 +2,8 @@ import React from 'react'
 import styled, {keyframes} from 'styled-components'
 import {site} from './config/vars'
 import media from './utils/media'
-import updated from './data/updated_time'
-import {
-  SmallPosterIcon,
-  BigPosterIcon,
-} from './poster_icon'
+import {SmallPosterIcon, BigPosterIcon} from './poster_icon'
+import Footer from './footer'
 
 const ProjectInfo = styled.div`
   width: 100%;
@@ -26,14 +23,11 @@ const ProjectInfo = styled.div`
 `
 
 const Header = styled.section`
-  margin-bottom: 3em;
+  margin-bottom: 6em;
 `
 
-const Heading = styled.span`
-  font-weight: bold;
-  ${'' /* color: ${colors.orange}; */}
-  text-transform: uppercase;
-  display: block;
+const TitleDesc = styled.p`
+  text-transform: capitalize;
 `
 
 const Beta = styled.span`
@@ -48,12 +42,6 @@ const Beta = styled.span`
   bottom: 0.3em;
 `
 
-const Footer = styled.section`
-  padding-top: 3em;
-`
-
-const Metadata = styled.section``
-
 const blink = keyframes`
     0% {opacity: 1}
    50% {opacity: 0.25}
@@ -63,6 +51,13 @@ const blink = keyframes`
 const BlinkText = styled.span`
   animation: ${blink} 2s linear infinite;
   display: inline-block;
+`
+
+const Heading = styled.span`
+  font-weight: bold;
+  ${'' /* color: ${colors.orange}; */}
+  text-transform: uppercase;
+  display: block;
 `
 
 const SizingShell = styled.div`
@@ -87,8 +82,13 @@ const Color = styled.span`
   padding: 0.25em 0.5em;
   margin-bottom: 0.1em;
   ${props => props.color && `
-    background-color: ${props.color}
+    background-color: ${props.color};
   `}
+
+  &:hover {
+    color: transparent;
+    cursor: default;
+  }
 `
 
 const Info = () => (
@@ -99,14 +99,13 @@ const Info = () => (
     </Header>
 
     <section>
-      <p><i>{site.title}</i> is {site.description}</p>
-      {/* <p>It offers a small outlet for both contributing artists and a local residential community to process the mental and physical tolls of the crisis, and perhaps find solace or spread hope.</p> */}
-      <p>It offers a small, ephemeral outlet for both contributing artists and a local residential community to process the mental and physical tolls of the crisis, to express outrage or frustration, to spread love or hope, or to perhaps find solace.</p>
+      <TitleDesc><i>{site.title}</i> is {site.description}</TitleDesc>
+      <p>It offers a visible community platform to process the mental and physical tolls of the crisis, to express outrage or frustration, to spread love or hope, or to perhaps find solace.</p>
     </section>
 
     <section>
       <Heading>Contribute</Heading>
-      <p>Please create new material sized at one of the options below to be printed as a B&W poster and wheat-pasted to the façade of a neighborhood apartment building in Providence, Rhode Island (USA).</p>
+      <p>Please create new material sized at one of the options below to be printed as a B&W poster and wheat-pasted to the façade of a <a href={site.address_url} target='_blank' rel='noopener noreferrer'>neighborhood apartment building</a> in Providence, Rhode Island (USA).</p>
 
       <SizingShell>
         <Size>
@@ -123,22 +122,13 @@ const Info = () => (
       <p><i>Posters are tiled with 7½"W×10"H pages which yields various framing possibilities. Consider treating the canvas as a group of smaller canvases.</i></p>
 
       <p>
-        Choose from the available paper colors: <Color>White</Color> <Color color="WhiteSmoke">Light Gray</Color> <Color color="#fff6a7">Pale Yellow</Color> <Color color="Papayawhip">Papayawhip</Color> <Color color="PeachPuff">Peach</Color> <Color color="DarkOrange">Orange</Color>
+        Choose from the available paper colors: <Color>White</Color> <Color color='WhiteSmoke'>Light Gray</Color> <Color color='#fff6a7'>Pale Yellow</Color> <Color color='Papayawhip'>Papayawhip</Color> <Color color='PeachPuff'>Peach</Color> <Color color='#ff9900'>Orange</Color>
       </p>
 
-      <p>Send artwork in PDF format (with bleeds and crop marks if necessary) to <a href={"mailto:" + site.email + "?=Post-Contact Submission"} rel="noopener noreferrer">{site.email}</a>. Not all submissions will be accepted. There is no deadline. The project ends when the pandemic ends.</p>
+      <p>Send artwork in PDF format (with bleeds and crop marks if necessary), including paper choice(s), a name, and a website URL or social media handle, to <a href={'mailto:' + site.email + site.email_body} target='_blank' rel='noopener noreferrer'>{site.email}</a>. Not all submissions will be accepted. There is no deadline. The project ends when the pandemic ends.</p>
     </section>
 
-    <Footer>
-      <Metadata>
-        <p>
-          Follow <a href={"https://instagram.com/" + site.instagram_handle} target="_blank" rel="noopener noreferrer">@{site.instagram_handle}</a> on Instagram and stay safe out there.
-        </p>
-        <p>
-          Last updated: {updated} <a href="https://time.is/UTC" target="_blank" rel="noopener noreferrer">UTC</a> • <a href={site.source_code} target="_blank" rel="noopener noreferrer">Source Code</a>
-        </p>
-      </Metadata>
-    </Footer>
+    <Footer/>
   </ProjectInfo>
 )
 

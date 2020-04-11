@@ -4,6 +4,7 @@ import GlobalStyle from './components/config/global'
 import Home from './components/pages/Home'
 import NotFound from './components/pages/NotFound'
 import posterList from './components/data/posterlist'
+import Head from './head'
 
 const totalCount = posterList.length - 1
 
@@ -33,6 +34,7 @@ class App extends Component {
     return (
       <Router>
         <GlobalStyle/>
+        <Head/>
         <Switch>
           <Route exact path="/" render={(props) =>
             <Home {...props}
