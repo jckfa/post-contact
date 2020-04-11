@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import media from './utils/media'
 import {site} from './config/vars'
 import updated from './data/updated_time'
 
