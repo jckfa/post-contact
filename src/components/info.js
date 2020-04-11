@@ -26,10 +26,6 @@ const Header = styled.section`
   margin-bottom: 6em;
 `
 
-const TitleDesc = styled.p`
-  text-transform: capitalize;
-`
-
 const Beta = styled.span`
   font-size: 0.5em;
   line-height: 0.5;
@@ -113,7 +109,7 @@ const Info = (props) => (
     </Header>
 
     <section>
-      <TitleDesc><i>{site.title}</i> is {site.description}</TitleDesc>
+      <p><i>{site.title}</i> is {site.description}</p>
       <p>It offers a visible community platform to process the mental and physical tolls of the crisis, to express outrage or frustration, to spread love or hope, or to perhaps find solace.</p>
     </section>
 
