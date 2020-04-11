@@ -99,6 +99,12 @@ const Color = styled.span`
   `}
 `
 
+const Visit = styled.section`
+  border: 2px solid currentColor;
+  border-radius: 8px;
+  padding: 0.5em;
+`
+
 const Info = (props) => (
   <ProjectInfo>
     <Header>
@@ -135,6 +141,12 @@ const Info = (props) => (
 
       <p>Send artwork in PDF format (with bleeds and crop marks if necessary), including paper choice(s), a name, and a website URL or social media handle, to <a href={'mailto:' + site.email + site.email_body} target='_blank' rel='noopener noreferrer'>{site.email}</a>. Not all submissions will be accepted. There is no deadline. The project ends when the pandemic ends.</p>
     </section>
+
+    <Visit>
+      <p>
+        Visit the site in person at <a href={site.address_url} target='_blank' rel='noopener noreferrer'>{site.address}</a> or on Instagram <a href={'https://instagram.com/' + site.instagram_handle} target='_blank' rel='noopener noreferrer'>@{site.instagram_handle}</a>. And stay safe out there.
+      </p>
+    </Visit>
 
     <Footer/>
   </ProjectInfo>

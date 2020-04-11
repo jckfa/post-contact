@@ -11,21 +11,12 @@ const ramon_url = 'https://ramongd.com/',
 
 
 const Shell = styled.section`
+  font-size: 0.8em;
   padding-top: 3em;
-`
-
-const Visit = styled.p`
-  border: 2px solid currentColor;
-  border-radius: 8px;
-  padding: 0.5em;
 `
 
 const Footer = (props) => (
   <Shell>
-    <Visit>
-      Visit the site in person at <a href={site.address_url} target='_blank' rel='noopener noreferrer'>{site.address}</a> or on Instagram <a href={'https://instagram.com/' + site.instagram_handle} target='_blank' rel='noopener noreferrer'>@{site.instagram_handle}</a>. And stay safe out there.
-    </Visit>
-
     <p>
       Special thanks to Stella Herzog for allowing the use of her building in this way; to <a href={ramon_url}  target='_blank' rel='noopener noreferrer'>Ramon Tejada</a>, <a href={paul_url}  target='_blank' rel='noopener noreferrer'>Paul Soulellis</a>, and <a href={jac_url} target='_blank' rel='noopener noreferrer'>Jacqueline Shaw</a> for their crucial feedback; and to <a href={lucy_url} target='_blank' rel='noopener noreferrer'>Lucy Hitchcock</a> and <a href={sue_url} target='_blank' rel='noopener noreferrer'>Sue Mazzucco</a> for securing RISD GD funding for supplies necessary to make this project possible.
         </p>
