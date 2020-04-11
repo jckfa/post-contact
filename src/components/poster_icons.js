@@ -20,7 +20,8 @@ const C = styled.td`
   `}
 `
 
-const Small1x1 = () => (
+// const Small1x1 = () => (
+export const SmallPosterIcon = () => (
   <Table>
     <B>
       <R>
@@ -48,106 +49,106 @@ const Small1x1 = () => (
   </Table>
 )
 
-const Small2x1 = () => (
-  <Table>
-    <B>
-      <R>
-        <C rowSpan='2'/>
-        <C rowSpan='2'/>
-        <C tint/>
-        <C tint/>
-      </R>
-      <R>
-        <C tint/>
-        <C tint/>
-      </R>
-      <R>
-        <C tint/>
-        <C tint/>
-        <C tint/>
-        <C tint/>
-      </R>
-      <R>
-        <C tint/>
-        <C tint/>
-        <C tint/>
-        <C tint/>
-      </R>
-    </B>
-  </Table>
-)
+// const Small2x1 = () => (
+//   <Table>
+//     <B>
+//       <R>
+//         <C rowSpan='2'/>
+//         <C rowSpan='2'/>
+//         <C tint/>
+//         <C tint/>
+//       </R>
+//       <R>
+//         <C tint/>
+//         <C tint/>
+//       </R>
+//       <R>
+//         <C tint/>
+//         <C tint/>
+//         <C tint/>
+//         <C tint/>
+//       </R>
+//       <R>
+//         <C tint/>
+//         <C tint/>
+//         <C tint/>
+//         <C tint/>
+//       </R>
+//     </B>
+//   </Table>
+// )
+// 
+// const Small1x2 = () => (
+//   <Table>
+//     <B>
+//       <R>
+//         <C colSpan='2'/>
+//         <C tint/>
+//         <C tint/>
+//       </R>
+//       <R>
+//         <C colSpan='2'/>
+//         <C tint/>
+//         <C tint/>
+//       </R>
+//       <R>
+//         <C tint/>
+//         <C tint/>
+//         <C tint/>
+//         <C tint/>
+//       </R>
+//       <R>
+//         <C tint/>
+//         <C tint/>
+//         <C tint/>
+//         <C tint/>
+//       </R>
+//     </B>
+//   </Table>
+// )
+//
+// const Small2x2 = () => (
+//   <Table>
+//     <B>
+//       <R>
+//         <C/>
+//         <C/>
+//         <C tint/>
+//         <C tint/>
+//       </R>
+//       <R>
+//         <C/>
+//         <C/>
+//         <C tint/>
+//         <C tint/>
+//       </R>
+//       <R>
+//         <C tint/>
+//         <C tint/>
+//         <C tint/>
+//         <C tint/>
+//       </R>
+//       <R>
+//         <C tint/>
+//         <C tint/>
+//         <C tint/>
+//         <C tint/>
+//       </R>
+//     </B>
+//   </Table>
+// )
 
-const Small1x2 = () => (
-  <Table>
-    <B>
-      <R>
-        <C colSpan='2'/>
-        <C tint/>
-        <C tint/>
-      </R>
-      <R>
-        <C colSpan='2'/>
-        <C tint/>
-        <C tint/>
-      </R>
-      <R>
-        <C tint/>
-        <C tint/>
-        <C tint/>
-        <C tint/>
-      </R>
-      <R>
-        <C tint/>
-        <C tint/>
-        <C tint/>
-        <C tint/>
-      </R>
-    </B>
-  </Table>
-)
-
-const Small2x2 = () => (
-  <Table>
-    <B>
-      <R>
-        <C/>
-        <C/>
-        <C tint/>
-        <C tint/>
-      </R>
-      <R>
-        <C/>
-        <C/>
-        <C tint/>
-        <C tint/>
-      </R>
-      <R>
-        <C tint/>
-        <C tint/>
-        <C tint/>
-        <C tint/>
-      </R>
-      <R>
-        <C tint/>
-        <C tint/>
-        <C tint/>
-        <C tint/>
-      </R>
-    </B>
-  </Table>
-)
-
-export const SmallPosterIcon = () => (
-  <FixBug
-    interval={2000}
-    springConfig={{ stiffness: 300, damping: 24 }}
-    mask={true}>
-    <Small1x1/>
-    <Small2x1/>
-    <Small1x2/>
-    <Small2x2/>
-  </FixBug>
-)
+// export const SmallPosterIcon = () => (
+//   <FixBug
+//     interval={2000}
+//     springConfig={{ stiffness: 300, damping: 24 }}
+//     mask={true}>
+//     <Small1x1/>
+//     <Small2x1/>
+//     <Small1x2/>
+//     <Small2x2/>
+//   </FixBug>
+// )
 
 export const SmallPosterIconText = () => (
   <span>

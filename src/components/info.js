@@ -68,8 +68,13 @@ const SizingShell = styled.div`
 `
 
 const Size = styled.div`
-  & + & {
+  width: 50%;
+  ${'' /* & + & {
     padding-left: 1em;
+  } */}
+
+  & p {
+    margin-bottom: 0.25em;
   }
 `
 
@@ -108,21 +113,21 @@ const Info = (props) => (
 
     <section>
       <Heading>Contribute</Heading>
-      <p>Please create new material sized at one of the options below to be printed as a B&W poster and wheat-pasted to the façade of a <a href={site.address_url} target='_blank' rel='noopener noreferrer'>neighborhood apartment building</a> in Providence, Rhode Island (USA).</p>
+      <p>Please create new material for one of the two options below to be printed as a B&W poster and wheat-pasted to the façade of a <a href={site.address_url} target='_blank' rel='noopener noreferrer'>neighborhood apartment building</a> in Providence, Rhode Island (USA).</p>
 
       <SizingShell>
         <Size>
-          <p>15"W×20"H</p>
+          <p>15"W×20"H<br/>(1 paper color)</p>
           <SmallPosterIcon/>
         </Size>
 
         <Size>
-          <p>30"W×40"H</p>
+          <p>30"W×40"H<br/>(1–2 paper colors)</p>
           <BigPosterIcon/>
         </Size>
       </SizingShell>
 
-      <p><i>Posters are tiled with 7½"W×10"H pages which yields various framing possibilities. Consider treating the canvas as a group of smaller canvases.</i></p>
+      <p><i>Posters are tiled with 7½"W×10"H pages which yields various framing possibilities. Consider treating the larger canvas as a group of smaller canvases.</i></p>
 
       <p>
         Choose from the available paper colors: <Color white>White</Color> <Color color='WhiteSmoke'>Light Gray</Color> <Color color='#fff6a7'>Pale Yellow</Color> <Color color='Papayawhip'>Papayawhip</Color> <Color color='PeachPuff'>Peach</Color> <Color color='#fa2'>Orange</Color>
