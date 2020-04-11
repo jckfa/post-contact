@@ -20,13 +20,9 @@ const Head = () => (
 
     <meta property='og:title' content={site.title}/>
     <meta property='og:description' content={site.description}/>
+    <meta property='og:type' content='website'/>
     <meta property='og:image' content={public_url + img}/>
     <meta property='og:url' content={public_url}/>
-
-    {/* <meta name='twitter:title' content={site.title}/>
-      <meta name='twitter:description' content={site.description}/>
-    <meta name='twitter:image' content={public_url + img}/> */}
-    <meta name='twitter:card' content={public_url + img}/>
 
     <title>{site.title}</title>
   </Helmet>
