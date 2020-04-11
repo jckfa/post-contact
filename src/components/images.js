@@ -68,9 +68,9 @@ const Count = styled.div`
 
 function zero_pad(n) {
   if (n < 10) {
-    return "00" + n
+    return '00' + n
   } else if (n < 100) {
-    return "0" + n
+    return '0' + n
   } else {
     return n
   }
@@ -82,10 +82,10 @@ const PosterInfo = styled.div`
 
 const Images = (props) => (
   <Posters>
-    <Prev onClick={props.prev} id="prev"/>
-    <Next onClick={props.next} id="next"/>
+    <Prev onClick={props.prev} id='prev'/>
+    <Next onClick={props.next} id='next'/>
 
-    <img src={"assets/img/posters/" + posterList[props.count].image} alt=""/>
+    <img src={'assets/img/posters/' + posterList[props.count].image} alt=''/>
 
     <PosterInfo>
       <Count>
@@ -93,9 +93,9 @@ const Images = (props) => (
       </Count>
       <div>
         {posterList[props.count].author_url ?
-          <a href={posterList[props.count].author_url} target="_blank" rel="noopener noreferrer">{posterList[props.count].author}</a>
+          <a href={posterList[props.count].author_url} target='_blank' rel='noopener noreferrer'>{posterList[props.count].author}</a>
         :
-        posterList[props.count].author}, {site.title + " " + zero_pad(posterList[props.count].id)}, {posterList[props.count].size}, Installed on {posterList[props.count].install_date}
+        posterList[props.count].author}, {site.title + ' ' + zero_pad(posterList[props.count].id)}, {posterList[props.count].size}, Installed on {posterList[props.count].install_date}
       </div>
     </PosterInfo>
   </Posters>
