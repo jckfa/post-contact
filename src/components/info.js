@@ -2,7 +2,7 @@ import React from 'react'
 import styled, {keyframes} from 'styled-components'
 import {site} from './config/vars'
 import media from './utils/media'
-import {SmallPosterIcon, BigPosterIcon} from './poster_icon'
+import {SmallPosterIcon, BigPosterIcon} from './poster_icons'
 import Footer from './footer'
 
 const ProjectInfo = styled.div`
@@ -94,7 +94,7 @@ const Color = styled.span`
   `}
 `
 
-const Info = () => (
+const Info = (props) => (
   <ProjectInfo>
     <Header>
       <Heading>{site.title} <Beta>Beta</Beta></Heading>
