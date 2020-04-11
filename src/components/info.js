@@ -81,6 +81,7 @@ const Color = styled.span`
   border-radius: 100px;
   padding: 0.25em 0.5em;
   margin-bottom: 0.1em;
+  transition: color 50ms;
   ${props => props.color && `
     background-color: ${props.color};
   `}
