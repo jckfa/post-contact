@@ -82,7 +82,7 @@ const Color = styled.span`
   padding: 0.25em 0.5em;
   margin-bottom: 0.1em;
   ${props => props.color && `
-    background-color: ${props.color}
+    background-color: ${props.color};
   `}
 
   &:hover {
@@ -105,7 +105,7 @@ const Info = () => (
 
     <section>
       <Heading>Contribute</Heading>
-      <p>Please create new material sized at one of the options below to be printed as a B&W poster and wheat-pasted to the façade of a <a href={site.address_url} target="_blank" rel="noopener noreferrer">neighborhood apartment building</a> in Providence, Rhode Island (USA).</p>
+      <p>Please create new material sized at one of the options below to be printed as a B&W poster and wheat-pasted to the façade of a <a href={site.address_url} target='_blank' rel='noopener noreferrer'>neighborhood apartment building</a> in Providence, Rhode Island (USA).</p>
 
       <SizingShell>
         <Size>
@@ -122,10 +122,10 @@ const Info = () => (
       <p><i>Posters are tiled with 7½"W×10"H pages which yields various framing possibilities. Consider treating the canvas as a group of smaller canvases.</i></p>
 
       <p>
-        Choose from the available paper colors: <Color>White</Color> <Color color="WhiteSmoke">Light Gray</Color> <Color color="#fff6a7">Pale Yellow</Color> <Color color="Papayawhip">Papayawhip</Color> <Color color="PeachPuff">Peach</Color> <Color color="#ff9900">Orange</Color>
+        Choose from the available paper colors: <Color>White</Color> <Color color='WhiteSmoke'>Light Gray</Color> <Color color='#fff6a7'>Pale Yellow</Color> <Color color='Papayawhip'>Papayawhip</Color> <Color color='PeachPuff'>Peach</Color> <Color color='#ff9900'>Orange</Color>
       </p>
 
-      <p>Send artwork in PDF format (with bleeds and crop marks if necessary), including paper choice(s), a name, and a website URL or social media handle, to <a href={"mailto:" + site.email + site.email_body} target="_blank" rel="noopener noreferrer">{site.email}</a>. Not all submissions will be accepted. There is no deadline. The project ends when the pandemic ends.</p>
+      <p>Send artwork in PDF format (with bleeds and crop marks if necessary), including paper choice(s), a name, and a website URL or social media handle, to <a href={'mailto:' + site.email + site.email_body} target='_blank' rel='noopener noreferrer'>{site.email}</a>. Not all submissions will be accepted. There is no deadline. The project ends when the pandemic ends.</p>
     </section>
 
     <Footer/>
