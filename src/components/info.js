@@ -110,7 +110,8 @@ const Info = (props) => (
 
     <section>
       <p><i>{site.title}</i> is {site.description}</p>
-      <p>It offers a visible community platform to process the mental and physical tolls of the crisis, to express outrage or frustration, to spread love or hope, or to perhaps find solace.</p>
+      <p>It offers a visible community platform to process the mental and physical tolls of the crisis, to express frustration or outrage, to spread love or hope, or to perhaps find solace.</p>
+      <p>Consider it an opportunity to address a subject going overlooked or completely ignored in the exceptionally oversaturated and accellerated pace of today’s news cycle, through a medium specifically chosen to <a href="https://youtu.be/7GUPsEKiiHg?t=435"  target='_blank' rel='noopener noreferrer'>slow things down for you to get a closer look.</a></p>
     </section>
 
     <section>
@@ -135,7 +136,11 @@ const Info = (props) => (
         Choose from the available paper colors: <Color white>White</Color> <Color color='WhiteSmoke'>Light Gray</Color> <Color color='#fff6a7'>Pale Yellow</Color> <Color color='Papayawhip'>Papayawhip</Color> <Color color='PeachPuff'>Peach</Color> <Color color='#fa2'>Orange</Color>
       </p>
 
-      <p>Send artwork in PDF format (with bleeds and crop marks if necessary), including paper choice(s), a name, and a website URL or social media handle, to <a href={'mailto:' + site.email + site.email_body} target='_blank' rel='noopener noreferrer'>{site.email}</a>. Not all submissions will be accepted. There is no deadline. The project ends when the pandemic ends.</p>
+      <p>Send artwork in PDF format (with bleeds and crop marks if necessary), including paper choice(s), a name, and a website URL or social media handle, to <a href={'mailto:' + site.email + site.email_body} target='_blank' rel='noopener noreferrer'>{site.email}</a>.</p>
+
+      <p>
+        Not all submissions will be accepted. The order in which work is recieved may vary in relation to publishing. Contributors will be notified if their work is used. There is no deadline. The project ends when the pandemic ends.
+      </p>
     </section>
 
     <Visit>
