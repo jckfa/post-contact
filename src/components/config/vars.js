@@ -2,7 +2,7 @@ export const site = {
   title: 'Post-Contact',
   description: 'a public site for open, artistic commentary in response to the coronavirus pandemic.',
   email: 'mail@jackf.me',
-  email_body: '?subject=Post-Contact Submission&body=See attached PDF. My paper choice is ________. My name is _______. My website URL or social media handle is ________. Any other comments: ________.',
+  email_body: '?subject=Post-Contact Submission&body=See attached PDF. My poster size is ________. My paper choice is ________. My name is _______. My website URL and/or social media handle is ________. Any other comments: ________.',
   address: '104 Sheldon St',
   address_url: 'https://goo.gl/maps/tHuP9scahLKj8Cdw5',
   instagram_handle: 'post_contact',
