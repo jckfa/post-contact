@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled, {css} from 'styled-components'
 import {tint} from 'polished'
 import {colors} from './config/vars'
 import Loop from 'react-text-loop'
@@ -10,6 +10,19 @@ const Table = styled.table`
   border-Collapse: Collapse;
 `
 
+// const cycleColors = keyframes`
+//     0% {background-color: whiteSmoke}
+//    20% {background-color: whiteSmoke}
+//    21% {background-color: #fff6a7}
+//    40% {background-color: #fff6a7}
+//    41% {background-color: papayawhip}
+//    60% {background-color: papayawhip}
+//    61% {background-color: peachpuff}
+//    80% {background-color: peachpuff}
+//    81% {background-color: #fa2}
+//   100% {background-color: #fa2}
+// `
+
 const B = styled.tbody``
 const R = styled.tr``
 const C = styled.td`
@@ -18,9 +31,23 @@ const C = styled.td`
   ${props => props.tint && `
     border-color: ${tint(0.8, colors.black)};
   `}
+
+  ${props => props.coloredA && css`
+    ${B}:hover & {
+      ${'' /* animation: ${cycleColors} 4s linear infinite; */}
+      background-color: papayawhip;
+      border: none;
+    }
+  `}
+
+  ${props => props.coloredB && css`
+    ${B}:hover & {
+      background-color: peachpuff;
+      border: none;
+    }
+  `}
 `
 
-// const Small1x1 = () => (
 export const SmallPosterIcon = () => (
   <Table>
     <B>
@@ -49,125 +76,11 @@ export const SmallPosterIcon = () => (
   </Table>
 )
 
-// const Small2x1 = () => (
-//   <Table>
-//     <B>
-//       <R>
-//         <C rowSpan='2'/>
-//         <C rowSpan='2'/>
-//         <C tint/>
-//         <C tint/>
-//       </R>
-//       <R>
-//         <C tint/>
-//         <C tint/>
-//       </R>
-//       <R>
-//         <C tint/>
-//         <C tint/>
-//         <C tint/>
-//         <C tint/>
-//       </R>
-//       <R>
-//         <C tint/>
-//         <C tint/>
-//         <C tint/>
-//         <C tint/>
-//       </R>
-//     </B>
-//   </Table>
-// )
-// 
-// const Small1x2 = () => (
-//   <Table>
-//     <B>
-//       <R>
-//         <C colSpan='2'/>
-//         <C tint/>
-//         <C tint/>
-//       </R>
-//       <R>
-//         <C colSpan='2'/>
-//         <C tint/>
-//         <C tint/>
-//       </R>
-//       <R>
-//         <C tint/>
-//         <C tint/>
-//         <C tint/>
-//         <C tint/>
-//       </R>
-//       <R>
-//         <C tint/>
-//         <C tint/>
-//         <C tint/>
-//         <C tint/>
-//       </R>
-//     </B>
-//   </Table>
-// )
-//
-// const Small2x2 = () => (
-//   <Table>
-//     <B>
-//       <R>
-//         <C/>
-//         <C/>
-//         <C tint/>
-//         <C tint/>
-//       </R>
-//       <R>
-//         <C/>
-//         <C/>
-//         <C tint/>
-//         <C tint/>
-//       </R>
-//       <R>
-//         <C tint/>
-//         <C tint/>
-//         <C tint/>
-//         <C tint/>
-//       </R>
-//       <R>
-//         <C tint/>
-//         <C tint/>
-//         <C tint/>
-//         <C tint/>
-//       </R>
-//     </B>
-//   </Table>
-// )
-
-// export const SmallPosterIcon = () => (
-//   <FixBug
-//     interval={2000}
-//     springConfig={{ stiffness: 300, damping: 24 }}
-//     mask={true}>
-//     <Small1x1/>
-//     <Small2x1/>
-//     <Small1x2/>
-//     <Small2x2/>
-//   </FixBug>
-// )
-
-export const SmallPosterIconText = () => (
-  <span>
-    <Loop
-      interval={2000}
-      springConfig={{ stiffness: 300, damping: 24 }}
-      mask={true}
-      children={[
-        "1×1", "2×1", "1×2", "2×2"
-      ]}
-    />
-  </span>
-)
-
 const Big1x1 = () => (
   <Table>
     <B>
       <R>
-        <C/>
+        <C coloredA/>
       </R>
     </B>
   </Table>
@@ -177,8 +90,8 @@ const Big2x1 = () => (
   <Table>
     <B>
       <R>
-        <C/>
-        <C/>
+        <C coloredB/>
+        <C coloredA/>
       </R>
     </B>
   </Table>
@@ -188,10 +101,10 @@ const Big1x2 = () => (
   <Table>
     <B>
       <R>
-        <C/>
+        <C coloredB/>
       </R>
       <R>
-        <C/>
+        <C coloredA/>
       </R>
     </B>
   </Table>
@@ -201,12 +114,12 @@ const Big2x2 = () => (
   <Table>
     <B>
       <R>
-        <C/>
-        <C/>
+        <C coloredB/>
+        <C coloredA/>
       </R>
       <R>
-        <C/>
-        <C/>
+        <C coloredA/>
+        <C coloredB/>
       </R>
     </B>
   </Table>
@@ -216,10 +129,10 @@ const Big4x1 = () => (
   <Table>
     <B>
       <R>
-        <C/>
-        <C/>
-        <C/>
-        <C/>
+        <C coloredB/>
+        <C coloredA/>
+        <C coloredB/>
+        <C coloredA/>
       </R>
     </B>
   </Table>
@@ -229,16 +142,16 @@ const Big1x4 = () => (
   <Table>
     <B>
       <R>
-        <C/>
+        <C coloredB/>
       </R>
       <R>
-        <C/>
+        <C coloredA/>
       </R>
       <R>
-        <C/>
+        <C coloredB/>
       </R>
       <R>
-        <C/>
+        <C coloredA/>
       </R>
     </B>
   </Table>
@@ -248,16 +161,16 @@ const Big4x2 = () => (
   <Table>
     <B>
       <R>
-        <C/>
-        <C/>
-        <C/>
-        <C/>
+        <C coloredB/>
+        <C coloredA/>
+        <C coloredB/>
+        <C coloredA/>
       </R>
       <R>
-        <C/>
-        <C/>
-        <C/>
-        <C/>
+        <C coloredA/>
+        <C coloredB/>
+        <C coloredA/>
+        <C coloredB/>
       </R>
     </B>
   </Table>
@@ -267,20 +180,20 @@ const Big2x4 = () => (
   <Table>
     <B>
       <R>
-        <C/>
-        <C/>
+        <C coloredB/>
+        <C coloredA/>
       </R>
       <R>
-        <C/>
-        <C/>
+        <C coloredA/>
+        <C coloredB/>
       </R>
       <R>
-        <C/>
-        <C/>
+        <C coloredB/>
+        <C coloredA/>
       </R>
       <R>
-        <C/>
-        <C/>
+        <C coloredA/>
+        <C coloredB/>
       </R>
     </B>
   </Table>
@@ -290,28 +203,28 @@ const Big4x4 = () => (
   <Table>
     <B>
       <R>
-        <C/>
-        <C/>
-        <C/>
-        <C/>
+        <C coloredB/>
+        <C coloredA/>
+        <C coloredB/>
+        <C coloredA/>
       </R>
       <R>
-        <C/>
-        <C/>
-        <C/>
-        <C/>
+        <C coloredA/>
+        <C coloredB/>
+        <C coloredA/>
+        <C coloredB/>
       </R>
       <R>
-        <C/>
-        <C/>
-        <C/>
-        <C/>
+        <C coloredB/>
+        <C coloredA/>
+        <C coloredB/>
+        <C coloredA/>
       </R>
       <R>
-        <C/>
-        <C/>
-        <C/>
-        <C/>
+        <C coloredA/>
+        <C coloredB/>
+        <C coloredA/>
+        <C coloredB/>
       </R>
     </B>
   </Table>
@@ -336,17 +249,4 @@ export const BigPosterIcon = () => (
     <Big2x4/>
     <Big4x4/>
   </FixBug>
-)
-
-export const BigPosterIconText = () => (
-  <span>
-    <Loop
-      interval={2000}
-      springConfig={{ stiffness: 300, damping: 24 }}
-      mask={true}
-      children={[
-        "1×1", "2×1", "1×2", "2×2", "4×1", "1×4", "4×2", "2×4", "4×4"
-      ]}
-    />
-  </span>
 )
