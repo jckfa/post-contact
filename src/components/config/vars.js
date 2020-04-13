@@ -18,7 +18,8 @@ export const colors = {
 const fallback = 'BlinkMacSystemFont, "-apple-system", arial, "helvetica neue", helvetica, sans-serif'
 
 export const fonts = {
-  sans: `standard_mod, ${fallback}`,
+  reg:  `post-contact, ${fallback}`,
+  bold: `post-contact_bold, ${fallback}`
   // italic: `standard_italic, ${fallback}`
 }
 

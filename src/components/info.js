@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, {keyframes} from 'styled-components'
-import {site} from './config/vars'
+import {site, fonts} from './config/vars'
 import media from './utils/media'
 import {SmallPosterIcon, BigPosterIcon} from './poster_icons'
 import Footer from './footer'
@@ -50,7 +50,8 @@ const BlinkText = styled.span`
 `
 
 const Heading = styled.span`
-  font-weight: bold;
+  ${'' /* font-weight: bold; */}
+  font-family: ${fonts.bold};
   ${'' /* color: ${colors.orange}; */}
   text-transform: uppercase;
   display: block;
