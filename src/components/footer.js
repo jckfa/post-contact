@@ -10,7 +10,7 @@ const ramon_url = 'https://ramongd.com/',
       sue_url   = 'https://www.risd.edu/people/sue-mazzucco/',
       eric_url  = 'https://ficciones-typografika.tumblr.com/',
       ur1       = 'https://soulellis.com/work/urgencyreader/index.html',
-      ur2       = 'https://queer.archive.work/reader2/'
+      ur2       = 'https://queer.archive.work/urgencyreader2/'
 
 
 const Shell = styled.section`
