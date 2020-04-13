@@ -112,7 +112,7 @@ const Info = (props) => (
     <section>
       <p><i>{site.title}</i> is {site.description}</p>
       <p>It offers a visible community platform to process the mental and physical tolls of the crisis, to express frustration or outrage, to spread love or hope, or to perhaps find solace.</p>
-      <p>Consider it an opportunity to address a subject going overlooked or completely ignored in the exceptionally oversaturated and accellerated pace of today’s news cycle, through a medium specifically chosen to <a href="https://youtu.be/7GUPsEKiiHg?t=435"  target='_blank' rel='noopener noreferrer'>slow the material down for you to get a closer look.</a></p>
+      <p>Consider it an opportunity to address an overlooked subject through a medium specifically chosen to <a href="https://youtu.be/7GUPsEKiiHg?t=435"  target='_blank' rel='noopener noreferrer'>slow the material down for you to get a closer look.</a></p>
     </section>
 
     <section>
