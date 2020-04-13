@@ -20,8 +20,13 @@ const Posters = styled.div`
   }
 
   ${media.m`
-    min-height: 100vh;
+    max-height: 100vh;
+    overflow: scroll;
     padding: 0.75em;
+  `}
+
+  ${media.xl`
+    width: 200%;
   `}
 `
 

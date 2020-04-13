@@ -57,6 +57,7 @@ const Heading = styled.span`
 `
 
 const SizingShell = styled.div`
+  max-width: 32em;
   display: flex;
   flex-direction: row;
   padding-top: 1em;
