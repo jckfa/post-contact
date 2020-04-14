@@ -103,6 +103,13 @@ const Visit = styled.section`
   padding: 0.5em;
 `
 
+// escape special characters
+const submit_email = `
+  mailto:${site.email}
+  ?subject=${encodeURIComponent(site.email_subject)}
+  &body=${encodeURIComponent(site.email_body)}
+`.replace(/\s+/g, '')
+
 const Info = (props) => (
   <ProjectInfo>
     <Header>
@@ -135,13 +142,15 @@ const Info = (props) => (
       <p><i>Posters are tiled with 7½"W×10"H pages which yields various framing possibilities. Consider treating the larger canvas as a group of smaller canvases.</i></p>
 
       <p>
-        Choose from the available paper colors: <Color white>White</Color> <Color color='WhiteSmoke'>Light Gray</Color> <Color color='#fff6a7'>Pale Yellow</Color> <Color color='Papayawhip'>Papayawhip</Color> <Color color='PeachPuff'>Peach</Color> <Color color='#fa2'>Orange</Color>
+        Available paper colors: <Color white>White</Color> <Color color='WhiteSmoke'>Light Gray</Color> <Color color='#fff6a7'>Pale Yellow</Color> <Color color='Papayawhip'>Papayawhip</Color> <Color color='PeachPuff'>Peach</Color> <Color color='#fa2'>Orange</Color>
       </p>
 
-      <p>Send artwork in PDF format (with bleeds and crop marks if necessary), including paper choice(s), a name, and a website URL or social media handle, to <a href={'mailto:' + site.email + site.email_body} target='_blank' rel='noopener noreferrer'>{site.email}</a>.</p>
+      <p>
+        Send artwork in PDF format (with bleeds and crop marks if necessary), including <i>preferred</i> paper choice(s), a name, and a website URL or social media handle, to <a href={submit_email} target='_blank' rel='noopener noreferrer'>{site.email}</a>. There is no deadline. The project ends when the pandemic ends.
+      </p>
 
       <p>
-        Not all submissions will be accepted. The order in which work is recieved may vary in relation to publishing. Contributors will be notified if their work is used. There is no deadline. The project ends when the pandemic ends.
+        Inclusivity is a top priority however some submissions may not be accepted. Preference is given to unique and/or neglected content. All attempts will be made to respect artwork as is, however minor modifications may be necessary. The order in which work is recieved may vary in relation to that of publishing. Contributors will be notified if and when their work is used.
       </p>
     </section>
 
