@@ -145,12 +145,23 @@ const Info = (props) => (
         Available paper colors: <Color white>White</Color> <Color color='WhiteSmoke'>Light Gray</Color> <Color color='#fff6a7'>Pale Yellow</Color> <Color color='Papayawhip'>Papayawhip</Color> <Color color='PeachPuff'>Peach</Color> <Color color='#fa2'>Orange</Color>
       </p>
 
+      {/* <p>
+        Don’t know what make? Follow one of these prompts:
+        <ul>
+          <li>
+        Visually describe your day in quarantine in 4, 8, or 16 frames.
+          </li>
+          <li>prompt 2</li>
+          <li>prompt 3</li>
+        </ul>
+      </p> */}
+
       <p>
         Send artwork in PDF format (with bleeds and crop marks if necessary), including <i>preferred</i> paper choice(s), a name, and a website URL or social media handle, to <a href={submit_email} target='_blank' rel='noopener noreferrer'>{site.email}</a>. There is no deadline. The project ends when the pandemic ends.
       </p>
 
       <p>
-        Inclusivity is a top priority however some submissions may not be accepted. Preference is given to unique and/or neglected content. All attempts will be made to respect artwork as is, however minor modifications may be necessary. The order in which work is recieved may vary in relation to that of publishing. Contributors will be notified if and when their work is used.
+        All attempts will be made to respect artwork as is, however minor modifications may be necessary. The order in which work is recieved may vary in relation to that of publishing. Contributors will be notified if and when their work is used.
       </p>
     </section>
 
