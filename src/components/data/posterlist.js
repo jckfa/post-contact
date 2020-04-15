@@ -1,5 +1,32 @@
 const posterList = [
   {
+    image: '002_01.jpg',
+    id: 2,
+    author: 'Ramon Tejada',
+    author_url: 'https://ramongd.com/',
+    size: '15"W×20"H',
+    install_date: '15 April 2020'
+  },
+
+  {
+    image: '002_02.jpg',
+    id: 2,
+    author: 'Ramon Tejada',
+    author_url: 'https://ramongd.com/',
+    size: '15"W×20"H',
+    install_date: '15 April 2020'
+  },
+
+  {
+    image: '002_03.jpg',
+    id: 2,
+    author: 'Ramon Tejada',
+    author_url: 'https://ramongd.com/',
+    size: '15"W×20"H',
+    install_date: '15 April 2020'
+  },
+
+  {
     image: '001_01.jpg',
     id: 1,
     author: 'Jack Halten Fahnestock',
@@ -25,7 +52,7 @@ const posterList = [
     size: '30"W×40"H',
     install_date: '8 April 2020'
   },
-  
+
   {
     image: '000_01.jpg',
     id: 0,
