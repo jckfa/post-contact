@@ -66,6 +66,14 @@ const GlobalStyle = createGlobalStyle`
     font-style: italic;
   }
 
+  em {
+    font-style: normal;
+    box-shadow: 0 0 4px 0 currentColor;
+    // text-shadow: 0 0 4px currentColor;
+    border-radius: 8px;
+    padding: 0 0.25em;
+  }
+
   li {
     margin-left: 1em;
   }

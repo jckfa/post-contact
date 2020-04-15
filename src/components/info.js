@@ -125,7 +125,7 @@ const Info = (props) => (
 
     <section>
       <Heading>Contribute</Heading>
-      <p>Please create new material for one of the two options below to be printed as a B&W poster and wheat-pasted to the façade of a <a href={site.address_url} target='_blank' rel='noopener noreferrer'>neighborhood apartment building</a> in Providence, Rhode Island (USA).</p>
+      <p>Please create previously unpublished material for one of the two options below to be printed as a B&W poster and wheat-pasted to the façade of a <a href={site.address_url} target='_blank' rel='noopener noreferrer'>neighborhood apartment building</a> in Providence, Rhode Island (USA).</p>
 
       <SizingShell>
         <Size>
