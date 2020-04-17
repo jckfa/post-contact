@@ -125,7 +125,7 @@ const Info = (props) => (
 
     <section>
       <Heading>Contribute</Heading>
-      <p>Please create previously unpublished material for one of the two options below to be printed as a B&W poster and wheat-pasted to the façade of a <a href={site.address_url} target='_blank' rel='noopener noreferrer'>neighborhood apartment building</a> in Providence, Rhode Island (USA).</p>
+      <p>Please create previously unpublished material for one of the two poster sizes below to be printed in B&W and wheat-pasted to the façade of a <a href={site.address_url} target='_blank' rel='noopener noreferrer'>neighborhood apartment building</a> in Providence, Rhode Island (USA).</p>
 
       <SizingShell>
         <Size>
@@ -139,7 +139,7 @@ const Info = (props) => (
         </Size>
       </SizingShell>
 
-      <p><i>Posters are tiled with 7½"W×10"H pages which yields various framing possibilities. Consider treating the larger canvas as a group of smaller canvases.</i></p>
+      <p><i>Posters are tiled with 16 7½"W×10"H pages; this yields various framing possibilities with the use of other paper colors. Consider treating the space as a series of smaller posters, be it 2, 4, 8, or 16.</i></p>
 
       <p>
         Available paper colors: <Color white>White</Color> <Color color='WhiteSmoke'>Light Gray</Color> <Color color='#fff6a7'>Pale Yellow</Color> <Color color='Papayawhip'>Papayawhip</Color> <Color color='PeachPuff'>Peach</Color> <Color color='#fa2'>Orange</Color>
@@ -161,7 +161,10 @@ const Info = (props) => (
       </p>
 
       <p>
-        All attempts will be made to respect artwork as is, however minor modifications may be necessary. The order in which work is recieved may vary in relation to that of publishing. Contributors will be notified if and when their work is used.
+        All attempts will be made to respect artwork as is, however minor modifications may be necessary. Printing is done with a Xerox Phaser 6510, using aftermarket toner. The misprints this toner often produces are embraced.
+      </p>
+      <p>
+        The order in which work is recieved may vary in relation to that of publishing. Contributors will be notified if and when their work is used. New posters are published on site and online every Monday, Wednesday, Friday, and Sunday.
       </p>
     </section>
 
