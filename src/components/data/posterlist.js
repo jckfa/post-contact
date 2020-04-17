@@ -1,5 +1,32 @@
 const posterList = [
   {
+    image: '003_01.jpg',
+    id: 3,
+    author: 'Fabian Fohrer',
+    author_url: 'http://fabianfohrer.com/',
+    size: '30"W×40"H',
+    install_date: '17 April 2020'
+  },
+
+  {
+    image: '003_02.jpg',
+    id: 3,
+    author: 'Fabian Fohrer',
+    author_url: 'http://fabianfohrer.com/',
+    size: '30"W×40"H',
+    install_date: '17 April 2020'
+  },
+
+  {
+    image: '003_03.jpg',
+    id: 3,
+    author: 'Fabian Fohrer',
+    author_url: 'http://fabianfohrer.com/',
+    size: '30"W×40"H',
+    install_date: '17 April 2020'
+  },
+
+  {
     image: '002_01.jpg',
     id: 2,
     author: 'Ramon Tejada',
