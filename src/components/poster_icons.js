@@ -35,14 +35,14 @@ const C = styled.td`
   ${props => props.coloredA && css`
     ${B}:hover & {
       ${'' /* animation: ${cycleColors} 4s linear infinite; */}
-      background-color: papayawhip;
+      background-color: #ebebeb;
       border: none;
     }
   `}
 
   ${props => props.coloredB && css`
     ${B}:hover & {
-      background-color: peachpuff;
+      background-color: #fff6a7;
       border: none;
     }
   `}

@@ -139,43 +139,44 @@ const Info = (props) => (
         </Size>
       </SizingShell>
 
-      <p><i>Posters are tiled with 16 7½"W×10"H pages; this yields various framing possibilities with the use of other paper colors. Consider treating the space as a series of smaller posters, be it 2, 4, 8, or 16.</i></p>
+      <p>Posters are tiled with 16 7½"W×10"H pages; this yields various framing possibilities with the use of other paper colors. Consider treating the space as a series of smaller posters, be it 2, 4, 8, or 16.</p>
 
       <p>
-        Available paper colors: <Color white>White</Color> <Color color='WhiteSmoke'>Light Gray</Color> <Color color='#fff6a7'>Pale Yellow</Color> <Color color='Papayawhip'>Papayawhip</Color> <Color color='PeachPuff'>Peach</Color> <Color color='#fa2'>Orange</Color>
+        Partioning is done with the following colors: <Color white>White</Color> <Color color='#ebebeb'>Light Gray</Color> <Color color='#fff6a7'>Pale Yellow</Color> <Color color='Papayawhip'>Papayawhip</Color> <Color color='PeachPuff'>Peach</Color> <Color color='#fa2'>Orange</Color>
       </p>
 
       {/* <p>
-        Don’t know what make? Follow one of these prompts:
-        <ul>
+          Don’t know what make? Follow one of these prompts:
+          <ul>
           <li>
-        Visually describe your day in quarantine in 4, 8, or 16 frames.
+          Visually describe your day in quarantine in 4, 8, or 16 frames.
           </li>
           <li>prompt 2</li>
           <li>prompt 3</li>
-        </ul>
+          </ul>
       </p> */}
 
       <p>
-        Send artwork in PDF format (with bleeds and crop marks if necessary), including <i>preferred</i> paper choice(s), a name, and a website URL or social media handle, to <a href={submit_email} target='_blank' rel='noopener noreferrer'>{site.email}</a>. There is no deadline. The project ends when the pandemic ends.
+        Send artwork in PDF format (with bleeds and crop marks if necessary), including a name and a website URL or social media handle, to <a href={submit_email} target='_blank' rel='noopener noreferrer'>{site.email}</a>. There is no deadline. The project ends when the pandemic ends.
       </p>
 
-      <p>
-        All attempts will be made to respect artwork as is, however minor modifications may be necessary. Printing is done with a Xerox Phaser 6510, using aftermarket toner. The misprints this toner often produces are embraced.
-      </p>
-      <p>
-        The order in which work is recieved may vary in relation to that of publishing. Contributors will be notified if and when their work is used, and provided with high resolution documentation photos. New posters are published on site and online every Monday, Wednesday, Friday, and Sunday.
-      </p>
-    </section>
+      <p><i>
+        All attempts will be made to respect artwork as is, however minor modifications may be necessary, including halftoning, rescaling, and repeating. Printing is done with a Xerox Phaser 6510, using aftermarket toner. The misprints this toner often produces are embraced.
+        </i></p>
 
-    <Visit>
-      <p>
-        Visit the site in person at <a href={site.address_url} target='_blank' rel='noopener noreferrer'>{site.address}</a> or on Instagram <a href={'https://instagram.com/' + site.instagram_handle} target='_blank' rel='noopener noreferrer'>@{site.instagram_handle}</a>. And stay safe out there.
-      </p>
-    </Visit>
+        <p><i>
+          The order in which work is recieved may vary in relation to that of publishing. Contributors will be notified if and when their work is used, and provided with high resolution documentation photos. New posters are published on site and online every Monday, Wednesday, Friday, and Sunday.
+        </i></p>
+      </section>
 
-    <Footer/>
-  </ProjectInfo>
-)
+      <Visit>
+        <p>
+          Visit the site in person at <a href={site.address_url} target='_blank' rel='noopener noreferrer'>{site.address}</a> or on Instagram <a href={'https://instagram.com/' + site.instagram_handle} target='_blank' rel='noopener noreferrer'>@{site.instagram_handle}</a>. And stay safe out there.
+        </p>
+      </Visit>
 
-export default Info
+      <Footer/>
+    </ProjectInfo>
+    )
+
+    export default Info

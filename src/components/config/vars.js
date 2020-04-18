@@ -3,7 +3,7 @@ export const site = {
   description: 'a public site for open, artistic commentary in response to the coronavirus pandemic.',
   email: 'mail@jackf.me',
   email_subject: 'Post-Contact Submission',
-  email_body: `Attach your B&W PDF. Please include preferred poster size, paper choice(s), first & last name, website URL and/or social media handle, and any additional comments if necessary. All attempts will be made to respect artwork as is, however minor modifications—like half-toning, scale change, or paper color change—may occur. Hopefully this adds a favorable element of uncertainty to the contributing process. Thank you for participating!`,
+  email_body: `Attach your B&W PDF. Please include first & last name, website URL and/or social media handle, and any additional comments if necessary. All attempts will be made to respect artwork as is, however minor modifications may be necessary, including halftoning, rescaling, and repeating. Hopefully this adds a favorable element of uncertainty to the contributing process. Thank you for participating!`,
   address: '104 Sheldon St',
   address_url: 'https://goo.gl/maps/tHuP9scahLKj8Cdw5',
   instagram_handle: 'post_contact',
