@@ -8,6 +8,7 @@ const ramon_url = 'https://ramongd.com/',
       jac_url   = 'https://www.risd.edu/people/jacqueline-shaw/',
       lucy_url  = 'https://lucindahitchcock.com/',
       sue_url   = 'https://www.risd.edu/people/sue-mazzucco/',
+      jack_url  = 'https://jackf.me',
       eric_url  = 'https://ficciones-typografika.tumblr.com/',
       ur1       = 'https://soulellis.com/work/urgencyreader/index.html',
       ur2       = 'https://queer.archive.work/urgencyreader2/'
@@ -25,7 +26,7 @@ const Footer = (props) => (
       </p>
 
       <p>
-        This project was inspired by Erik Brandt’s <a href={eric_url} target='_blank' rel='noopener noreferrer'>Ficciones Typografika</a> and Paul Soulellis’ <a href={ur1} target='_blank' rel='noopener noreferrer'>Urgency</a> <a href={ur2} target='_blank' rel='noopener noreferrer'>Readers</a>.
+        This project is operated by <a href={jack_url} target='_blank' rel='noopener noreferrer'>Jack Halten Fahnestock</a>. It was inspired by Erik Brandt’s <a href={eric_url} target='_blank' rel='noopener noreferrer'>Ficciones Typografika</a> and Paul Soulellis’ <a href={ur1} target='_blank' rel='noopener noreferrer'>Urgency</a> <a href={ur2} target='_blank' rel='noopener noreferrer'>Readers</a>.
       </p>
 
       <p>
