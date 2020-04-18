@@ -164,7 +164,7 @@ const Info = (props) => (
         All attempts will be made to respect artwork as is, however minor modifications may be necessary. Printing is done with a Xerox Phaser 6510, using aftermarket toner. The misprints this toner often produces are embraced.
       </p>
       <p>
-        The order in which work is recieved may vary in relation to that of publishing. Contributors will be notified if and when their work is used. New posters are published on site and online every Monday, Wednesday, Friday, and Sunday.
+        The order in which work is recieved may vary in relation to that of publishing. Contributors will be notified if and when their work is used, and provided with high resolution documentation photos. New posters are published on site and online every Monday, Wednesday, Friday, and Sunday.
       </p>
     </section>
 
