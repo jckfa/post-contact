@@ -119,8 +119,10 @@ const Info = (props) => (
 
     <section>
       <p><i>{site.title}</i> is {site.description}</p>
-      <p>It offers a visible community platform to process the mental and physical tolls of the crisis, express frustration or outrage, spread love or hope, or perhaps find solace.</p>
-      <p>Consider it an opportunity to address an overlooked subject through a medium specifically chosen to <a href="https://youtu.be/7GUPsEKiiHg?t=435"  target='_blank' rel='noopener noreferrer'>slow the material down for you to get a closer look.</a></p>
+
+      <p>It offers a visible community platform to process the mental or physical tolls of the crisis, voice frustration or outrage, spread love or hope, or escape through making.</p>
+
+      <p>Publishing happens through a medium specifically chosen to <a href="https://youtu.be/7GUPsEKiiHg?t=435"  target='_blank' rel='noopener noreferrer'>slow the material down for you to get a closer look.</a></p>
     </section>
 
     <section>
@@ -146,14 +148,18 @@ const Info = (props) => (
       </p>
 
       {/* <p>
-          Don’t know what make? Follow one of these prompts:
-          <ul>
+        <i>Don’t know what make?</i>
+        <ul>
           <li>
-          Visually describe your day in quarantine in 4, 8, or 16 frames.
+        Visually describe what you’re going to do when isolation ends in 2, 4, 8, or 16 frames.
           </li>
-          <li>prompt 2</li>
-          <li>prompt 3</li>
-          </ul>
+          <li>
+        Address an important subject overlooked among the news.
+          </li>
+          <li>
+        Illustrate the world you want to see post-pandemic.
+          </li>
+        </ul>
       </p> */}
 
       <p>
@@ -162,21 +168,21 @@ const Info = (props) => (
 
       <p><i>
         All attempts will be made to respect artwork as is, however minor modifications may be necessary, including halftoning, rescaling, and repeating. Printing is done with a Xerox Phaser 6510, using aftermarket toner. The misprints this toner often produces are embraced.
-        </i></p>
+      </i></p>
 
-        <p><i>
-          The order in which work is recieved may vary in relation to that of publishing. Contributors will be notified if and when their work is used, and provided with high resolution documentation photos. New posters are published on site and online every Monday, Wednesday, Friday, and Sunday.
-        </i></p>
-      </section>
+      <p><i>
+        The order in which work is recieved may vary in relation to that of publishing. Contributors will be notified if and when their work is used, and provided with high resolution documentation photos. New posters are published on site and online every Monday, Wednesday, Friday, and Sunday.
+      </i></p>
+    </section>
 
-      <Visit>
-        <p>
-          Visit the site in person at <a href={site.address_url} target='_blank' rel='noopener noreferrer'>{site.address}</a> or on Instagram <a href={'https://instagram.com/' + site.instagram_handle} target='_blank' rel='noopener noreferrer'>@{site.instagram_handle}</a>. And stay safe out there.
-        </p>
-      </Visit>
+    <Visit>
+      <p>
+        Visit the site in person at <a href={site.address_url} target='_blank' rel='noopener noreferrer'>{site.address}</a> or on Instagram <a href={'https://instagram.com/' + site.instagram_handle} target='_blank' rel='noopener noreferrer'>@{site.instagram_handle}</a>.
+      </p>
+    </Visit>
 
-      <Footer/>
-    </ProjectInfo>
-    )
+    <Footer/>
+  </ProjectInfo>
+)
 
-    export default Info
+export default Info
