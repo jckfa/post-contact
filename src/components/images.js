@@ -68,7 +68,6 @@ const Next = styled(NavBtn)`
 const Count = styled.div`
   font-variant-numeric: tabular-nums;
   font-variant-numeric: slashed-zero;
-  margin-bottom: 0.5em;
 `
 
 function zero_pad(n) {
@@ -83,6 +82,10 @@ function zero_pad(n) {
 
 const PosterInfo = styled.div`
   margin-bottom: 2em;
+
+  & div + div {
+    padding-top: 0.5em;
+  }
 `
 
 const Images = (props) => (
@@ -102,6 +105,12 @@ const Images = (props) => (
         :
         posterList[props.count].author}, {site.title + ' ' + zero_pad(posterList[props.count].id)}, {posterList[props.count].size}, Installed on {posterList[props.count].install_date}
       </div>
+
+      {posterList[props.count].description &&
+        <div>
+          {posterList[props.count].description}
+        </div>
+      }
     </PosterInfo>
   </Posters>
 )

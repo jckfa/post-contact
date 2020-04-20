@@ -1,5 +1,75 @@
 const posterList = [
   {
+    image: '005_01.jpg',
+    id: 5,
+    author: 'Urgency Reader 2',
+    author_url: 'https://queer.archive.work/urgencyreader2/',
+    size: '30"W×40"H',
+    install_date: '20 April 2020',
+    description: 'Selections featured here by arthur katrina, Joshua Duttweiler, Kitt Peacock, Marisa Fulper Estrada, Molly Soda, nicole killian, Elisabeth Nicula, Danny Aldred, Rebecca Wilkinson, Sal Randolph, Ruben Castillo, anobelisk, Carmen Ribaudo. Edited and published by Paul Soulellis, Providence, RI April 2020'
+  },
+
+  {
+    image: '005_02.jpg',
+    id: 5,
+    author: 'Urgency Reader 2',
+    author_url: 'https://queer.archive.work/urgencyreader2/',
+    size: '30"W×40"H',
+    install_date: '20 April 2020',
+    description: 'Selections featured here by arthur katrina, Joshua Duttweiler, Kitt Peacock, Marisa Fulper Estrada, Molly Soda, nicole killian, Elisabeth Nicula, Danny Aldred, Rebecca Wilkinson, Sal Randolph, Ruben Castillo, anobelisk, Carmen Ribaudo. Edited and published by Paul Soulellis, Providence, RI April 2020'
+  },
+
+  {
+    image: '005_03.jpg',
+    id: 5,
+    author: 'Urgency Reader 2',
+    author_url: 'https://queer.archive.work/urgencyreader2/',
+    size: '30"W×40"H',
+    install_date: '20 April 2020',
+    description: 'Selections featured here by arthur katrina, Joshua Duttweiler, Kitt Peacock, Marisa Fulper Estrada, Molly Soda, nicole killian, Elisabeth Nicula, Danny Aldred, Rebecca Wilkinson, Sal Randolph, Ruben Castillo, anobelisk, Carmen Ribaudo. Edited and published by Paul Soulellis, Providence, RI April 2020'
+  },
+
+  {
+    image: '005_04.jpg',
+    id: 5,
+    author: 'Urgency Reader 2',
+    author_url: 'https://queer.archive.work/urgencyreader2/',
+    size: '30"W×40"H',
+    install_date: '20 April 2020',
+    description: 'Selections featured here by arthur katrina, Joshua Duttweiler, Kitt Peacock, Marisa Fulper Estrada, Molly Soda, nicole killian, Elisabeth Nicula, Danny Aldred, Rebecca Wilkinson, Sal Randolph, Ruben Castillo, anobelisk, Carmen Ribaudo. Edited and published by Paul Soulellis, Providence, RI April 2020'
+  },
+
+  {
+    image: '005_05.jpg',
+    id: 5,
+    author: 'Urgency Reader 2',
+    author_url: 'https://queer.archive.work/urgencyreader2/',
+    size: '30"W×40"H',
+    install_date: '20 April 2020',
+    description: 'Selections featured here by arthur katrina, Joshua Duttweiler, Kitt Peacock, Marisa Fulper Estrada, Molly Soda, nicole killian, Elisabeth Nicula, Danny Aldred, Rebecca Wilkinson, Sal Randolph, Ruben Castillo, anobelisk, Carmen Ribaudo. Edited and published by Paul Soulellis, Providence, RI April 2020'
+  },
+
+  {
+    image: '005_06.jpg',
+    id: 5,
+    author: 'Urgency Reader 2',
+    author_url: 'https://queer.archive.work/urgencyreader2/',
+    size: '30"W×40"H',
+    install_date: '20 April 2020',
+    description: 'Selections featured here by arthur katrina, Joshua Duttweiler, Kitt Peacock, Marisa Fulper Estrada, Molly Soda, nicole killian, Elisabeth Nicula, Danny Aldred, Rebecca Wilkinson, Sal Randolph, Ruben Castillo, anobelisk, Carmen Ribaudo. Edited and published by Paul Soulellis, Providence, RI April 2020'
+  },
+
+  {
+    image: '005_07.jpg',
+    id: 5,
+    author: 'Urgency Reader 2',
+    author_url: 'https://queer.archive.work/urgencyreader2/',
+    size: '30"W×40"H',
+    install_date: '20 April 2020',
+    description: 'Selections featured here by arthur katrina, Joshua Duttweiler, Kitt Peacock, Marisa Fulper Estrada, Molly Soda, nicole killian, Elisabeth Nicula, Danny Aldred, Rebecca Wilkinson, Sal Randolph, Ruben Castillo, anobelisk, Carmen Ribaudo. Edited and published by Paul Soulellis, Providence, RI April 2020'
+  },
+
+  {
     image: '004_01.jpg',
     id: 4,
     author: 'Jack Halten Fahnestock',
