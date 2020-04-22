@@ -63,6 +63,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   i {
+    // font-family: ${fonts.italic};
     font-style: italic;
   }
 

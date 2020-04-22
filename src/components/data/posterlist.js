@@ -1,5 +1,41 @@
 const posterList = [
   {
+    image: '006_01.jpg',
+    id: 6,
+    author: 'Samuli & Johanna Lindberg',
+    author_url: 'http://www.samulilindberg.fi/',
+    size: '30"W×40"H',
+    install_date: '22 April 2020'
+  },
+
+  {
+    image: '006_02.jpg',
+    id: 6,
+    author: 'Samuli & Johanna Lindberg',
+    author_url: 'http://www.samulilindberg.fi/',
+    size: '30"W×40"H',
+    install_date: '22 April 2020'
+  },
+
+  {
+    image: '006_03.jpg',
+    id: 6,
+    author: 'Samuli & Johanna Lindberg',
+    author_url: 'http://www.samulilindberg.fi/',
+    size: '30"W×40"H',
+    install_date: '22 April 2020'
+  },
+
+  {
+    image: '006_04.jpg',
+    id: 6,
+    author: 'Samuli & Johanna Lindberg',
+    author_url: 'http://www.samulilindberg.fi/',
+    size: '30"W×40"H',
+    install_date: '22 April 2020'
+  },
+
+  {
     image: '005_01.jpg',
     id: 5,
     author: 'Urgency Reader 2',

@@ -159,6 +159,9 @@ const Info = (props) => (
           <li>
         Illustrate the world you want to see post-pandemic.
           </li>
+          <li>
+        Use your technical ability as a skilled artist to echo and emphasize, i.e. "repost" (but physically), important voices in a more visible and powerful way.
+          </li>
         </ul>
       </p> */}
 
