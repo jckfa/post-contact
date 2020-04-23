@@ -166,19 +166,22 @@ const Info = (props) => (
       </p> */}
 
       <p>
-        Send artwork in PDF format (with bleeds and crop marks if necessary), including a name and a website URL or social media handle, to <a href={submit_email} target='_blank' rel='noopener noreferrer'>{site.email}</a>. There is no deadline. The project ends when the pandemic ends.
+        Send material formated at 300DPI as a PDF, PNG, or JPG (with bleeds and crop marks if necessary), including a name, website URL and/or Instagram handle, title (optional; defaults to “Untitled”), and description (optional), to <a href={submit_email} target='_blank' rel='noopener noreferrer'>{site.email}</a>. There is no deadline. The project ends when the pandemic ends.
       </p>
 
       <p><i>
-        All attempts will be made to respect artwork as is, however minor modifications may be necessary, including halftoning, rescaling, and repeating. Printing is done with a Xerox Phaser 6510, using aftermarket toner. The misprints this toner often produces are embraced.
+        All attempts will be made to respect material as is, however minor modifications may be necessary, including halftoning, rescaling, and repeating. Printing is done with a Xerox Phaser 6510, using aftermarket toner. The misprints this toner often produces are embraced.
       </i></p>
 
       <p><i>
-        The order in which work is recieved may vary in relation to that of publishing. Contributors will be notified if and when their work is used, and provided with high resolution documentation photos. New posters are published on site and online every Monday, Wednesday, Friday, and Sunday.
+        The order in which work is recieved may vary in relation to that of publishing. Contributors will be notified if and when their submission is used, and provided with high resolution documentation photos. The lighting in these photos is mostly up to mother nature.
       </i></p>
     </section>
 
     <Visit>
+      <p>
+        New posters are published on site and online every Monday, Wednesday, Friday, and Sunday.
+      </p>
       <p>
         Visit the site in person at <a href={site.address_url} target='_blank' rel='noopener noreferrer'>{site.address}</a> or on Instagram <a href={'https://instagram.com/' + site.instagram_handle} target='_blank' rel='noopener noreferrer'>@{site.instagram_handle}</a>.
       </p>
