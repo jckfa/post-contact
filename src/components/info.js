@@ -166,7 +166,7 @@ const Info = (props) => (
       </p> */}
 
       <p>
-        Send material formated at 300DPI as a PDF, PNG, or JPG (with bleeds and crop marks if necessary), including a name, website URL and/or Instagram handle, title (optional; defaults to “Untitled”), and description (optional), to <a href={submit_email} target='_blank' rel='noopener noreferrer'>{site.email}</a>. There is no deadline. The project ends when the pandemic ends.
+        Send material formated at 300DPI as a PDF, PNG, or JPG (with bleeds and crop marks if necessary), including a name, website URL and/or Instagram handle, title (optional; defaults to “Untitled”), and description (optional but highly encouraged), to <a href={submit_email} target='_blank' rel='noopener noreferrer'>{site.email}</a>. There is no deadline. The project ends when the pandemic ends.
       </p>
 
       <p><i>
