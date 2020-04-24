@@ -5,7 +5,8 @@ const posterList = [
     author: 'Aaron S Moran',
     author_url: 'http://aaronsmoran.com/',
     size: '30"W×40"H',
-    install_date: '24 April 2020'
+    install_date: '24 April 2020',
+    description: 'Stills of television screens as pictured in film. Captured off various streaming platforms in response to binge watching and escapism during COVID-19.'
   },
 
   {
@@ -14,7 +15,8 @@ const posterList = [
     author: 'Aaron S Moran',
     author_url: 'http://aaronsmoran.com/',
     size: '30"W×40"H',
-    install_date: '24 April 2020'
+    install_date: '24 April 2020',
+    description: 'Stills of television screens as pictured in film. Captured off various streaming platforms in response to binge watching and escapism during COVID-19.'
   },
 
   {
@@ -23,7 +25,8 @@ const posterList = [
     author: 'Aaron S Moran',
     author_url: 'http://aaronsmoran.com/',
     size: '30"W×40"H',
-    install_date: '24 April 2020'
+    install_date: '24 April 2020',
+    description: 'Stills of television screens as pictured in film. Captured off various streaming platforms in response to binge watching and escapism during COVID-19.'
   },
 
   {
@@ -32,7 +35,8 @@ const posterList = [
     author: 'Aaron S Moran',
     author_url: 'http://aaronsmoran.com/',
     size: '30"W×40"H',
-    install_date: '24 April 2020'
+    install_date: '24 April 2020',
+    description: 'Stills of television screens as pictured in film. Captured off various streaming platforms in response to binge watching and escapism during COVID-19.'
   },
 
   {
@@ -41,7 +45,8 @@ const posterList = [
     author: 'Aaron S Moran',
     author_url: 'http://aaronsmoran.com/',
     size: '30"W×40"H',
-    install_date: '24 April 2020'
+    install_date: '24 April 2020',
+    description: 'Stills of television screens as pictured in film. Captured off various streaming platforms in response to binge watching and escapism during COVID-19.'
   },
 
   {
@@ -50,7 +55,8 @@ const posterList = [
     author: 'Aaron S Moran',
     author_url: 'http://aaronsmoran.com/',
     size: '30"W×40"H',
-    install_date: '24 April 2020'
+    install_date: '24 April 2020',
+    description: 'Stills of television screens as pictured in film. Captured off various streaming platforms in response to binge watching and escapism during COVID-19.'
   },
 
   {
@@ -59,7 +65,8 @@ const posterList = [
     author: 'Aaron S Moran',
     author_url: 'http://aaronsmoran.com/',
     size: '30"W×40"H',
-    install_date: '24 April 2020'
+    install_date: '24 April 2020',
+    description: 'Stills of television screens as pictured in film. Captured off various streaming platforms in response to binge watching and escapism during COVID-19.'
   },
 
   {
