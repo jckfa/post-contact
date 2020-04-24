@@ -108,7 +108,7 @@ const Images = (props) => (
 
       {posterList[props.count].description &&
         <div>
-          {posterList[props.count].description}
+          <i>{posterList[props.count].description}</i>
         </div>
       }
     </PosterInfo>
