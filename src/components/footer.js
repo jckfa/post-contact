@@ -8,6 +8,8 @@ const ramon_url = 'https://ramongd.com/',
       jac_url   = 'https://www.risd.edu/people/jacqueline-shaw/',
       lucy_url  = 'https://lucindahitchcock.com/',
       sue_url   = 'https://www.risd.edu/people/sue-mazzucco/',
+      shep_url  = 'https://g.co/kgs/H4NZeU',
+      shep_vid  = 'https://youtu.be/DJfeAvP8xTo?t=166',
       jack_url  = 'https://jackf.me',
       eric_url  = 'https://ficciones-typografika.tumblr.com/',
       ur1       = 'https://soulellis.com/work/urgencyreader/index.html',
@@ -22,7 +24,7 @@ const Shell = styled.section`
 const Footer = (props) => (
   <Shell>
     <p>
-      Special thanks to Stella Herzog for allowing the use of her building in this way; to <a href={ramon_url}  target='_blank' rel='noopener noreferrer'>Ramon Tejada</a>, <a href={paul_url}  target='_blank' rel='noopener noreferrer'>Paul Soulellis</a>, and <a href={jac_url} target='_blank' rel='noopener noreferrer'>Jacqueline Shaw</a> for their crucial feedback; and to <a href={lucy_url} target='_blank' rel='noopener noreferrer'>Lucy Hitchcock</a> and <a href={sue_url} target='_blank' rel='noopener noreferrer'>Sue Mazzucco</a> for securing RISD GD funding for supplies necessary to make this possible.
+      Special thanks to Stella Herzog for allowing the use of her building in this way; to <a href={ramon_url}  target='_blank' rel='noopener noreferrer'>Ramon Tejada</a>, <a href={paul_url}  target='_blank' rel='noopener noreferrer'>Paul Soulellis</a>, and <a href={jac_url} target='_blank' rel='noopener noreferrer'>Jacqueline Shaw</a> for their crucial feedback; to <a href={lucy_url} target='_blank' rel='noopener noreferrer'>Lucy Hitchcock</a> and <a href={sue_url} target='_blank' rel='noopener noreferrer'>Sue Mazzucco</a> for securing RISD GD funding for supplies necessary to make this possible; and to <a href={shep_url} target='_blank' rel='noopener noreferrer'>Shepard Fairey</a> for his wheat-pasting tips <a href={shep_vid} target='_blank' rel='noopener noreferrer'>in this video</a>.
       </p>
 
       <p>
