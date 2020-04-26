@@ -280,7 +280,7 @@ const posterList = [
     repost: true,
     size: '15"W×20"H (×4)',
     install_date: '15 April 2020',
-    description: `Featuring the writing of <a href='https://en.wikipedia.org/wiki/Arundhati_Roy' target='_blank' rel='noopener noreferrer'>Arundhati Roy</a>, design by <a href='https://ramongd.com/' target='_blank' rel='noopener noreferrer'>Ramon Tejada</a>`
+    description: `Featuring the words of <a href='https://en.wikipedia.org/wiki/Arundhati_Roy' target='_blank' rel='noopener noreferrer'>Arundhati Roy</a>, design by <a href='https://ramongd.com/' target='_blank' rel='noopener noreferrer'>Ramon Tejada</a>`
   },
 
   {
@@ -289,7 +289,7 @@ const posterList = [
     repost: true,
     size: '15"W×20"H (×4)',
     install_date: '15 April 2020',
-    description: `Featuring the writing of <a href='https://en.wikipedia.org/wiki/Arundhati_Roy' target='_blank' rel='noopener noreferrer'>Arundhati Roy</a>, design by <a href='https://ramongd.com/' target='_blank' rel='noopener noreferrer'>Ramon Tejada</a>`
+    description: `Featuring the words of <a href='https://en.wikipedia.org/wiki/Arundhati_Roy' target='_blank' rel='noopener noreferrer'>Arundhati Roy</a>, design by <a href='https://ramongd.com/' target='_blank' rel='noopener noreferrer'>Ramon Tejada</a>`
   },
 
   {
@@ -298,7 +298,7 @@ const posterList = [
     repost: true,
     size: '15"W×20"H (×4)',
     install_date: '15 April 2020',
-    description: `Featuring the writing of <a href='https://en.wikipedia.org/wiki/Arundhati_Roy' target='_blank' rel='noopener noreferrer'>Arundhati Roy</a>, design by <a href='https://ramongd.com/' target='_blank' rel='noopener noreferrer'>Ramon Tejada</a>`
+    description: `Featuring the words of <a href='https://en.wikipedia.org/wiki/Arundhati_Roy' target='_blank' rel='noopener noreferrer'>Arundhati Roy</a>, design by <a href='https://ramongd.com/' target='_blank' rel='noopener noreferrer'>Ramon Tejada</a>`
   },
 
   {
