@@ -1,5 +1,50 @@
 const posterList = [
   {
+    image: '008_01.jpg',
+    id: 8,
+    repost: true,
+    size: '30"W×40"H',
+    install_date: '26 April 2020',
+    description: `Featuring pandemic haikus by <a href='https://www.instagram.com/notborninjune/' target='_blank' rel='noopener noreferrer'>June Shin</a>, design by <a href='https://jackf.me' target='_blank' rel='noopener noreferrer'>Jack Halten Fahnestock</a>`
+  },
+
+  {
+    image: '008_02.jpg',
+    id: 8,
+    repost: true,
+    size: '30"W×40"H',
+    install_date: '26 April 2020',
+    description: `Featuring pandemic haikus by <a href='https://www.instagram.com/notborninjune/' target='_blank' rel='noopener noreferrer'>June Shin</a>, design by <a href='https://jackf.me' target='_blank' rel='noopener noreferrer'>Jack Halten Fahnestock</a>`
+  },
+
+  {
+    image: '008_03.jpg',
+    id: 8,
+    repost: true,
+    size: '30"W×40"H',
+    install_date: '26 April 2020',
+    description: `Featuring pandemic haikus by <a href='https://www.instagram.com/notborninjune/' target='_blank' rel='noopener noreferrer'>June Shin</a>, design by <a href='https://jackf.me' target='_blank' rel='noopener noreferrer'>Jack Halten Fahnestock</a>`
+  },
+
+  {
+    image: '008_04.jpg',
+    id: 8,
+    repost: true,
+    size: '30"W×40"H',
+    install_date: '26 April 2020',
+    description: `Featuring pandemic haikus by <a href='https://www.instagram.com/notborninjune/' target='_blank' rel='noopener noreferrer'>June Shin</a>, design by <a href='https://jackf.me' target='_blank' rel='noopener noreferrer'>Jack Halten Fahnestock</a>`
+  },
+
+  {
+    image: '008_05.jpg',
+    id: 8,
+    repost: true,
+    size: '30"W×40"H',
+    install_date: '26 April 2020',
+    description: `Featuring pandemic haikus by <a href='https://www.instagram.com/notborninjune/' target='_blank' rel='noopener noreferrer'>June Shin</a>, design by <a href='https://jackf.me' target='_blank' rel='noopener noreferrer'>Jack Halten Fahnestock</a>`
+  },
+
+  {
     image: '007_01.jpg',
     id: 7,
     author: 'Aaron S Moran',
@@ -235,7 +280,8 @@ const posterList = [
     author: 'Ramon Tejada',
     author_url: 'https://ramongd.com/',
     size: '15"W×20"H',
-    install_date: '15 April 2020'
+    install_date: '15 April 2020',
+    description: `Featuring the writing of <a href='https://en.wikipedia.org/wiki/Arundhati_Roy' target='_blank' rel='noopener noreferrer'>Arundhati Roy</a>`
   },
 
   {
@@ -244,7 +290,8 @@ const posterList = [
     author: 'Ramon Tejada',
     author_url: 'https://ramongd.com/',
     size: '15"W×20"H',
-    install_date: '15 April 2020'
+    install_date: '15 April 2020',
+    description: `Featuring the writing of <a href='https://en.wikipedia.org/wiki/Arundhati_Roy' target='_blank' rel='noopener noreferrer'>Arundhati Roy</a>`
   },
 
   {
@@ -253,7 +300,8 @@ const posterList = [
     author: 'Ramon Tejada',
     author_url: 'https://ramongd.com/',
     size: '15"W×20"H',
-    install_date: '15 April 2020'
+    install_date: '15 April 2020',
+    description: `Featuring the writing of <a href='https://en.wikipedia.org/wiki/Arundhati_Roy' target='_blank' rel='noopener noreferrer'>Arundhati Roy</a>`
   },
 
   {

@@ -100,15 +100,19 @@ const Images = (props) => (
         {zero_pad(props.count + 1)}/{zero_pad(props.totalCount + 1)}
       </Count>
       <div>
-        {posterList[props.count].author_url ?
-          <a href={posterList[props.count].author_url} target='_blank' rel='noopener noreferrer'>{posterList[props.count].author}</a>
-        :
-        posterList[props.count].author}, {site.title + ' ' + zero_pad(posterList[props.count].id)}, {posterList[props.count].size}, Installed on {posterList[props.count].install_date}
+        {
+          posterList[props.count].author_url ?
+            <a href={posterList[props.count].author_url} target='_blank' rel='noopener noreferrer'>{posterList[props.count].author + ', '}</a>
+          : posterList[props.count].author ?
+            posterList[props.count].author + ', '
+          : '(Re)'
+        }
+        {site.title + ' ' + zero_pad(posterList[props.count].id)}, {posterList[props.count].size}, Installed on {posterList[props.count].install_date}
       </div>
 
       {posterList[props.count].description &&
         <div>
-          <i>{posterList[props.count].description}</i>
+          <i dangerouslySetInnerHTML={{__html: posterList[props.count].description}} />
         </div>
       }
     </PosterInfo>
