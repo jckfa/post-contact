@@ -1,5 +1,41 @@
 const posterList = [
   {
+    image: '009_01.jpg',
+    id: 9,
+    author: 'Greta Huang Skagerlind',
+    author_url: 'http://gskagerlind.com/',
+    size: '30"W×40"H',
+    install_date: '27 April 2020'
+  },
+
+  {
+    image: '009_02.jpg',
+    id: 9,
+    author: 'Greta Huang Skagerlind',
+    author_url: 'http://gskagerlind.com/',
+    size: '30"W×40"H',
+    install_date: '27 April 2020'
+  },
+
+  {
+    image: '009_03.jpg',
+    id: 9,
+    author: 'Greta Huang Skagerlind',
+    author_url: 'http://gskagerlind.com/',
+    size: '30"W×40"H',
+    install_date: '27 April 2020'
+  },
+
+  {
+    image: '009_04.jpg',
+    id: 9,
+    author: 'Greta Huang Skagerlind',
+    author_url: 'http://gskagerlind.com/',
+    size: '30"W×40"H',
+    install_date: '27 April 2020'
+  },
+
+  {
     image: '008_01.jpg',
     id: 8,
     repost: true,
