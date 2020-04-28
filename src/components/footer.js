@@ -6,6 +6,7 @@ import updated from './data/updated_time'
 const ramon_url = 'https://ramongd.com/',
       paul_url  = 'https://soulellis.com/',
       jac_url   = 'https://www.risd.edu/people/jacqueline-shaw/',
+      pouya_url = 'http://www.pouyaahmadi.com/',
       lucy_url  = 'https://lucindahitchcock.com/',
       sue_url   = 'https://www.risd.edu/people/sue-mazzucco/',
       shep_url  = 'https://g.co/kgs/H4NZeU',
@@ -24,7 +25,7 @@ const Shell = styled.section`
 const Footer = (props) => (
   <Shell>
     <p>
-      Special thanks to Stella Herzog for allowing the use of her building in this way; to <a href={ramon_url}  target='_blank' rel='noopener noreferrer'>Ramon Tejada</a>, <a href={paul_url}  target='_blank' rel='noopener noreferrer'>Paul Soulellis</a>, and <a href={jac_url} target='_blank' rel='noopener noreferrer'>Jacqueline Shaw</a> for their crucial feedback; to <a href={lucy_url} target='_blank' rel='noopener noreferrer'>Lucy Hitchcock</a> and <a href={sue_url} target='_blank' rel='noopener noreferrer'>Sue Mazzucco</a> for securing RISD GD funding for supplies necessary to make this possible; and to <a href={shep_url} target='_blank' rel='noopener noreferrer'>Shepard Fairey</a> for his wheat-pasting tips <a href={shep_vid} target='_blank' rel='noopener noreferrer'>in this video</a>.
+      Special thanks to Stella Herzog for allowing the use of her building in this way; to <a href={ramon_url}  target='_blank' rel='noopener noreferrer'>Ramon Tejada</a>, <a href={paul_url}  target='_blank' rel='noopener noreferrer'>Paul Soulellis</a>, <a href={jac_url} target='_blank' rel='noopener noreferrer'>Jacqueline Shaw</a>, and <a href={pouya_url} target='_blank' rel='noopener noreferrer'>Pouya Ahmadi</a> for their feedback; to <a href={lucy_url} target='_blank' rel='noopener noreferrer'>Lucy Hitchcock</a> and <a href={sue_url} target='_blank' rel='noopener noreferrer'>Sue Mazzucco</a> for securing RISD GD funding for supplies necessary to make this possible; and to <a href={shep_url} target='_blank' rel='noopener noreferrer'>Shepard Fairey</a> for his wheat-pasting tips <a href={shep_vid} target='_blank' rel='noopener noreferrer'>in this video</a>.
       </p>
 
       <p>
