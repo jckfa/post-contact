@@ -88,6 +88,12 @@ const PosterInfo = styled.div`
   }
 `
 
+const Description = styled.div`
+  & span {
+    font-style: normal;
+  }
+`
+
 const Images = (props) => (
   <Posters>
     <Prev onClick={props.prev} id='prev'/>
@@ -111,9 +117,9 @@ const Images = (props) => (
       </div>
 
       {posterList[props.count].description &&
-        <div>
+        <Description>
           <i dangerouslySetInnerHTML={{__html: posterList[props.count].description}} />
-        </div>
+        </Description>
       }
     </PosterInfo>
   </Posters>

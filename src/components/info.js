@@ -120,7 +120,7 @@ const Info = (props) => (
     <section>
       <p><i>{site.title}</i> is {site.description}</p>
 
-      <p>It offers a visible community platform to process the mental or physical tolls of the crisis, voice frustration or outrage, spread love or hope, or escape through making.</p>
+      <p>It offers creative relief through a visible community platform to process the mental or physical tolls of the crisis, voice frustration or outrage, spread love or hope, or escape through making.</p>
 
       <p>Publishing happens through a medium specifically chosen to <a href="https://youtu.be/7GUPsEKiiHg?t=435"  target='_blank' rel='noopener noreferrer'>slow the material down for you to get a closer look.</a></p>
     </section>
