@@ -2,7 +2,7 @@ import React from 'react'
 import styled, {keyframes} from 'styled-components'
 import {site, fonts} from './config/vars'
 import media from './utils/media'
-import {SmallPosterIcon, BigPosterIcon} from './poster_icons'
+import {PosterTilesIcon, BigPosterIcon} from './poster_icons'
 import Footer from './footer'
 
 const ProjectInfo = styled.div`
@@ -76,26 +76,26 @@ const Size = styled.div`
   }
 `
 
-const Color = styled.span`
-  text-transform: lowercase;
-  line-height: 1;
-  display: inline-block;
-  border: 2px solid currentColor;
-  border-radius: 100px;
-  padding: 0.25em 0.5em;
-  margin-bottom: 0.1em;
-  transition: color 50ms;
-  ${props => props.color && `
-    background-color: ${props.color};
-  `}
-
-  ${props => props.white || `
-    &:hover {
-      color: transparent;
-      cursor: default;
-    }
-  `}
-`
+// const Color = styled.span`
+//   text-transform: lowercase;
+//   line-height: 1;
+//   display: inline-block;
+//   border: 2px solid currentColor;
+//   border-radius: 100px;
+//   padding: 0.25em 0.5em;
+//   margin-bottom: 0.1em;
+//   transition: color 50ms;
+//   ${props => props.color && `
+//     background-color: ${props.color};
+//   `}
+//
+//   ${props => props.white || `
+//     &:hover {
+//       color: transparent;
+//       cursor: default;
+//     }
+//   `}
+// `
 
 const Visit = styled.section`
   border: 2px solid currentColor;
@@ -127,25 +127,25 @@ const Info = (props) => (
 
     <section>
       <Heading>Contribute</Heading>
-      <p>Please create previously unpublished material for one of the two poster sizes below to be printed in B&W and wheat-pasted to the façade of a <a href={site.address_url} target='_blank' rel='noopener noreferrer'>neighborhood apartment building</a> in Providence, Rhode Island (USA).</p>
+      <p>Please create previously unpublished material for a 30"W×40"H poster to be printed in B&W and wheat-pasted to the façade of a <a href={site.address_url} target='_blank' rel='noopener noreferrer'>neighborhood apartment building</a> in Providence, Rhode Island (USA).</p>
 
       <SizingShell>
         <Size>
-          <p>15"W×20"H<br/>(1 paper color)</p>
-          <SmallPosterIcon/>
+          <p>Tiled Assembly</p>
+          <PosterTilesIcon/>
         </Size>
 
         <Size>
-          <p>30"W×40"H<br/>(1–2 paper colors)</p>
+          <p>Versatile Framing</p>
           <BigPosterIcon/>
         </Size>
       </SizingShell>
 
-      <p>Posters are tiled with 16 7½"W×10"H pages; this yields various framing possibilities with the use of other paper colors. Consider treating the space as a series of smaller posters, be it 2, 4, 8, or 16.</p>
+      <p>Posters are constructed with 16 7½"W×10"H pages; this yields various framing possibilities with the use of other paper colors. Consider treating the space as a series of smaller posters, be it 2, 4, 8, or 16.</p>
 
-      <p>
+      {/* <p>
         Partioning is done with the following colors: <Color white>White</Color> <Color color='#ebebeb'>Light Gray</Color> <Color color='#fff6a7'>Pale Yellow</Color> <Color color='Papayawhip'>Papayawhip</Color> <Color color='PeachPuff'>Peach</Color> <Color color='#fa2'>Orange</Color>
-      </p>
+      </p> */}
 
       {/* <p>
         <i>Don’t know what make?</i>
@@ -166,7 +166,7 @@ const Info = (props) => (
       </p> */}
 
       <p>
-        Send material formated at 300DPI as a PDF, PNG, or JPG (with bleeds and crop marks if necessary), including a name, website URL and/or Instagram handle, title (optional; defaults to “Untitled”), and description (optional but highly encouraged), to <a href={submit_email} target='_blank' rel='noopener noreferrer'>{site.email}</a>. There is no deadline. The project ends when the pandemic ends.
+        Send material formated at 300DPI as a PDF, PNG, or JPG (with bleeds and crop marks if necessary), including a name, website URL and/or Instagram handle, title (optional; defaults to Post-Contact ###), and description (optional but highly encouraged), to <a href={submit_email} target='_blank' rel='noopener noreferrer'>{site.email}</a>. There is no deadline. The project ends when the pandemic ends.
       </p>
 
       <p><i>

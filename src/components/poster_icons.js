@@ -10,19 +10,6 @@ const Table = styled.table`
   border-Collapse: Collapse;
 `
 
-// const cycleColors = keyframes`
-//     0% {background-color: whiteSmoke}
-//    20% {background-color: whiteSmoke}
-//    21% {background-color: #fff6a7}
-//    40% {background-color: #fff6a7}
-//    41% {background-color: papayawhip}
-//    60% {background-color: papayawhip}
-//    61% {background-color: peachpuff}
-//    80% {background-color: peachpuff}
-//    81% {background-color: #fa2}
-//   100% {background-color: #fa2}
-// `
-
 const B = styled.tbody``
 const R = styled.tr``
 const C = styled.td`
@@ -34,7 +21,6 @@ const C = styled.td`
 
   ${props => props.coloredA && css`
     ${B}:hover & {
-      ${'' /* animation: ${cycleColors} 4s linear infinite; */}
       background-color: #ebebeb;
       border: none;
     }
@@ -48,15 +34,18 @@ const C = styled.td`
   `}
 `
 
-export const SmallPosterIcon = () => (
+export const PosterTilesIcon = () => (
   <Table>
     <B>
       <R>
-        <C colSpan='2' rowSpan='2'/>
+        <C tint/>
+        <C tint/>
         <C tint/>
         <C tint/>
       </R>
       <R>
+        <C tint/>
+        <C tint/>
         <C tint/>
         <C tint/>
       </R>
