@@ -1,6 +1,6 @@
 const posterList = [
   {
-    image: '012_01.jpg',
+    image: '012_07.jpg',
     id: 12,
     author: 'Jack Halten Fahnestock',
     author_url: 'https://jackf.me',
