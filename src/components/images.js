@@ -113,6 +113,9 @@ const Images = (props) => (
             posterList[props.count].author + ', '
           : '(Re)'
         }
+        <i>
+          {posterList[props.count].title && posterList[props.count].title + ', '}
+        </i>
         {site.title + ' ' + zero_pad(posterList[props.count].id)}, {posterList[props.count].size}, Installed on {posterList[props.count].install_date}
       </div>
 
