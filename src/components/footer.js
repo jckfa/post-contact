@@ -5,6 +5,7 @@ import updated from './data/updated_time'
 
 const ramon_url = 'https://ramongd.com/',
       paul_url  = 'https://soulellis.com/',
+      bdfl_url  = 'https://en.wikipedia.org/wiki/Benevolent_dictator_for_life',
       jac_url   = 'https://www.risd.edu/people/jacqueline-shaw/',
       pouya_url = 'http://www.pouyaahmadi.com/',
       lucy_url  = 'https://lucindahitchcock.com/',
@@ -29,7 +30,7 @@ const Footer = (props) => (
       </p>
 
       <p>
-        This project is operated by <a href={jack_url} target='_blank' rel='noopener noreferrer'>Jack Halten Fahnestock</a>. It was inspired by Erik Brandt’s <a href={eric_url} target='_blank' rel='noopener noreferrer'>Ficciones Typografika</a> and Paul Soulellis’ <a href={ur1} target='_blank' rel='noopener noreferrer'>Urgency</a> <a href={ur2} target='_blank' rel='noopener noreferrer'>Readers</a>.
+        The <a href={bdfl_url} target='_blank' rel='noopener noreferrer'>BDFL</a> of this project is <a href={jack_url} target='_blank' rel='noopener noreferrer'>Jack Halten Fahnestock</a>. It was inspired by Erik Brandt’s <a href={eric_url} target='_blank' rel='noopener noreferrer'>Ficciones Typografika</a> and Paul Soulellis’ <a href={ur1} target='_blank' rel='noopener noreferrer'>Urgency</a> <a href={ur2} target='_blank' rel='noopener noreferrer'>Readers</a>.
         </p>
 
         <p>
