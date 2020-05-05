@@ -23,7 +23,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     color: ${colors.black};
     font: 1.2rem/1.2 ${fonts.reg};
-    background-color: ${colors.white};
+    background-color: ${colors.bg};
     ${'' /* letter-spacing: 0.025em; */}
     hyphens: auto;
 

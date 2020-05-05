@@ -21,7 +21,8 @@ const C = styled.td`
 
   ${props => props.coloredA && css`
     ${B}:hover & {
-      background-color: #ebebeb;
+      ${'' /* background-color: #ebebeb; */}
+      background-color: ${colors.white};
       border: none;
     }
   `}
