@@ -99,8 +99,11 @@ const Images = (props) => (
     <Prev onClick={props.prev} id='prev'/>
     <Next onClick={props.next} id='next'/>
 
-    <img src={'assets/img/posters/' + posterList[props.count].image} alt=''/>
-
+    <img
+      src={site.images_path_external + posterList[props.count].image}
+      alt=''
+    />
+    
     <PosterInfo>
       <Count>
         {zero_pad(props.count + 1)}/{zero_pad(props.totalCount + 1)}

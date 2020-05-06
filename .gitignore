@@ -8,7 +8,7 @@
 /build
 
 # work imgs
-/public/assets/img/work
+# /public/assets/img/
 
 # updated time
 src/components/data/updated_time.js
