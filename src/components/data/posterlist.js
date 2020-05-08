@@ -1,5 +1,59 @@
 const posterList = [
   {
+    image: '015_01.jpg',
+    id: 15,
+    author: 'Sander Family',
+    size: '30"W×40"H',
+    install_date: '08 May 2020',
+    description: `<span>Top-left</span> is from Harriet (15), <span>top-right</span> from Caroline (15), <span>bottom-left</span> from Erika, and <span>bottom-right</span> from Gregory (14). Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI. Huge, huge thank you to them!`
+  },
+
+  {
+    image: '015_02.jpg',
+    id: 15,
+    author: 'Sander Family',
+    size: '30"W×40"H',
+    install_date: '08 May 2020',
+    description: `<span>Top-left</span> is from Harriet (15), <span>top-right</span> from Caroline (15), <span>bottom-left</span> from Erika, and <span>bottom-right</span> from Gregory (14). Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI. Huge, huge thank you to them!`
+  },
+
+  {
+    image: '015_03.jpg',
+    id: 15,
+    author: 'Sander Family',
+    size: '30"W×40"H',
+    install_date: '08 May 2020',
+    description: `<span>Top-left</span> is from Harriet (15), <span>top-right</span> from Caroline (15), <span>bottom-left</span> from Erika, and <span>bottom-right</span> from Gregory (14). Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI. Huge, huge thank you to them!`
+  },
+
+  {
+    image: '015_04.jpg',
+    id: 15,
+    author: 'Sander Family',
+    size: '30"W×40"H',
+    install_date: '08 May 2020',
+    description: `<span>Top-left</span> is from Harriet (15), <span>top-right</span> from Caroline (15), <span>bottom-left</span> from Erika, and <span>bottom-right</span> from Gregory (14). Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI. Huge, huge thank you to them!`
+  },
+
+  {
+    image: '015_05.jpg',
+    id: 15,
+    author: 'Sander Family',
+    size: '30"W×40"H',
+    install_date: '08 May 2020',
+    description: `<span>Top-left</span> is from Harriet (15), <span>top-right</span> from Caroline (15), <span>bottom-left</span> from Erika, and <span>bottom-right</span> from Gregory (14). Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI. Huge, huge thank you to them!`
+  },
+
+  {
+    image: '015_06.jpg',
+    id: 15,
+    author: 'Sander Family',
+    size: '30"W×40"H',
+    install_date: '08 May 2020',
+    description: `<span>Top-left</span> is from Harriet (15), <span>top-right</span> from Caroline (15), <span>bottom-left</span> from Erika, and <span>bottom-right</span> from Gregory (14). Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI. Huge, huge thank you to them!`
+  },
+
+  {
     image: '014_01.jpg',
     id: 14,
     author: 'John Vetter',
