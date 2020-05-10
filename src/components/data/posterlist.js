@@ -1,5 +1,45 @@
 const posterList = [
   {
+    image: '016_01.jpg',
+    id: 16,
+    author: 'Your Name Here',
+    title: 'Your Title Here [Optional]',
+    size: '30"W×40"H',
+    install_date: '10 May 2020',
+    description: `Your description here [optional]. Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
+  },
+
+  {
+    image: '016_02.jpg',
+    id: 16,
+    author: 'Your Name Here',
+    title: 'Your Title Here [Optional]',
+    size: '30"W×40"H',
+    install_date: '10 May 2020',
+    description: `Your description here [optional]. Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
+  },
+
+  {
+    image: '016_03.jpg',
+    id: 16,
+    author: 'Your Name Here',
+    title: 'Your Title Here [Optional]',
+    size: '30"W×40"H',
+    install_date: '10 May 2020',
+    description: `Your description here [optional]. Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
+  },
+
+  {
+    image: '016_04.jpg',
+    id: 16,
+    author: 'Your Name Here',
+    title: 'Your Title Here [Optional]',
+    size: '30"W×40"H',
+    install_date: '10 May 2020',
+    description: `Your description here [optional]. Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
+  },
+
+  {
     image: '015_01.jpg',
     id: 15,
     author: 'Sander Family',
