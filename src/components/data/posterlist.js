@@ -1,12 +1,61 @@
 const posterList = [
   {
+    image: '017_01.jpg',
+    id: 17,
+    author: 'Eliza Chen',
+    author_url: 'https://www.instagram.com/tongue_and_liver/',
+    title: 'Plied Perennial',
+    size: '30"W×40"H',
+    install_date: '11 May 2020',
+    description: `We are trying right now to imagine how things might look if they were stretched beyond their natural limit, bending impossibly but not (absolutely NOT) breaking.`,
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+  },
+
+  {
+    image: '017_02.jpg',
+    id: 17,
+    author: 'Eliza Chen',
+    author_url: 'https://www.instagram.com/tongue_and_liver/',
+    title: 'Plied Perennial',
+    size: '30"W×40"H',
+    install_date: '11 May 2020',
+    description: `We are trying right now to imagine how things might look if they were stretched beyond their natural limit, bending impossibly but not (absolutely NOT) breaking.`,
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+  },
+
+  {
+    image: '017_03.jpg',
+    id: 17,
+    author: 'Eliza Chen',
+    author_url: 'https://www.instagram.com/tongue_and_liver/',
+    title: 'Plied Perennial',
+    size: '30"W×40"H',
+    install_date: '11 May 2020',
+    description: `We are trying right now to imagine how things might look if they were stretched beyond their natural limit, bending impossibly but not (absolutely NOT) breaking.`,
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+  },
+
+  {
+    image: '017_04.jpg',
+    id: 17,
+    author: 'Eliza Chen',
+    author_url: 'https://www.instagram.com/tongue_and_liver/',
+    title: 'Plied Perennial',
+    size: '30"W×40"H',
+    install_date: '11 May 2020',
+    description: `We are trying right now to imagine how things might look if they were stretched beyond their natural limit, bending impossibly but not (absolutely NOT) breaking.`,
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+  },
+
+  {
     image: '016_01.jpg',
     id: 16,
     author: 'Your Name Here',
     title: 'Your Title Here [Optional]',
     size: '30"W×40"H',
     install_date: '10 May 2020',
-    description: `Your description here [optional]. Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
+    description: `Your description here [optional].`,
+    note: `Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
   },
 
   {
@@ -16,7 +65,8 @@ const posterList = [
     title: 'Your Title Here [Optional]',
     size: '30"W×40"H',
     install_date: '10 May 2020',
-    description: `Your description here [optional]. Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
+    description: `Your description here [optional].`,
+    note: `Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
   },
 
   {
@@ -26,7 +76,8 @@ const posterList = [
     title: 'Your Title Here [Optional]',
     size: '30"W×40"H',
     install_date: '10 May 2020',
-    description: `Your description here [optional]. Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
+    description: `Your description here [optional].`,
+    note: `Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
   },
 
   {
@@ -36,7 +87,8 @@ const posterList = [
     title: 'Your Title Here [Optional]',
     size: '30"W×40"H',
     install_date: '10 May 2020',
-    description: `Your description here [optional]. Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
+    description: `Your description here [optional].`,
+    note: `Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
   },
 
   {
@@ -46,7 +98,8 @@ const posterList = [
     title: 'Your Title Here [Optional]',
     size: '30"W×40"H',
     install_date: '10 May 2020',
-    description: `Your description here [optional]. Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
+    description: `Your description here [optional].`,
+    note: `Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
   },
 
   {
@@ -55,7 +108,8 @@ const posterList = [
     author: 'Sander Family',
     size: '30"W×40"H',
     install_date: '08 May 2020',
-    description: `<span>Top-left</span> is from Harriet (15), <span>top-right</span> from Caroline (15), <span>bottom-left</span> from Erika, and <span>bottom-right</span> from Gregory (14). Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI. Huge, huge thank you to them!`
+    description: `<span>Top-left</span> is from Harriet (15), <span>top-right</span> from Caroline (15), <span>bottom-left</span> from Erika, and <span>bottom-right</span> from Gregory (14).`,
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI. Huge, huge thank you to them!`
   },
 
   {
@@ -64,7 +118,8 @@ const posterList = [
     author: 'Sander Family',
     size: '30"W×40"H',
     install_date: '08 May 2020',
-    description: `<span>Top-left</span> is from Harriet (15), <span>top-right</span> from Caroline (15), <span>bottom-left</span> from Erika, and <span>bottom-right</span> from Gregory (14). Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI. Huge, huge thank you to them!`
+    description: `<span>Top-left</span> is from Harriet (15), <span>top-right</span> from Caroline (15), <span>bottom-left</span> from Erika, and <span>bottom-right</span> from Gregory (14).`,
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI. Huge, huge thank you to them!`
   },
 
   {
@@ -73,7 +128,8 @@ const posterList = [
     author: 'Sander Family',
     size: '30"W×40"H',
     install_date: '08 May 2020',
-    description: `<span>Top-left</span> is from Harriet (15), <span>top-right</span> from Caroline (15), <span>bottom-left</span> from Erika, and <span>bottom-right</span> from Gregory (14). Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI. Huge, huge thank you to them!`
+    description: `<span>Top-left</span> is from Harriet (15), <span>top-right</span> from Caroline (15), <span>bottom-left</span> from Erika, and <span>bottom-right</span> from Gregory (14).`,
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI. Huge, huge thank you to them!`
   },
 
   {
@@ -82,7 +138,8 @@ const posterList = [
     author: 'Sander Family',
     size: '30"W×40"H',
     install_date: '08 May 2020',
-    description: `<span>Top-left</span> is from Harriet (15), <span>top-right</span> from Caroline (15), <span>bottom-left</span> from Erika, and <span>bottom-right</span> from Gregory (14). Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI. Huge, huge thank you to them!`
+    description: `<span>Top-left</span> is from Harriet (15), <span>top-right</span> from Caroline (15), <span>bottom-left</span> from Erika, and <span>bottom-right</span> from Gregory (14).`,
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI. Huge, huge thank you to them!`
   },
 
   {
@@ -91,7 +148,8 @@ const posterList = [
     author: 'Sander Family',
     size: '30"W×40"H',
     install_date: '08 May 2020',
-    description: `<span>Top-left</span> is from Harriet (15), <span>top-right</span> from Caroline (15), <span>bottom-left</span> from Erika, and <span>bottom-right</span> from Gregory (14). Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI. Huge, huge thank you to them!`
+    description: `<span>Top-left</span> is from Harriet (15), <span>top-right</span> from Caroline (15), <span>bottom-left</span> from Erika, and <span>bottom-right</span> from Gregory (14).`,
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI. Huge, huge thank you to them!`
   },
 
   {
@@ -100,7 +158,8 @@ const posterList = [
     author: 'Sander Family',
     size: '30"W×40"H',
     install_date: '08 May 2020',
-    description: `<span>Top-left</span> is from Harriet (15), <span>top-right</span> from Caroline (15), <span>bottom-left</span> from Erika, and <span>bottom-right</span> from Gregory (14). Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI. Huge, huge thank you to them!`
+    description: `<span>Top-left</span> is from Harriet (15), <span>top-right</span> from Caroline (15), <span>bottom-left</span> from Erika, and <span>bottom-right</span> from Gregory (14).`,
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI. Huge, huge thank you to them!`
   },
 
   {
@@ -220,7 +279,8 @@ const posterList = [
     author_url: 'https://jackf.me',
     size: '30"W×40"H',
     install_date: '03 May 2020',
-    description: `<a href="https://www.youtube.com/watch?v=W-apaIOOoAo&feature=youtu.be&t=47" target='_blank' rel='noopener noreferrer'>I’ll Be There</a> by The Jackson 5. Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
+    description: `<a href="https://www.youtube.com/watch?v=W-apaIOOoAo&feature=youtu.be&t=47" target='_blank' rel='noopener noreferrer'>I’ll Be There</a> by The Jackson 5.`,
+    note: `Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
   },
 
   {
@@ -230,7 +290,8 @@ const posterList = [
     author_url: 'https://jackf.me',
     size: '30"W×40"H',
     install_date: '03 May 2020',
-    description: `<a href="https://www.youtube.com/watch?v=W-apaIOOoAo&feature=youtu.be&t=47" target='_blank' rel='noopener noreferrer'>I’ll Be There</a> by The Jackson 5. Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
+    description: `<a href="https://www.youtube.com/watch?v=W-apaIOOoAo&feature=youtu.be&t=47" target='_blank' rel='noopener noreferrer'>I’ll Be There</a> by The Jackson 5.`,
+    note: `Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
   },
 
   {
@@ -240,7 +301,8 @@ const posterList = [
     author_url: 'https://jackf.me',
     size: '30"W×40"H',
     install_date: '03 May 2020',
-    description: `<a href="https://www.youtube.com/watch?v=W-apaIOOoAo&feature=youtu.be&t=47" target='_blank' rel='noopener noreferrer'>I’ll Be There</a> by The Jackson 5. Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
+    description: `<a href="https://www.youtube.com/watch?v=W-apaIOOoAo&feature=youtu.be&t=47" target='_blank' rel='noopener noreferrer'>I’ll Be There</a> by The Jackson 5.`,
+    note: `Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
   },
 
   {
@@ -250,7 +312,8 @@ const posterList = [
     author_url: 'https://jackf.me',
     size: '30"W×40"H',
     install_date: '03 May 2020',
-    description: `<a href="https://www.youtube.com/watch?v=W-apaIOOoAo&feature=youtu.be&t=47" target='_blank' rel='noopener noreferrer'>I’ll Be There</a> by The Jackson 5. Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
+    description: `<a href="https://www.youtube.com/watch?v=W-apaIOOoAo&feature=youtu.be&t=47" target='_blank' rel='noopener noreferrer'>I’ll Be There</a> by The Jackson 5.`,
+    note: `Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
   },
 
   {
@@ -260,7 +323,8 @@ const posterList = [
     author_url: 'https://jackf.me',
     size: '30"W×40"H',
     install_date: '03 May 2020',
-    description: `<a href="https://www.youtube.com/watch?v=W-apaIOOoAo&feature=youtu.be&t=47" target='_blank' rel='noopener noreferrer'>I’ll Be There</a> by The Jackson 5. Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
+    description: `<a href="https://www.youtube.com/watch?v=W-apaIOOoAo&feature=youtu.be&t=47" target='_blank' rel='noopener noreferrer'>I’ll Be There</a> by The Jackson 5.`,
+    note: `Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
   },
 
   {
@@ -270,7 +334,8 @@ const posterList = [
     author_url: 'https://jackf.me',
     size: '30"W×40"H',
     install_date: '03 May 2020',
-    description: `<a href="https://www.youtube.com/watch?v=W-apaIOOoAo&feature=youtu.be&t=47" target='_blank' rel='noopener noreferrer'>I’ll Be There</a> by The Jackson 5. Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
+    description: `<a href="https://www.youtube.com/watch?v=W-apaIOOoAo&feature=youtu.be&t=47" target='_blank' rel='noopener noreferrer'>I’ll Be There</a> by The Jackson 5.`,
+    note: `Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
   },
 
   {

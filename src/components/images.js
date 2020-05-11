@@ -94,6 +94,10 @@ const Description = styled.div`
   }
 `
 
+const Note = styled.div`
+  color: black;
+`
+
 const Images = (props) => (
   <Posters>
     <Prev onClick={props.prev} id='prev'/>
@@ -103,7 +107,7 @@ const Images = (props) => (
       src={site.images_path_external + posterList[props.count].image}
       alt=''
     />
-    
+
     <PosterInfo>
       <Count>
         {zero_pad(props.count + 1)}/{zero_pad(props.totalCount + 1)}
@@ -126,6 +130,11 @@ const Images = (props) => (
         <Description>
           <i dangerouslySetInnerHTML={{__html: posterList[props.count].description}} />
         </Description>
+      }
+
+      {posterList[props.count].note &&
+        <Note dangerouslySetInnerHTML={{__html:
+        posterList[props.count].note}} />
       }
     </PosterInfo>
   </Posters>
