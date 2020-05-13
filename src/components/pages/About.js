@@ -1,11 +1,8 @@
 import React from 'react'
 // import styled from 'styled-components'
-import {site} from '../config/vars'
 
 const About = (props) => (
   <article>
-    {/* <p><i>{site.title}</i> is {site.description}</p> */}
-
     <p>
       <i>Post-Contact</i> is both a condition and a call to action. <i>Post-</i>, as the prefix meaning “after,” describes the current state of <i>contact</i>, or touch—specifically the lack thereof—due to a global effort of social distancing, quarantine, and isolation. <i>Post</i>, as the verb meaning “to publish,” commands an alternative means of <i>contact</i>, or communication—one that does not involve physical touch with another person.
     </p>
