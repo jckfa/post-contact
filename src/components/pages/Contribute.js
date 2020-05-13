@@ -1,41 +1,12 @@
 import React from 'react'
 import styled, {keyframes} from 'styled-components'
-import {site, fonts} from './config/vars'
-import media from './utils/media'
-import {PosterTilesIcon, BigPosterIcon} from './poster_icons'
-import Footer from './footer'
-
-const ProjectInfo = styled.div`
-  width: 100%;
-  height: 100%;
-  min-height: 50vh;
-  padding: 0.5em;
-
-  & img {
-    width: 100%;
-  }
-
-  ${media.m`
-    max-height: 100vh;
-    padding: 0.75em;
-    overflow: scroll;
-  `}
-`
+import {site} from '../config/vars'
+import media from '../utils/media'
+import {PosterTilesIcon, BigPosterIcon} from '../poster_icons'
+import Heading from '../utils/heading'
 
 const Header = styled.section`
   margin-bottom: 6em;
-`
-
-const Beta = styled.span`
-  font-size: 0.5em;
-  line-height: 0.5;
-  text-transform: uppercase;
-  display: inline-block;
-  border: 1px solid currentColor;
-  border-radius: 4px;
-  padding: 7px 3px 4px;
-  position: relative;
-  bottom: 0.3em;
 `
 
 const blink = keyframes`
@@ -47,14 +18,6 @@ const blink = keyframes`
 const BlinkText = styled.span`
   animation: ${blink} 2s linear infinite;
   display: inline-block;
-`
-
-const Heading = styled.span`
-  ${'' /* font-weight: bold; */}
-  font-family: ${fonts.bold};
-  ${'' /* color: ${colors.orange}; */}
-  text-transform: uppercase;
-  display: block;
 `
 
 const SizingShell = styled.div`
@@ -76,27 +39,6 @@ const Size = styled.div`
   }
 `
 
-// const Color = styled.span`
-//   text-transform: lowercase;
-//   line-height: 1;
-//   display: inline-block;
-//   border: 2px solid currentColor;
-//   border-radius: 100px;
-//   padding: 0.25em 0.5em;
-//   margin-bottom: 0.1em;
-//   transition: color 50ms;
-//   ${props => props.color && `
-//     background-color: ${props.color};
-//   `}
-//
-//   ${props => props.white || `
-//     &:hover {
-//       color: transparent;
-//       cursor: default;
-//     }
-//   `}
-// `
-
 const Visit = styled.section`
   border: 2px solid currentColor;
   border-radius: 8px;
@@ -110,24 +52,25 @@ const submit_email = `
   &body=${encodeURIComponent(site.email_body)}
 `.replace(/\s+/g, '')
 
-const Info = (props) => (
-  <ProjectInfo>
-    <Header>
-      <Heading>{site.title} <Beta>Beta</Beta></Heading>
-      <p><BlinkText>Open Call for Submissions</BlinkText></p>
-    </Header>
+const Contribute = () => (
+  <div>
+    <Visit>
+      <p>
+        <i>{site.title}</i> is {site.description}
+      </p>
+      <p>
+        New posters are published on site and online every Monday, Wednesday, Friday, and Sunday.
+      </p>
+      <p>
+        Visit the site in person at <a href={site.address_url} target='_blank' rel='noopener noreferrer'>{site.address}</a> or on Instagram <a href={'https://instagram.com/' + site.instagram_handle} target='_blank' rel='noopener noreferrer'>@{site.instagram_handle}</a>.
+      </p>
+    </Visit>
 
     <section>
-      <p><i>{site.title}</i> is {site.description}</p>
-
-      <p>It offers creative relief through a visible community platform to process the mental or physical tolls of the crisis, voice frustration or outrage, spread love or hope, or escape through making.</p>
-
-      <p>Publishing happens through a medium specifically chosen to <a href="https://youtu.be/7GUPsEKiiHg?t=435"  target='_blank' rel='noopener noreferrer'>slow the material down for you to get a closer look.</a></p>
-    </section>
-
-    <section>
-      <Heading>Contribute</Heading>
-      <p>Please create previously unpublished material for a 30"W×40"H poster to be printed in B&W and wheat-pasted to the façade of a <a href={site.address_url} target='_blank' rel='noopener noreferrer'>neighborhood apartment building</a> in Providence, Rhode Island (USA).</p>
+      <Heading>
+        <BlinkText>Open Call for Submissions</BlinkText>
+      </Heading>
+      <p>Please submit previously unpublished material for a 30"W×40"H poster to be printed in B&W and wheat-pasted to the façade of a <a href={site.address_url} target='_blank' rel='noopener noreferrer'>neighborhood apartment building</a> in Providence, Rhode Island (USA).</p>
 
       <SizingShell>
         <Size>
@@ -177,18 +120,7 @@ const Info = (props) => (
         The order in which work is recieved may vary in relation to that of publishing. Contributors will be notified if and when their submission is used, and provided with high resolution documentation photos. The lighting in these photos is mostly up to mother nature.
       </i></p>
     </section>
-
-    <Visit>
-      <p>
-        New posters are published on site and online every Monday, Wednesday, Friday, and Sunday.
-      </p>
-      <p>
-        Visit the site in person at <a href={site.address_url} target='_blank' rel='noopener noreferrer'>{site.address}</a> or on Instagram <a href={'https://instagram.com/' + site.instagram_handle} target='_blank' rel='noopener noreferrer'>@{site.instagram_handle}</a>.
-      </p>
-    </Visit>
-
-    <Footer/>
-  </ProjectInfo>
+  </div>
 )
 
-export default Info
+export default Contribute

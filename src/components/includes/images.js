@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import {site, colors} from './config/vars'
-import media from './utils/media'
-import posterList from './data/posterlist'
+import {site, colors} from '../config/vars'
+import media from '../utils/media'
+import posterList from '../data/posterlist'
 
 const Posters = styled.div`
   width: 100%;

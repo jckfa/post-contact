@@ -49,13 +49,6 @@ const GlobalStyle = createGlobalStyle`
 
   a {
     color: inherit;
-    // color: ${colors.white};
-    // background-color: ${colors.black};
-    // text-decoration: none;
-  }
-
-  .active {
-    border-bottom: 0.075em solid currentColor;
   }
 
   p {

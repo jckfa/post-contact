@@ -1,13 +1,11 @@
+import React from 'react'
 import styled from 'styled-components'
+import {fonts} from '../config/vars'
 
-const Heading = styled.div`
+const Heading = styled.span`
+  font-family: ${fonts.bold};
   text-transform: uppercase;
-  margin-left: 1em;
-  margin-top: 0.5em;
-
-  & + p, & + ul {
-    padding-top: 0.5em;
-  }
+  display: block;
 `
 
 export default Heading
