@@ -8,6 +8,9 @@ const Main = styled.main`
   height: 100vh;
   background-color: #00f;
   padding: 0.5em;
+  position: fixed;
+  top: 0;
+  left: 0;
 
   ${media.s`
     padding: 0.75em;
