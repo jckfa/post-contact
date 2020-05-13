@@ -3,7 +3,7 @@ import styled, {keyframes} from 'styled-components'
 import {site} from '../config/vars'
 import media from '../utils/media'
 import {PosterTilesIcon, BigPosterIcon} from '../poster_icons'
-import Heading from '../utils/heading'
+import Heading from '../utils/Heading'
 
 const Header = styled.section`
   margin-bottom: 6em;

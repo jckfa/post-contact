@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink as A } from 'react-router-dom';
 import styled from 'styled-components'
 import {site} from '../config/vars'
-import Heading from '../utils/heading'
+import Heading from '../utils/Heading'
 
 const Container = styled.header`
   margin-bottom: 6em;
