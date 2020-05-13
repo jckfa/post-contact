@@ -1,5 +1,60 @@
 const posterList = [
   {
+    image: '018_01.jpg',
+    id: 18,
+    author: 'Noah Beckwith',
+    author_url: 'https://noahbeckwith.com/',
+    title: 'Joke #1',
+    size: '30"W×40"H',
+    install_date: '13 May 2020',
+    description: `I love jokes. I found this one online and I think it's pretty funny. It's surreal to read a corny grandpa joke about the global pandemic because the way in which it's told feels like it's from a time when nobody knew what was in store for us. Pun intended.`
+  },
+
+  {
+    image: '018_02.jpg',
+    id: 18,
+    author: 'Noah Beckwith',
+    author_url: 'https://noahbeckwith.com/',
+    title: 'Joke #1',
+    size: '30"W×40"H',
+    install_date: '13 May 2020',
+    description: `I love jokes. I found this one online and I think it's pretty funny. It's surreal to read a corny grandpa joke about the global pandemic because the way in which it's told feels like it's from a time when nobody knew what was in store for us. Pun intended.`
+  },
+
+  {
+    image: '018_03.jpg',
+    id: 18,
+    author: 'Noah Beckwith',
+    author_url: 'https://noahbeckwith.com/',
+    title: 'Joke #1',
+    size: '30"W×40"H',
+    install_date: '13 May 2020',
+    description: `I love jokes. I found this one online and I think it's pretty funny. It's surreal to read a corny grandpa joke about the global pandemic because the way in which it's told feels like it's from a time when nobody knew what was in store for us. Pun intended.`
+  },
+
+  {
+    image: '018_04.jpg',
+    id: 18,
+    author: 'Noah Beckwith',
+    author_url: 'https://noahbeckwith.com/',
+    title: 'Joke #1',
+    size: '30"W×40"H',
+    install_date: '13 May 2020',
+    description: `I love jokes. I found this one online and I think it's pretty funny. It's surreal to read a corny grandpa joke about the global pandemic because the way in which it's told feels like it's from a time when nobody knew what was in store for us. Pun intended.`
+  },
+
+  {
+    image: '018_05.jpg',
+    id: 18,
+    author: 'Noah Beckwith',
+    author_url: 'https://noahbeckwith.com/',
+    title: 'Joke #1',
+    size: '30"W×40"H',
+    install_date: '13 May 2020',
+    description: `I love jokes. I found this one online and I think it's pretty funny. It's surreal to read a corny grandpa joke about the global pandemic because the way in which it's told feels like it's from a time when nobody knew what was in store for us. Pun intended.`
+  },
+
+  {
     image: '017_01.jpg',
     id: 17,
     author: 'Eliza Chen',
