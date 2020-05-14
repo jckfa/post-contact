@@ -41,7 +41,7 @@ const Header = () => (
   <Container>
     <Heading>{site.title} <Beta>Beta</Beta></Heading>
     <Nav>
-      <A exact to="/">Contribute</A>
+      <A exact to="/">Submit</A>
       <A to="/about">About</A>
     </Nav>
   </Container>

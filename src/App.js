@@ -7,7 +7,7 @@ import Head from './head'
 import Images from './components/includes/images'
 import Header from './components/includes/Header'
 import Footer from './components/includes/Footer'
-import Contribute from './components/pages/Contribute'
+import Submit from './components/pages/Submit'
 import About from './components/pages/About'
 import NotFound from './components/pages/NotFound'
 import posterList from './components/data/posterlist'
@@ -81,7 +81,7 @@ class App extends Component {
           <Half>
             <Header/>
             <Switch>
-              <Route exact path="/" component={Contribute} />}
+              <Route exact path="/" component={Submit} />}
               <Route path="/about" component={About} />
               <Route component={NotFound} />
             </Switch>

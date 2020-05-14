@@ -112,7 +112,7 @@ const Contribute = () => (
       </i></p>
 
       <p><i>
-        The order in which work is recieved may vary in relation to that of publishing. Contributors will be notified if and when their submission is used, and provided with high resolution documentation photos. The lighting in these photos is mostly up to mother nature.
+        The order in which work is recieved may vary in relation to that of publishing. Contributors will be notified if and when their submission is used, and provided with full resolution documentation photos.
       </i></p>
     </section>
   </div>
