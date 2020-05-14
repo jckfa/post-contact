@@ -28,16 +28,20 @@ const Container = styled.footer`
 const Footer = (props) => (
   <Container>
     <p>
-      Special thanks to Stella Herzog for allowing the use of her building in this way; to <a href={ramon_url}  target='_blank' rel='noopener noreferrer'>Ramon Tejada</a>, <a href={paul_url}  target='_blank' rel='noopener noreferrer'>Paul Soulellis</a>, <a href={jac_url} target='_blank' rel='noopener noreferrer'>Jacqueline Shaw</a>, <a href={pouya_url} target='_blank' rel='noopener noreferrer'>Pouya Ahmadi</a>, and <a href={kelsey_url} target='_blank' rel='noopener noreferrer'>Kelsey Dusenka</a> for their feedback; to <a href={lucy_url} target='_blank' rel='noopener noreferrer'>Lucy Hitchcock</a> and <a href={sue_url} target='_blank' rel='noopener noreferrer'>Sue Mazzucco</a> for securing RISD GD funding for supplies necessary to make this possible; to <a href={shep_url} target='_blank' rel='noopener noreferrer'>Shepard Fairey</a> for his wheat-pasting tips <a href={shep_vid} target='_blank' rel='noopener noreferrer'>in this video</a>, to <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a> for donating fonts, and to <a href={cpc_url} target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI for donating paper.
+      {site.title} is operated by <a href={jack_url} target='_blank' rel='noopener noreferrer'>Jack Halten Fahnestock</a> (who acts as <a href={bdfl_url} target='_blank' rel='noopener noreferrer'>BDFL</a>), but it is truly the product of a community effort.
+    </p>
+
+    <p>
+      Special thanks to Stella Herzog for permitting the use of her building for this project; to <a href={ramon_url}  target='_blank' rel='noopener noreferrer'>Ramon Tejada</a>, <a href={paul_url}  target='_blank' rel='noopener noreferrer'>Paul Soulellis</a>, <a href={jac_url} target='_blank' rel='noopener noreferrer'>Jacqueline Shaw</a>, <a href={pouya_url} target='_blank' rel='noopener noreferrer'>Pouya Ahmadi</a>, and <a href={kelsey_url} target='_blank' rel='noopener noreferrer'>Kelsey Dusenka</a> for their feedback; to <a href={lucy_url} target='_blank' rel='noopener noreferrer'>Lucy Hitchcock</a> and <a href={sue_url} target='_blank' rel='noopener noreferrer'>Sue Mazzucco</a> for securing RISD GD funding for supplies necessary to make this possible; to <a href={shep_url} target='_blank' rel='noopener noreferrer'>Shepard Fairey</a> for his wheat-pasting tips <a href={shep_vid} target='_blank' rel='noopener noreferrer'>in this video</a>, to <a href={cpc_url} target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI for donating paper, and to <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a> for donating fonts.
       </p>
 
       <p>
-        This project is operated by <a href={jack_url} target='_blank' rel='noopener noreferrer'>Jack Halten Fahnestock</a> who acts as <a href={bdfl_url} target='_blank' rel='noopener noreferrer'>BDFL</a>. It was inspired by Erik Brandt’s <a href={eric_url} target='_blank' rel='noopener noreferrer'>Ficciones Typografika</a> and Paul Soulellis’ <a href={ur1} target='_blank' rel='noopener noreferrer'>Urgency</a> <a href={ur2} target='_blank' rel='noopener noreferrer'>Readers</a>.
-        </p>
+        Thanks to everyone who has submitted material. Featuring the work of many different contributors is essential to the soul of {site.title}.
+      </p>
 
-        <p>
-          Like the essential workers who power the world, the contributors of this project make it what it is. Thank you.
-        </p>
+      <p>
+        This project was inspired by Erik Brandt’s <a href={eric_url} target='_blank' rel='noopener noreferrer'>Ficciones Typografika</a> and Paul Soulellis’ <a href={ur1} target='_blank' rel='noopener noreferrer'>Urgency</a> <a href={ur2} target='_blank' rel='noopener noreferrer'>Readers</a>.
+      </p>
 
         <p>
           Last updated: {updated} <a href='https://time.is/UTC' target='_blank' rel='noopener noreferrer'>UTC</a> • <a href={site.source_code} target='_blank' rel='noopener noreferrer'>Source Code</a>
