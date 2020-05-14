@@ -25,9 +25,6 @@ const SizingShell = styled.div`
 
 const Size = styled.div`
   width: 50%;
-  ${'' /* & + & {
-    padding-left: 1em;
-  } */}
 
   & p {
     margin-bottom: 0.25em;
@@ -38,6 +35,18 @@ const Visit = styled.section`
   border: 2px solid currentColor;
   border-radius: 8px;
   padding: 0.5em;
+`
+
+const Email = styled.span`
+  text-align: center;
+  border: 2px solid currentColor;
+  border-radius: 8px;
+  padding: 0.5em;
+  display: inline-block;
+
+  & a {
+    text-decoration: none;
+  }
 `
 
 // escape special characters
@@ -85,30 +94,40 @@ const Contribute = () => (
         Partioning is done with the following colors: <Color white>White</Color> <Color color='#ebebeb'>Light Gray</Color> <Color color='#fff6a7'>Pale Yellow</Color> <Color color='Papayawhip'>Papayawhip</Color> <Color color='PeachPuff'>Peach</Color> <Color color='#fa2'>Orange</Color>
       </p> */}
 
-      {/* <p>
-        <i>Don’t know what make?</i>
-        <ul>
-          <li>
-        Visually describe what you’re going to do when isolation ends in 2, 4, 8, or 16 frames.
-          </li>
-          <li>
-        Address an important subject overlooked among the news.
-          </li>
-          <li>
-        Illustrate the world you want to see post-pandemic.
-          </li>
-          <li>
-        Use your technical ability as a skilled artist to echo and emphasize, i.e. "repost" (but physically), important voices in a more visible and powerful way.
-          </li>
-        </ul>
-      </p> */}
+      <p>
+        Send material to the following address:
+        <a href={submit_email} target='_blank' rel='noopener noreferrer'>
+          <Email>{site.email}</Email>
+        </a>
+      </p>
 
       <p>
-        Send material to <a href={submit_email} target='_blank' rel='noopener noreferrer'>{site.email}</a>. Please format it at 300DPI as a PDF, PNG, or JPG (with bleeds and crop marks if necessary), and include a name, website URL and/or Instagram handle, title (optional; defaults to Post-Contact ###), and description (optional but highly encouraged). There is no deadline. The project ends when the pandemic ends.
+        Please format it at 300DPI as a PDF, PNG, or JPG (with bleeds and crop marks if necessary) and include the following:
+        <ul>
+          <li>
+            first & last name (anonymity is not allowed)
+          </li>
+          <li>
+            website URL and/or Instagram handle
+          </li>
+          <li>
+            title (optional; defaults to Post-Contact ###)
+          </li>
+          <li>
+            description (optional but highly encouraged)
+          </li>
+          <li>
+            one piece of music* to support the submission (*limited to Spotify’s selection)
+          </li>
+        </ul>
+      </p>
+
+      <p>
+        There is no deadline. The project ends when the pandemic ends.
       </p>
 
       <p><i>
-        All attempts will be made to respect material as is, however minor modifications may be necessary, including halftoning, rescaling, and repeating. Printing is done with a Xerox Phaser 6510, using aftermarket toner. The misprints this toner often produces are embraced.
+        All attempts will be made to respect material as is, however minor modifications may be necessary, including halftoning, cropping, rescaling, and repeating. Paper color is chosen with consideration of both the submission’s subject matter and the paper colors of previous posts. Printing is done with a Xerox Phaser 6510 using aftermarket toner. The misprints this toner often produces are embraced.
       </i></p>
 
       <p><i>

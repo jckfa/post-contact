@@ -16,10 +16,6 @@ const Main = styled.main`
   display: flex;
   flex-direction: column;
 
-  & p + p, & section + section {
-    margin-top: 1em;
-  }
-
   ${media.m`
     flex-direction: row;
   `}
