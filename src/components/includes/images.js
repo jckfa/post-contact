@@ -131,7 +131,7 @@ const Images = (props) => (
       <div>
         {
           posterList[props.count].author_url ?
-            <a href={posterList[props.count].author_url} target='_blank' rel='noopener noreferrer'>{posterList[props.count].author + ', '}</a>
+            <span><a href={posterList[props.count].author_url} target='_blank' rel='noopener noreferrer'>{posterList[props.count].author}</a>, </span>
           : posterList[props.count].author ?
             posterList[props.count].author + ', '
           : '(Re)'
