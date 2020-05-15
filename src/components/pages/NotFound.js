@@ -11,6 +11,7 @@ const Main = styled.main`
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 100;
 
   ${media.s`
     padding: 0.75em;
@@ -19,7 +20,7 @@ const Main = styled.main`
 
 const NotFound = ({ location }) => (
   <Main>
-    <p>404 Not Found</p>
+    <p>404 Page Not Found</p>
   </Main>
 )
 
