@@ -16,13 +16,12 @@ const C = styled.td`
   border: 2px solid currentColor;
 
   ${props => props.tint && `
-    border-color: ${tint(0.8, colors.black)};
+    border-color: ${tint(0.8, colors.purple)};
   `}
 
   ${props => props.coloredA && css`
     ${B}:hover & {
-      ${'' /* background-color: #ebebeb; */}
-      background-color: ${colors.white};
+      background-color: white;
       border: none;
     }
   `}

@@ -3,21 +3,15 @@ import styled from 'styled-components'
 import {site, colors} from '../config/vars'
 import media from '../utils/media'
 import posterList from '../data/posterlist'
+import DefaultPoster from '../default_poster'
 
 const Posters = styled.div`
   width: 100%;
   min-height: 75vh;
   padding: 0.5em;
-  ${'' /* display: inline-block; */}
-  color: ${colors.black};
-  background-color: ${colors.orange};
-  color: white;
-  background-color: ${colors.black};
+  color: ${colors.white};
+  background-color: ${colors.purple};
   position: relative;
-
-  & img {
-    width: 100%;
-  }
 
   ${media.m`
     max-height: 100vh;
@@ -28,6 +22,23 @@ const Posters = styled.div`
   ${media.xl`
     width: 200%;
   `}
+`
+
+const ImgShell = styled.div`
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 0.25em;
+  padding-top: 66.6666%;
+  position: relative;
+
+  & img {
+    width: 100%;
+    vertical-align: bottom;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
 `
 
 const NavBtn = styled.button`
@@ -47,6 +58,7 @@ const Prev = styled(NavBtn)`
   ${'' /* background-color: rgba(255, 0, 0, 0.5); */}
   position: absolute;
   left: 0.5em;
+  z-index: 2;
 
   ${media.m`
     left: 0.75em;
@@ -59,6 +71,7 @@ const Next = styled(NavBtn)`
   ${'' /* background-color: rgba(0, 0, 255, 0.5); */}
   position: absolute;
   right: 0.5em;
+  z-index: 2;
 
   ${media.m`
     right: 0.75em;
@@ -103,10 +116,13 @@ const Images = (props) => (
     <Prev onClick={props.prev} id='prev'/>
     <Next onClick={props.next} id='next'/>
 
-    <img
-      src={site.images_path_external + posterList[props.count].image}
-      alt=''
-    />
+    <ImgShell>
+      <img
+        src={site.images_path_external + posterList[props.count].image}
+        alt=''
+      />
+      <DefaultPoster/>
+    </ImgShell>
 
     <PosterInfo>
       <Count>

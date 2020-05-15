@@ -16,15 +16,13 @@ const GlobalStyle = createGlobalStyle`
 
   ::selection {
     color: white;
-    background-color: #aa00ff;
-    background-color: ${colors.black};
+    background-color: ${colors.purple};
   }
 
   body {
-    color: ${colors.black};
+    color: ${colors.purple};
     font: 1.2rem/1.2 ${fonts.reg};
-    background-color: ${colors.bg};
-    ${'' /* letter-spacing: 0.025em; */}
+    background-color: ${colors.white};
     hyphens: auto;
 
     text-rendering: optimizeLegibility;

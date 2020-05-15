@@ -15,10 +15,9 @@ export const site = {
 }
 
 export const colors = {
-  white: 'white',
-  orange: '#ff9900',
-  black: '#90f',
-  bg: '#eee'
+  white:  '#eee',
+  orange: '#f90',
+  purple: '#90f',
 }
 
 const fallback = 'BlinkMacSystemFont, "-apple-system", arial, "helvetica neue", helvetica, sans-serif'
