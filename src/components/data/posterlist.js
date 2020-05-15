@@ -170,7 +170,7 @@ const posterList = [
     size: '30"W×40"H',
     install_date: '10 May 2020',
     description: `Your description here [optional].`,
-    note: `Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
+    note: `Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>. Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
   },
 
   {
@@ -181,7 +181,7 @@ const posterList = [
     size: '30"W×40"H',
     install_date: '10 May 2020',
     description: `Your description here [optional].`,
-    note: `Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
+    note: `Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>. Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
   },
 
   {
@@ -192,7 +192,7 @@ const posterList = [
     size: '30"W×40"H',
     install_date: '10 May 2020',
     description: `Your description here [optional].`,
-    note: `Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
+    note: `Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>. Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
   },
 
   {
@@ -203,7 +203,7 @@ const posterList = [
     size: '30"W×40"H',
     install_date: '10 May 2020',
     description: `Your description here [optional].`,
-    note: `Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
+    note: `Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>. Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
   },
 
   {
@@ -214,7 +214,7 @@ const posterList = [
     size: '30"W×40"H',
     install_date: '10 May 2020',
     description: `Your description here [optional].`,
-    note: `Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>.`
+    note: `Using <a href="https://abcdinamo.com/typefaces/ginto" target='_blank' rel='noopener noreferrer'>Ginto</a> by <a href="http://sebmclauchlan.com/" target='_blank' rel='noopener noreferrer'>Seb McLauchlan</a> courtesy of <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a>. Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
   },
 
   {
