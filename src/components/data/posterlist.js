@@ -1,5 +1,65 @@
 const posterList = [
   {
+    image: '019_01.jpg',
+    id: 19,
+    author: 'Hatiye Garip',
+    author_url: 'https://hatiyegarip.com/',
+    size: '30"W×40"H',
+    install_date: '15 May 2020',
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+  },
+
+  {
+    image: '019_02.jpg',
+    id: 19,
+    author: 'Hatiye Garip',
+    author_url: 'https://hatiyegarip.com/',
+    size: '30"W×40"H',
+    install_date: '15 May 2020',
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+  },
+
+  {
+    image: '019_03.jpg',
+    id: 19,
+    author: 'Hatiye Garip',
+    author_url: 'https://hatiyegarip.com/',
+    size: '30"W×40"H',
+    install_date: '15 May 2020',
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+  },
+
+  {
+    image: '019_04.jpg',
+    id: 19,
+    author: 'Hatiye Garip',
+    author_url: 'https://hatiyegarip.com/',
+    size: '30"W×40"H',
+    install_date: '15 May 2020',
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+  },
+
+  {
+    image: '019_05.jpg',
+    id: 19,
+    author: 'Hatiye Garip',
+    author_url: 'https://hatiyegarip.com/',
+    size: '30"W×40"H',
+    install_date: '15 May 2020',
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+  },
+
+  {
+    image: '019_06.jpg',
+    id: 19,
+    author: 'Hatiye Garip',
+    author_url: 'https://hatiyegarip.com/',
+    size: '30"W×40"H',
+    install_date: '15 May 2020',
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+  },
+
+  {
     image: '018_01.jpg',
     id: 18,
     author: 'Noah Beckwith',
@@ -802,6 +862,7 @@ const posterList = [
     id: 3,
     author: 'Fabian Fohrer',
     author_url: 'http://fabianfohrer.com/',
+    title: 'Site Visit',
     size: '30"W×40"H',
     install_date: '17 April 2020'
   },
@@ -811,6 +872,7 @@ const posterList = [
     id: 3,
     author: 'Fabian Fohrer',
     author_url: 'http://fabianfohrer.com/',
+    title: 'Site Visit',
     size: '30"W×40"H',
     install_date: '17 April 2020'
   },
@@ -820,6 +882,7 @@ const posterList = [
     id: 3,
     author: 'Fabian Fohrer',
     author_url: 'http://fabianfohrer.com/',
+    title: 'Site Visit',
     size: '30"W×40"H',
     install_date: '17 April 2020'
   },
