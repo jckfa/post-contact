@@ -43,7 +43,7 @@ const C = styled.td`
 const DefaultPoster = () => (
   <Shell>
     {/* <p>Uh-oh, the image hasn’t loaded :/</p> */}
-    <p>Error loading image :/</p>
+    <p>Loading image...</p>
     <Table>
       <B>
         <R>
