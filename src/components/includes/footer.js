@@ -15,6 +15,8 @@ const ramon_url  = 'https://ramongd.com/',
       shep_vid   = 'https://youtu.be/DJfeAvP8xTo?t=166',
       do_url     = 'https://m.do.co/c/b09c1fce4b40',
       cpc_url    = 'https://www.centralpaperonline.com/',
+      dinamo_url = 'https://abcdinamo.com/front',
+      sharp_url  = 'https://sharptype.co/',
       jack_url   = 'https://jackf.me',
       eric_url   = 'https://ficciones-typografika.tumblr.com/',
       ur1        = 'https://soulellis.com/work/urgencyreader/index.html',
@@ -33,7 +35,7 @@ const Footer = (props) => (
     </p>
 
     <p>
-      Special thanks to Stella Herzog for permitting the use of her building for this project; to <a href={ramon_url}  target='_blank' rel='noopener noreferrer'>Ramon Tejada</a>, <a href={paul_url}  target='_blank' rel='noopener noreferrer'>Paul Soulellis</a>, <a href={jac_url} target='_blank' rel='noopener noreferrer'>Jacqueline Shaw</a>, <a href={pouya_url} target='_blank' rel='noopener noreferrer'>Pouya Ahmadi</a>, and <a href={kelsey_url} target='_blank' rel='noopener noreferrer'>Kelsey Dusenka</a> for their feedback; to <a href={lucy_url} target='_blank' rel='noopener noreferrer'>Lucy Hitchcock</a> and <a href={sue_url} target='_blank' rel='noopener noreferrer'>Sue Mazzucco</a> for securing RISD GD funding for supplies necessary to make this possible; to <a href={shep_url} target='_blank' rel='noopener noreferrer'>Shepard Fairey</a> for his wheat-pasting tips <a href={shep_vid} target='_blank' rel='noopener noreferrer'>in this video</a>, to <a href={do_url} target='_blank' rel='noopener noreferrer'>Digital Ocean</a> for donating cloud hosting resources, to <a href={cpc_url} target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI for donating paper, and to <a href="https://abcdinamo.com/front" target='_blank' rel='noopener noreferrer'>Dinamo</a> for donating fonts.
+      Special thanks to Stella Herzog for permitting the use of her building for this project; to <a href={ramon_url}  target='_blank' rel='noopener noreferrer'>Ramon Tejada</a>, <a href={paul_url}  target='_blank' rel='noopener noreferrer'>Paul Soulellis</a>, <a href={jac_url} target='_blank' rel='noopener noreferrer'>Jacqueline Shaw</a>, <a href={pouya_url} target='_blank' rel='noopener noreferrer'>Pouya Ahmadi</a>, and <a href={kelsey_url} target='_blank' rel='noopener noreferrer'>Kelsey Dusenka</a> for their feedback; to <a href={lucy_url} target='_blank' rel='noopener noreferrer'>Lucy Hitchcock</a> and <a href={sue_url} target='_blank' rel='noopener noreferrer'>Sue Mazzucco</a> for securing RISD GD funding for supplies necessary to make this possible; to <a href={shep_url} target='_blank' rel='noopener noreferrer'>Shepard Fairey</a> for his wheat-pasting tips <a href={shep_vid} target='_blank' rel='noopener noreferrer'>in this video</a>, to <a href={do_url} target='_blank' rel='noopener noreferrer'>Digital Ocean</a> for donating cloud hosting resources, to <a href={cpc_url} target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI for donating paper, and to <a href={dinamo_url} target='_blank' rel='noopener noreferrer'>Dinamo</a> and <a href={sharp_url} target='_blank' rel='noopener noreferrer'>sharp Type</a> for donating fonts.
       </p>
 
       <p>

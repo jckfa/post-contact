@@ -53,7 +53,7 @@ const posterList = [
     size: '30"W×40"H',
     install_date: '17 May 2020',
     description: `All walls can speak; they’re probably just muted.`,
-    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> by <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>. Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>. Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
   },
 
   {
@@ -65,7 +65,7 @@ const posterList = [
     size: '30"W×40"H',
     install_date: '17 May 2020',
     description: `All walls can speak; they’re probably just muted.`,
-    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> by <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>. Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>. Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
   },
 
   {
@@ -77,7 +77,7 @@ const posterList = [
     size: '30"W×40"H',
     install_date: '17 May 2020',
     description: `All walls can speak; they’re probably just muted.`,
-    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> by <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>. Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>. Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
   },
 
   {
@@ -89,7 +89,7 @@ const posterList = [
     size: '30"W×40"H',
     install_date: '17 May 2020',
     description: `All walls can speak; they’re probably just muted.`,
-    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> by <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>. Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>. Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
   },
 
   {
@@ -101,7 +101,7 @@ const posterList = [
     size: '30"W×40"H',
     install_date: '17 May 2020',
     description: `All walls can speak; they’re probably just muted.`,
-    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> by <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>. Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>. Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
   },
 
   {
@@ -113,7 +113,7 @@ const posterList = [
     size: '30"W×40"H',
     install_date: '17 May 2020',
     description: `All walls can speak; they’re probably just muted.`,
-    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> by <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>. Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>. Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
   },
 
   {
@@ -125,7 +125,7 @@ const posterList = [
     size: '30"W×40"H',
     install_date: '17 May 2020',
     description: `All walls can speak; they’re probably just muted.`,
-    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> by <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>. Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>. Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
   },
 
   {
