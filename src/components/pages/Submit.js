@@ -105,10 +105,10 @@ const Contribute = () => (
         Please format it at 300DPI as a PDF, PNG, or JPG (with bleeds and crop marks if necessary) and include the following:
         <ul>
           <li>
-            first & last name (anonymity is not allowed)
+            name (anonymity is not allowed)
           </li>
           <li>
-            website URL and/or Instagram handle
+            website URL and/or Instagram handle (optional)
           </li>
           <li>
             title (optional; defaults to Post-Contact ###)
@@ -117,7 +117,28 @@ const Contribute = () => (
             description (optional but highly encouraged)
           </li>
           <li>
-            one piece of music* to support the submission (*limited to Spotify’s selection)
+            one piece of music* to support the submission (optional; *limited to Spotify’s selection)
+          </li>
+        </ul>
+      </p>
+
+      <p>
+        <i>Lower-fidelity option (for kids & non-designers)</i>: grab a marker and a piece of paper; complete one of the following prompts then photograph the work and send. Please include the information outlined above.
+        <ul>
+          <li>
+            Draw your emotions under quarantine.
+          </li>
+          <li>
+            Write to the future.
+          </li>
+          <li>
+            Offer critical feedback or commentary.
+          </li>
+          <li>
+            Write a thank you letter.
+          </li>
+          <li>
+            Make a wish.
           </li>
         </ul>
       </p>
