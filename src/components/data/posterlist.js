@@ -1,5 +1,104 @@
 const posterList = [
   {
+    image: '023_01.jpg',
+    id: 23,
+    author: 'Sara Park',
+    author_url: 'http://www.sarapark.me/',
+    title: 'To All Things Alive and Dead, To My Feelings, Your Feelings, Us.',
+    size: '30"W×40"H',
+    install_date: '20 May 2020',
+    description: 'As a totalizer, I want to encapsulate everything I am feeling, thinking, reading, archiving, etc,. into what I am creating. I want a democratization of language, a validation of other forms of inquiry and knowledge. I want interspecies collaboration. I want to convey to deepest feelings that connect us all. Us as in you, me, the living organisms within this universe, the decaying leaf, the book collecting dust, the portals that take you to other worlds, the things you cannot explain.'
+  },
+
+  {
+    image: '023_02.jpg',
+    id: 23,
+    author: 'Sara Park',
+    author_url: 'http://www.sarapark.me/',
+    title: 'To All Things Alive and Dead, To My Feelings, Your Feelings, Us.',
+    size: '30"W×40"H',
+    install_date: '20 May 2020',
+    description: 'As a totalizer, I want to encapsulate everything I am feeling, thinking, reading, archiving, etc,. into what I am creating. I want a democratization of language, a validation of other forms of inquiry and knowledge. I want interspecies collaboration. I want to convey to deepest feelings that connect us all. Us as in you, me, the living organisms within this universe, the decaying leaf, the book collecting dust, the portals that take you to other worlds, the things you cannot explain.'
+  },
+
+  {
+    image: '023_03.jpg',
+    id: 23,
+    author: 'Sara Park',
+    author_url: 'http://www.sarapark.me/',
+    title: 'To All Things Alive and Dead, To My Feelings, Your Feelings, Us.',
+    size: '30"W×40"H',
+    install_date: '20 May 2020',
+    description: 'As a totalizer, I want to encapsulate everything I am feeling, thinking, reading, archiving, etc,. into what I am creating. I want a democratization of language, a validation of other forms of inquiry and knowledge. I want interspecies collaboration. I want to convey to deepest feelings that connect us all. Us as in you, me, the living organisms within this universe, the decaying leaf, the book collecting dust, the portals that take you to other worlds, the things you cannot explain.'
+  },
+
+  {
+    image: '023_04.jpg',
+    id: 23,
+    author: 'Sara Park',
+    author_url: 'http://www.sarapark.me/',
+    title: 'To All Things Alive and Dead, To My Feelings, Your Feelings, Us.',
+    size: '30"W×40"H',
+    install_date: '20 May 2020',
+    description: 'As a totalizer, I want to encapsulate everything I am feeling, thinking, reading, archiving, etc,. into what I am creating. I want a democratization of language, a validation of other forms of inquiry and knowledge. I want interspecies collaboration. I want to convey to deepest feelings that connect us all. Us as in you, me, the living organisms within this universe, the decaying leaf, the book collecting dust, the portals that take you to other worlds, the things you cannot explain.'
+  },
+
+  {
+    image: '023_05.jpg',
+    id: 23,
+    author: 'Sara Park',
+    author_url: 'http://www.sarapark.me/',
+    title: 'To All Things Alive and Dead, To My Feelings, Your Feelings, Us.',
+    size: '30"W×40"H',
+    install_date: '20 May 2020',
+    description: 'As a totalizer, I want to encapsulate everything I am feeling, thinking, reading, archiving, etc,. into what I am creating. I want a democratization of language, a validation of other forms of inquiry and knowledge. I want interspecies collaboration. I want to convey to deepest feelings that connect us all. Us as in you, me, the living organisms within this universe, the decaying leaf, the book collecting dust, the portals that take you to other worlds, the things you cannot explain.'
+  },
+
+  {
+    image: '023_06.jpg',
+    id: 23,
+    author: 'Sara Park',
+    author_url: 'http://www.sarapark.me/',
+    title: 'To All Things Alive and Dead, To My Feelings, Your Feelings, Us.',
+    size: '30"W×40"H',
+    install_date: '20 May 2020',
+    description: 'As a totalizer, I want to encapsulate everything I am feeling, thinking, reading, archiving, etc,. into what I am creating. I want a democratization of language, a validation of other forms of inquiry and knowledge. I want interspecies collaboration. I want to convey to deepest feelings that connect us all. Us as in you, me, the living organisms within this universe, the decaying leaf, the book collecting dust, the portals that take you to other worlds, the things you cannot explain.'
+  },
+
+  {
+    image: '023_07.jpg',
+    id: 23,
+    author: 'Sara Park',
+    author_url: 'http://www.sarapark.me/',
+    title: 'To All Things Alive and Dead, To My Feelings, Your Feelings, Us.',
+    size: '30"W×40"H',
+    install_date: '20 May 2020',
+    description: 'As a totalizer, I want to encapsulate everything I am feeling, thinking, reading, archiving, etc,. into what I am creating. I want a democratization of language, a validation of other forms of inquiry and knowledge. I want interspecies collaboration. I want to convey to deepest feelings that connect us all. Us as in you, me, the living organisms within this universe, the decaying leaf, the book collecting dust, the portals that take you to other worlds, the things you cannot explain.'
+  },
+
+  {
+    image: '023_08.jpg',
+    id: 23,
+    author: 'Sara Park',
+    author_url: 'http://www.sarapark.me/',
+    title: 'To All Things Alive and Dead, To My Feelings, Your Feelings, Us.',
+    size: '30"W×40"H',
+    install_date: '20 May 2020',
+    description: 'As a totalizer, I want to encapsulate everything I am feeling, thinking, reading, archiving, etc,. into what I am creating. I want a democratization of language, a validation of other forms of inquiry and knowledge. I want interspecies collaboration. I want to convey to deepest feelings that connect us all. Us as in you, me, the living organisms within this universe, the decaying leaf, the book collecting dust, the portals that take you to other worlds, the things you cannot explain.'
+  },
+
+  {
+    image: '023_09.jpg',
+    id: 23,
+    author: 'Sara Park',
+    author_url: 'http://www.sarapark.me/',
+    title: 'To All Things Alive and Dead, To My Feelings, Your Feelings, Us.',
+    size: '30"W×40"H',
+    install_date: '20 May 2020',
+    description: 'As a totalizer, I want to encapsulate everything I am feeling, thinking, reading, archiving, etc,. into what I am creating. I want a democratization of language, a validation of other forms of inquiry and knowledge. I want interspecies collaboration. I want to convey to deepest feelings that connect us all. Us as in you, me, the living organisms within this universe, the decaying leaf, the book collecting dust, the portals that take you to other worlds, the things you cannot explain.'
+  },
+  
+  {
     image: '022_01.jpg',
     id: 22,
     author: 'Carmen Ribaudo',
