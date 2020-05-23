@@ -20,7 +20,8 @@ const ramon_url  = 'https://ramongd.com/',
       jack_url   = 'https://jackf.me',
       eric_url   = 'https://ficciones-typografika.tumblr.com/',
       ur1        = 'https://soulellis.com/work/urgencyreader/index.html',
-      ur2        = 'https://queer.archive.work/urgencyreader2/'
+      ur2        = 'https://queer.archive.work/urgencyreader2/',
+      font_url   = 'https://github.com/brycewilner/Standard'
 
 
 const Container = styled.footer`
@@ -46,10 +47,10 @@ const Footer = (props) => (
         This project was inspired by Erik Brandt’s <a href={eric_url} target='_blank' rel='noopener noreferrer'>Ficciones Typografika</a> and Paul Soulellis’ <a href={ur1} target='_blank' rel='noopener noreferrer'>Urgency</a> <a href={ur2} target='_blank' rel='noopener noreferrer'>Readers</a>.
       </p>
 
-        <p>
-          Last updated: {updated} <a href='https://time.is/UTC' target='_blank' rel='noopener noreferrer'>UTC</a> • <a href={site.source_code} target='_blank' rel='noopener noreferrer'>Source Code</a>
-        </p>
-      </Container>
+      <p>
+        Last updated: {updated} <a href='https://time.is/UTC' target='_blank' rel='noopener noreferrer'>UTC</a> • <a href={site.source_code} target='_blank' rel='noopener noreferrer'>Source Code</a> • Typeset in a custom fork of <a href={font_url} target='_blank' rel='noopener noreferrer'>Standard</a>.
+      </p>
+    </Container>
 )
 
 export default Footer
