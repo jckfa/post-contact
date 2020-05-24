@@ -1,5 +1,95 @@
 const posterList = [
   {
+    image: '024_01.jpg',
+    id: 24,
+    author: 'Your Friendly Neighborhood Wall',
+    size: '30"W×40"H',
+    install_date: '24 May 2020',
+    description: `<a href="https://open.spotify.com/playlist/4FHViH2VZ6wdV27mQo8SQX?si=XpZaOKaeTXmlDNni2kYqLA" target='_blank' rel='noopener noreferrer'>Here is the playlist</a>.`,
+    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>.`
+  },
+
+  {
+    image: '024_02.jpg',
+    id: 24,
+    author: 'Your Friendly Neighborhood Wall',
+    size: '30"W×40"H',
+    install_date: '24 May 2020',
+    description: `<a href="https://open.spotify.com/playlist/4FHViH2VZ6wdV27mQo8SQX?si=XpZaOKaeTXmlDNni2kYqLA" target='_blank' rel='noopener noreferrer'>Here is the playlist</a>.`,
+    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>.`
+  },
+
+  {
+    image: '024_03.jpg',
+    id: 24,
+    author: 'Your Friendly Neighborhood Wall',
+    size: '30"W×40"H',
+    install_date: '24 May 2020',
+    description: `<a href="https://open.spotify.com/playlist/4FHViH2VZ6wdV27mQo8SQX?si=XpZaOKaeTXmlDNni2kYqLA" target='_blank' rel='noopener noreferrer'>Here is the playlist</a>.`,
+    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>.`
+  },
+
+  {
+    image: '024_04.jpg',
+    id: 24,
+    author: 'Your Friendly Neighborhood Wall',
+    size: '30"W×40"H',
+    install_date: '24 May 2020',
+    description: `<a href="https://open.spotify.com/playlist/4FHViH2VZ6wdV27mQo8SQX?si=XpZaOKaeTXmlDNni2kYqLA" target='_blank' rel='noopener noreferrer'>Here is the playlist</a>.`,
+    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>.`
+  },
+
+  {
+    image: '024_05.jpg',
+    id: 24,
+    author: 'Your Friendly Neighborhood Wall',
+    size: '30"W×40"H',
+    install_date: '24 May 2020',
+    description: `<a href="https://open.spotify.com/playlist/4FHViH2VZ6wdV27mQo8SQX?si=XpZaOKaeTXmlDNni2kYqLA" target='_blank' rel='noopener noreferrer'>Here is the playlist</a>.`,
+    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>.`
+  },
+
+  {
+    image: '024_06.jpg',
+    id: 24,
+    author: 'Your Friendly Neighborhood Wall',
+    size: '30"W×40"H',
+    install_date: '24 May 2020',
+    description: `<a href="https://open.spotify.com/playlist/4FHViH2VZ6wdV27mQo8SQX?si=XpZaOKaeTXmlDNni2kYqLA" target='_blank' rel='noopener noreferrer'>Here is the playlist</a>.`,
+    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>.`
+  },
+
+  {
+    image: '024_07.jpg',
+    id: 24,
+    author: 'Your Friendly Neighborhood Wall',
+    size: '30"W×40"H',
+    install_date: '24 May 2020',
+    description: `<a href="https://open.spotify.com/playlist/4FHViH2VZ6wdV27mQo8SQX?si=XpZaOKaeTXmlDNni2kYqLA" target='_blank' rel='noopener noreferrer'>Here is the playlist</a>.`,
+    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>.`
+  },
+
+  {
+    image: '024_08.jpg',
+    id: 24,
+    author: 'Your Friendly Neighborhood Wall',
+    size: '30"W×40"H',
+    install_date: '24 May 2020',
+    description: `<a href="https://open.spotify.com/playlist/4FHViH2VZ6wdV27mQo8SQX?si=XpZaOKaeTXmlDNni2kYqLA" target='_blank' rel='noopener noreferrer'>Here is the playlist</a>.`,
+    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>.`
+  },
+
+  {
+    image: '024_09.jpg',
+    id: 24,
+    author: 'Your Friendly Neighborhood Wall',
+    size: '30"W×40"H',
+    install_date: '24 May 2020',
+    description: `<a href="https://open.spotify.com/playlist/4FHViH2VZ6wdV27mQo8SQX?si=XpZaOKaeTXmlDNni2kYqLA" target='_blank' rel='noopener noreferrer'>Here is the playlist</a>.`,
+    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>.`
+  },
+
+  {
     image: '023_01.jpg',
     id: 23,
     author: 'Sara Park',
@@ -97,7 +187,7 @@ const posterList = [
     install_date: '20 May 2020',
     description: 'As a totalizer, I want to encapsulate everything I am feeling, thinking, reading, archiving, etc,. into what I am creating. I want a democratization of language, a validation of other forms of inquiry and knowledge. I want interspecies collaboration. I want to convey to deepest feelings that connect us all. Us as in you, me, the living organisms within this universe, the decaying leaf, the book collecting dust, the portals that take you to other worlds, the things you cannot explain.'
   },
-  
+
   {
     image: '022_01.jpg',
     id: 22,
