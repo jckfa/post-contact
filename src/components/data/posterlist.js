@@ -5,7 +5,7 @@ const posterList = [
     author: 'Your Friendly Neighborhood Wall',
     size: '30"W×40"H',
     install_date: '24 May 2020',
-    description: `<a href="https://open.spotify.com/playlist/4FHViH2VZ6wdV27mQo8SQX?si=XpZaOKaeTXmlDNni2kYqLA" target='_blank' rel='noopener noreferrer'>Here is the playlist</a>.`,
+    description: `<a href="https://open.spotify.com/playlist/4FHViH2VZ6wdV27mQo8SQX?si=XpZaOKaeTXmlDNni2kYqLA" target='_blank' rel='noopener noreferrer'>Listen to the playlist here</a>.`,
     note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>.`
   },
 
@@ -15,7 +15,7 @@ const posterList = [
     author: 'Your Friendly Neighborhood Wall',
     size: '30"W×40"H',
     install_date: '24 May 2020',
-    description: `<a href="https://open.spotify.com/playlist/4FHViH2VZ6wdV27mQo8SQX?si=XpZaOKaeTXmlDNni2kYqLA" target='_blank' rel='noopener noreferrer'>Here is the playlist</a>.`,
+    description: `<a href="https://open.spotify.com/playlist/4FHViH2VZ6wdV27mQo8SQX?si=XpZaOKaeTXmlDNni2kYqLA" target='_blank' rel='noopener noreferrer'>Listen to the playlist here</a>.`,
     note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>.`
   },
 
@@ -25,7 +25,7 @@ const posterList = [
     author: 'Your Friendly Neighborhood Wall',
     size: '30"W×40"H',
     install_date: '24 May 2020',
-    description: `<a href="https://open.spotify.com/playlist/4FHViH2VZ6wdV27mQo8SQX?si=XpZaOKaeTXmlDNni2kYqLA" target='_blank' rel='noopener noreferrer'>Here is the playlist</a>.`,
+    description: `<a href="https://open.spotify.com/playlist/4FHViH2VZ6wdV27mQo8SQX?si=XpZaOKaeTXmlDNni2kYqLA" target='_blank' rel='noopener noreferrer'>Listen to the playlist here</a>.`,
     note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>.`
   },
 
@@ -35,7 +35,7 @@ const posterList = [
     author: 'Your Friendly Neighborhood Wall',
     size: '30"W×40"H',
     install_date: '24 May 2020',
-    description: `<a href="https://open.spotify.com/playlist/4FHViH2VZ6wdV27mQo8SQX?si=XpZaOKaeTXmlDNni2kYqLA" target='_blank' rel='noopener noreferrer'>Here is the playlist</a>.`,
+    description: `<a href="https://open.spotify.com/playlist/4FHViH2VZ6wdV27mQo8SQX?si=XpZaOKaeTXmlDNni2kYqLA" target='_blank' rel='noopener noreferrer'>Listen to the playlist here</a>.`,
     note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>.`
   },
 
@@ -45,7 +45,7 @@ const posterList = [
     author: 'Your Friendly Neighborhood Wall',
     size: '30"W×40"H',
     install_date: '24 May 2020',
-    description: `<a href="https://open.spotify.com/playlist/4FHViH2VZ6wdV27mQo8SQX?si=XpZaOKaeTXmlDNni2kYqLA" target='_blank' rel='noopener noreferrer'>Here is the playlist</a>.`,
+    description: `<a href="https://open.spotify.com/playlist/4FHViH2VZ6wdV27mQo8SQX?si=XpZaOKaeTXmlDNni2kYqLA" target='_blank' rel='noopener noreferrer'>Listen to the playlist here</a>.`,
     note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>.`
   },
 
@@ -55,7 +55,7 @@ const posterList = [
     author: 'Your Friendly Neighborhood Wall',
     size: '30"W×40"H',
     install_date: '24 May 2020',
-    description: `<a href="https://open.spotify.com/playlist/4FHViH2VZ6wdV27mQo8SQX?si=XpZaOKaeTXmlDNni2kYqLA" target='_blank' rel='noopener noreferrer'>Here is the playlist</a>.`,
+    description: `<a href="https://open.spotify.com/playlist/4FHViH2VZ6wdV27mQo8SQX?si=XpZaOKaeTXmlDNni2kYqLA" target='_blank' rel='noopener noreferrer'>Listen to the playlist here</a>.`,
     note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>.`
   },
 
@@ -65,7 +65,7 @@ const posterList = [
     author: 'Your Friendly Neighborhood Wall',
     size: '30"W×40"H',
     install_date: '24 May 2020',
-    description: `<a href="https://open.spotify.com/playlist/4FHViH2VZ6wdV27mQo8SQX?si=XpZaOKaeTXmlDNni2kYqLA" target='_blank' rel='noopener noreferrer'>Here is the playlist</a>.`,
+    description: `<a href="https://open.spotify.com/playlist/4FHViH2VZ6wdV27mQo8SQX?si=XpZaOKaeTXmlDNni2kYqLA" target='_blank' rel='noopener noreferrer'>Listen to the playlist here</a>.`,
     note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>.`
   },
 
@@ -75,7 +75,7 @@ const posterList = [
     author: 'Your Friendly Neighborhood Wall',
     size: '30"W×40"H',
     install_date: '24 May 2020',
-    description: `<a href="https://open.spotify.com/playlist/4FHViH2VZ6wdV27mQo8SQX?si=XpZaOKaeTXmlDNni2kYqLA" target='_blank' rel='noopener noreferrer'>Here is the playlist</a>.`,
+    description: `<a href="https://open.spotify.com/playlist/4FHViH2VZ6wdV27mQo8SQX?si=XpZaOKaeTXmlDNni2kYqLA" target='_blank' rel='noopener noreferrer'>Listen to the playlist here</a>.`,
     note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>.`
   },
 
@@ -85,7 +85,7 @@ const posterList = [
     author: 'Your Friendly Neighborhood Wall',
     size: '30"W×40"H',
     install_date: '24 May 2020',
-    description: `<a href="https://open.spotify.com/playlist/4FHViH2VZ6wdV27mQo8SQX?si=XpZaOKaeTXmlDNni2kYqLA" target='_blank' rel='noopener noreferrer'>Here is the playlist</a>.`,
+    description: `<a href="https://open.spotify.com/playlist/4FHViH2VZ6wdV27mQo8SQX?si=XpZaOKaeTXmlDNni2kYqLA" target='_blank' rel='noopener noreferrer'>Listen to the playlist here</a>.`,
     note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>.`
   },
 
