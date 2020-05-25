@@ -768,8 +768,7 @@ const posterList = [
   {
     image: '012_07.jpg',
     id: 12,
-    author: 'Jack Halten Fahnestock',
-    author_url: 'https://jackf.me',
+    author: 'Your Friendly Neighborhood Wall',
     size: '30"W×40"H',
     install_date: '03 May 2020',
     description: `<a href="https://www.youtube.com/watch?v=W-apaIOOoAo&feature=youtu.be&t=47" target='_blank' rel='noopener noreferrer'>I’ll Be There</a> by The Jackson 5.`,
@@ -779,8 +778,7 @@ const posterList = [
   {
     image: '012_02.jpg',
     id: 12,
-    author: 'Jack Halten Fahnestock',
-    author_url: 'https://jackf.me',
+    author: 'Your Friendly Neighborhood Wall',
     size: '30"W×40"H',
     install_date: '03 May 2020',
     description: `<a href="https://www.youtube.com/watch?v=W-apaIOOoAo&feature=youtu.be&t=47" target='_blank' rel='noopener noreferrer'>I’ll Be There</a> by The Jackson 5.`,
@@ -790,8 +788,7 @@ const posterList = [
   {
     image: '012_03.jpg',
     id: 12,
-    author: 'Jack Halten Fahnestock',
-    author_url: 'https://jackf.me',
+    author: 'Your Friendly Neighborhood Wall',
     size: '30"W×40"H',
     install_date: '03 May 2020',
     description: `<a href="https://www.youtube.com/watch?v=W-apaIOOoAo&feature=youtu.be&t=47" target='_blank' rel='noopener noreferrer'>I’ll Be There</a> by The Jackson 5.`,
@@ -801,8 +798,7 @@ const posterList = [
   {
     image: '012_04.jpg',
     id: 12,
-    author: 'Jack Halten Fahnestock',
-    author_url: 'https://jackf.me',
+    author: 'Your Friendly Neighborhood Wall',
     size: '30"W×40"H',
     install_date: '03 May 2020',
     description: `<a href="https://www.youtube.com/watch?v=W-apaIOOoAo&feature=youtu.be&t=47" target='_blank' rel='noopener noreferrer'>I’ll Be There</a> by The Jackson 5.`,
@@ -812,8 +808,7 @@ const posterList = [
   {
     image: '012_05.jpg',
     id: 12,
-    author: 'Jack Halten Fahnestock',
-    author_url: 'https://jackf.me',
+    author: 'Your Friendly Neighborhood Wall',
     size: '30"W×40"H',
     install_date: '03 May 2020',
     description: `<a href="https://www.youtube.com/watch?v=W-apaIOOoAo&feature=youtu.be&t=47" target='_blank' rel='noopener noreferrer'>I’ll Be There</a> by The Jackson 5.`,
@@ -823,8 +818,7 @@ const posterList = [
   {
     image: '012_06.jpg',
     id: 12,
-    author: 'Jack Halten Fahnestock',
-    author_url: 'https://jackf.me',
+    author: 'Your Friendly Neighborhood Wall',
     size: '30"W×40"H',
     install_date: '03 May 2020',
     description: `<a href="https://www.youtube.com/watch?v=W-apaIOOoAo&feature=youtu.be&t=47" target='_blank' rel='noopener noreferrer'>I’ll Be There</a> by The Jackson 5.`,
@@ -1322,8 +1316,7 @@ const posterList = [
   {
     image: '000_01.jpg',
     id: 0,
-    author: 'Contributor Name',
-    author_url: 'http://example.com/',
+    author: 'Your Friendly Neighborhood Wall',
     size: '30"W×40"H',
     install_date: '2 April 2020'
   },
@@ -1331,8 +1324,7 @@ const posterList = [
   {
     image: '000_02.jpg',
     id: 0,
-    author: 'Contributor Name',
-    author_url: 'http://example.com/',
+    author: 'Your Friendly Neighborhood Wall',
     size: '30"W×40"H',
     install_date: '2 April 2020'
   },
@@ -1340,8 +1332,7 @@ const posterList = [
   {
     image: '000_03.jpg',
     id: 0,
-    author: 'Contributor Name',
-    author_url: 'http://example.com/',
+    author: 'Your Friendly Neighborhood Wall',
     size: '30"W×40"H',
     install_date: '2 April 2020'
   },
