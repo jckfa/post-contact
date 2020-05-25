@@ -1,5 +1,55 @@
 const posterList = [
   {
+    image: '025_01.jpg',
+    id: 25,
+    author: 'Jack Halten Fahnestock',
+    author_url: 'https://jackf.me',
+    size: '30"W×40"H',
+    install_date: '25 May 2020',
+    description: `Taking a visual moment of silence to remember those who we have lost to the coronavirus pandemic.<br/><br/><a href="https://open.spotify.com/track/3A1lpeW9lJYP1tDOATEcCg?si=zZneAoWDQyCGgsFdCvOVAQ" target='_blank' rel='noopener noreferrer'>Listen to Taps here</a>.`
+  },
+
+  {
+    image: '025_02.jpg',
+    id: 25,
+    author: 'Jack Halten Fahnestock',
+    author_url: 'https://jackf.me',
+    size: '30"W×40"H',
+    install_date: '25 May 2020',
+    description: `Taking a visual moment of silence to remember those who we have lost to the coronavirus pandemic.`
+  },
+
+  {
+    image: '025_03.jpg',
+    id: 25,
+    author: 'Jack Halten Fahnestock',
+    author_url: 'https://jackf.me',
+    size: '30"W×40"H',
+    install_date: '25 May 2020',
+    description: `Taking a visual moment of silence to remember those who we have lost to the coronavirus pandemic.`
+  },
+
+  {
+    image: '025_04.jpg',
+    id: 25,
+    author: 'Jack Halten Fahnestock',
+    author_url: 'https://jackf.me',
+    size: '30"W×40"H',
+    install_date: '25 May 2020',
+    description: `Taking a visual moment of silence to remember those who we have lost to the coronavirus pandemic.`
+  },
+
+  {
+    image: '025_05.jpg',
+    id: 25,
+    author: 'Jack Halten Fahnestock',
+    author_url: 'https://jackf.me',
+    size: '30"W×40"H',
+    install_date: '25 May 2020',
+    description: `Taking a visual moment of silence to remember those who we have lost to the coronavirus pandemic.`
+  },
+
+  {
     image: '024_01.jpg',
     id: 24,
     author: 'Your Friendly Neighborhood Wall',
