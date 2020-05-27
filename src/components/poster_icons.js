@@ -1,7 +1,7 @@
 import React from 'react'
 import styled, {css} from 'styled-components'
 // import {tint} from 'polished'
-import {colors} from './config/vars'
+// import {colors} from './config/vars'
 import Loop from 'react-text-loop'
 
 const Table = styled.table`

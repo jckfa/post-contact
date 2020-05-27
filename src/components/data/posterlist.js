@@ -1,12 +1,64 @@
 const posterList = [
   {
+    image: '026_01.jpg',
+    id: 26,
+    author: 'Vanna Vu',
+    author_url: 'http://vannavu.com/',
+    title: 'Repetitive Thought',
+    size: '30"W×40"H',
+    install_date: '27 May 2020',
+    description: `<p>A temporary poster 1,394 miles away from me sounds appropriate right now. Yesterday my co-workers and I were informed that one of us had tested positive for COVID, a first at our store. Everything is still business as usual. We are sad people with winning smiles. I seem to not be able to feel or react strongly anymore after being exhausted from constant news and information and rare anger toward the incompetencies surrounding this situation and for all of those left unsupported.</p>
+
+    <p>Everyday feels the same, yet things are always changing, and things are changing so quickly, yet it feels we are acting slowly. It’s hard to process, to find the right words. The outline of the feeling is there, but it’s not fully formed. People often jokingly say that adults don’t know what they’re doing. I wish that wasn’t so broadly true. I don’t know if that sequence of thoughts made any sense, but I guess that’s okay right now. Anyway here’s my poster.</p>`
+  },
+
+  {
+    image: '026_02.jpg',
+    id: 26,
+    author: 'Vanna Vu',
+    author_url: 'http://vannavu.com/',
+    title: 'Repetitive Thought',
+    size: '30"W×40"H',
+    install_date: '27 May 2020',
+    description: `<p>A temporary poster 1,394 miles away from me sounds appropriate right now. Yesterday my co-workers and I were informed that one of us had tested positive for COVID, a first at our store. Everything is still business as usual. We are sad people with winning smiles. I seem to not be able to feel or react strongly anymore after being exhausted from constant news and information and rare anger toward the incompetencies surrounding this situation and for all of those left unsupported.</p>
+
+    <p>Everyday feels the same, yet things are always changing, and things are changing so quickly, yet it feels we are acting slowly. It’s hard to process, to find the right words. The outline of the feeling is there, but it’s not fully formed. People often jokingly say that adults don’t know what they’re doing. I wish that wasn’t so broadly true. I don’t know if that sequence of thoughts made any sense, but I guess that’s okay right now. Anyway here’s my poster.</p>`
+  },
+
+  {
+    image: '026_03.jpg',
+    id: 26,
+    author: 'Vanna Vu',
+    author_url: 'http://vannavu.com/',
+    title: 'Repetitive Thought',
+    size: '30"W×40"H',
+    install_date: '27 May 2020',
+    description: `<p>A temporary poster 1,394 miles away from me sounds appropriate right now. Yesterday my co-workers and I were informed that one of us had tested positive for COVID, a first at our store. Everything is still business as usual. We are sad people with winning smiles. I seem to not be able to feel or react strongly anymore after being exhausted from constant news and information and rare anger toward the incompetencies surrounding this situation and for all of those left unsupported.</p>
+
+    <p>Everyday feels the same, yet things are always changing, and things are changing so quickly, yet it feels we are acting slowly. It’s hard to process, to find the right words. The outline of the feeling is there, but it’s not fully formed. People often jokingly say that adults don’t know what they’re doing. I wish that wasn’t so broadly true. I don’t know if that sequence of thoughts made any sense, but I guess that’s okay right now. Anyway here’s my poster.</p>`
+  },
+
+  {
+    image: '026_04.jpg',
+    id: 26,
+    author: 'Vanna Vu',
+    author_url: 'http://vannavu.com/',
+    title: 'Repetitive Thought',
+    size: '30"W×40"H',
+    install_date: '27 May 2020',
+    description: `<p>A temporary poster 1,394 miles away from me sounds appropriate right now. Yesterday my co-workers and I were informed that one of us had tested positive for COVID, a first at our store. Everything is still business as usual. We are sad people with winning smiles. I seem to not be able to feel or react strongly anymore after being exhausted from constant news and information and rare anger toward the incompetencies surrounding this situation and for all of those left unsupported.</p>
+
+    <p>Everyday feels the same, yet things are always changing, and things are changing so quickly, yet it feels we are acting slowly. It’s hard to process, to find the right words. The outline of the feeling is there, but it’s not fully formed. People often jokingly say that adults don’t know what they’re doing. I wish that wasn’t so broadly true. I don’t know if that sequence of thoughts made any sense, but I guess that’s okay right now. Anyway here’s my poster.</p>`
+  },
+
+  {
     image: '025_01.jpg',
     id: 25,
     author: 'Jack Halten Fahnestock',
     author_url: 'https://jackf.me',
     size: '30"W×40"H',
     install_date: '25 May 2020',
-    description: `Taking a visual moment of silence to remember those who we have lost to the coronavirus pandemic.<br/><br/><a href="https://open.spotify.com/track/3A1lpeW9lJYP1tDOATEcCg?si=zZneAoWDQyCGgsFdCvOVAQ" target='_blank' rel='noopener noreferrer'>Listen to Taps here</a>.`
+    description: `<p>Taking a visual moment of silence to remember those who we have lost to the coronavirus pandemic.</p><p><a href="https://open.spotify.com/track/3A1lpeW9lJYP1tDOATEcCg?si=zZneAoWDQyCGgsFdCvOVAQ" target='_blank' rel='noopener noreferrer'>Listen to Taps here</a>.</p>`
   },
 
   {
@@ -16,7 +68,7 @@ const posterList = [
     author_url: 'https://jackf.me',
     size: '30"W×40"H',
     install_date: '25 May 2020',
-    description: `Taking a visual moment of silence to remember those who we have lost to the coronavirus pandemic.`
+    description: `<p>Taking a visual moment of silence to remember those who we have lost to the coronavirus pandemic.</p><p><a href="https://open.spotify.com/track/3A1lpeW9lJYP1tDOATEcCg?si=zZneAoWDQyCGgsFdCvOVAQ" target='_blank' rel='noopener noreferrer'>Listen to Taps here</a>.</p>`
   },
 
   {
@@ -26,7 +78,7 @@ const posterList = [
     author_url: 'https://jackf.me',
     size: '30"W×40"H',
     install_date: '25 May 2020',
-    description: `Taking a visual moment of silence to remember those who we have lost to the coronavirus pandemic.`
+    description: `<p>Taking a visual moment of silence to remember those who we have lost to the coronavirus pandemic.</p><p><a href="https://open.spotify.com/track/3A1lpeW9lJYP1tDOATEcCg?si=zZneAoWDQyCGgsFdCvOVAQ" target='_blank' rel='noopener noreferrer'>Listen to Taps here</a>.</p>`
   },
 
   {
@@ -36,7 +88,7 @@ const posterList = [
     author_url: 'https://jackf.me',
     size: '30"W×40"H',
     install_date: '25 May 2020',
-    description: `Taking a visual moment of silence to remember those who we have lost to the coronavirus pandemic.`
+    description: `<p>Taking a visual moment of silence to remember those who we have lost to the coronavirus pandemic.</p><p><a href="https://open.spotify.com/track/3A1lpeW9lJYP1tDOATEcCg?si=zZneAoWDQyCGgsFdCvOVAQ" target='_blank' rel='noopener noreferrer'>Listen to Taps here</a>.</p>`
   },
 
   {
@@ -46,7 +98,7 @@ const posterList = [
     author_url: 'https://jackf.me',
     size: '30"W×40"H',
     install_date: '25 May 2020',
-    description: `Taking a visual moment of silence to remember those who we have lost to the coronavirus pandemic.`
+    description: `<p>Taking a visual moment of silence to remember those who we have lost to the coronavirus pandemic.</p><p><a href="https://open.spotify.com/track/3A1lpeW9lJYP1tDOATEcCg?si=zZneAoWDQyCGgsFdCvOVAQ" target='_blank' rel='noopener noreferrer'>Listen to Taps here</a>.</p>`
   },
 
   {

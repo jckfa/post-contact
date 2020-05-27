@@ -105,6 +105,11 @@ const Description = styled.div`
   & span {
     font-style: normal;
   }
+
+  & br {
+    display: block;
+    padding-top: 0.5em;
+  }
 `
 
 const Note = styled.div`
