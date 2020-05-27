@@ -53,7 +53,7 @@ const GlobalStyle = createGlobalStyle`
     max-width: 32em;
   }
 
-  p + p, p + ul, ul + p, section + section {
+  p + p, ul + p, section + section {
     margin-top: 1em;
   }
 
