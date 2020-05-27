@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, {css} from 'styled-components'
-import {tint} from 'polished'
+// import {tint} from 'polished'
 import {colors} from './config/vars'
 import Loop from 'react-text-loop'
 
@@ -14,10 +14,6 @@ const B = styled.tbody``
 const R = styled.tr``
 const C = styled.td`
   border: 2px solid currentColor;
-
-  ${props => props.tint && `
-    border-color: ${tint(0.8, colors.purple)};
-  `}
 
   ${props => props.coloredA && css`
     ${B}:hover & {
@@ -38,28 +34,28 @@ export const PosterTilesIcon = () => (
   <Table>
     <B>
       <R>
-        <C tint/>
-        <C tint/>
-        <C tint/>
-        <C tint/>
+        <C/>
+        <C/>
+        <C/>
+        <C/>
       </R>
       <R>
-        <C tint/>
-        <C tint/>
-        <C tint/>
-        <C tint/>
+        <C/>
+        <C/>
+        <C/>
+        <C/>
       </R>
       <R>
-        <C tint/>
-        <C tint/>
-        <C tint/>
-        <C tint/>
+        <C/>
+        <C/>
+        <C/>
+        <C/>
       </R>
       <R>
-        <C tint/>
-        <C tint/>
-        <C tint/>
-        <C tint/>
+        <C/>
+        <C/>
+        <C/>
+        <C/>
       </R>
     </B>
   </Table>
