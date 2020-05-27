@@ -102,13 +102,15 @@ const PosterInfo = styled.div`
 `
 
 const Description = styled.div`
+  ${'' /* font-family: ${fonts.italic}; */}
+  font-style: italic;
+
   & span {
     font-style: normal;
   }
 
-  & br {
-    display: block;
-    padding-top: 0.5em;
+  & p + p {
+    margin-top: 0.5em;
   }
 `
 
@@ -148,9 +150,7 @@ const Images = (props) => (
       </div>
 
       {posterList[props.count].description &&
-        <Description>
-          <i dangerouslySetInnerHTML={{__html: posterList[props.count].description}} />
-        </Description>
+        <Description dangerouslySetInnerHTML={{__html: posterList[props.count].description}} />
       }
 
       {posterList[props.count].note &&
