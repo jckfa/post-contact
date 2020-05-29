@@ -1,5 +1,71 @@
 const posterList = [
   {
+    image: '027_01.jpg',
+    id: 27,
+    author: 'Utkan Dora Öncül',
+    author_url: 'https://utkandora.com/',
+    size: '30"W×40"H',
+    install_date: '29 May 2020',
+    description: `A series of posters I made prompted by writings of Abidin Dino from his books <span>Hands</span> (1991) and <span>Faces</span> (1992) on how we can reiterate happiness.`,
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+  },
+
+  {
+    image: '027_02.jpg',
+    id: 27,
+    author: 'Utkan Dora Öncül',
+    author_url: 'https://utkandora.com/',
+    size: '30"W×40"H',
+    install_date: '29 May 2020',
+    description: `A series of posters I made prompted by writings of Abidin Dino from his books <span>Hands</span> (1991) and <span>Faces</span> (1992) on how we can reiterate happiness.`,
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+  },
+
+  {
+    image: '027_03.jpg',
+    id: 27,
+    author: 'Utkan Dora Öncül',
+    author_url: 'https://utkandora.com/',
+    size: '30"W×40"H',
+    install_date: '29 May 2020',
+    description: `A series of posters I made prompted by writings of Abidin Dino from his books <span>Hands</span> (1991) and <span>Faces</span> (1992) on how we can reiterate happiness.`,
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+  },
+
+  {
+    image: '027_04.jpg',
+    id: 27,
+    author: 'Utkan Dora Öncül',
+    author_url: 'https://utkandora.com/',
+    size: '30"W×40"H',
+    install_date: '29 May 2020',
+    description: `A series of posters I made prompted by writings of Abidin Dino from his books <span>Hands</span> (1991) and <span>Faces</span> (1992) on how we can reiterate happiness.`,
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+  },
+
+  {
+    image: '027_05.jpg',
+    id: 27,
+    author: 'Utkan Dora Öncül',
+    author_url: 'https://utkandora.com/',
+    size: '30"W×40"H',
+    install_date: '29 May 2020',
+    description: `A series of posters I made prompted by writings of Abidin Dino from his books <span>Hands</span> (1991) and <span>Faces</span> (1992) on how we can reiterate happiness.`,
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+  },
+
+  {
+    image: '027_06.jpg',
+    id: 27,
+    author: 'Utkan Dora Öncül',
+    author_url: 'https://utkandora.com/',
+    size: '30"W×40"H',
+    install_date: '29 May 2020',
+    description: `A series of posters I made prompted by writings of Abidin Dino from his books <span>Hands</span> (1991) and <span>Faces</span> (1992) on how we can reiterate happiness.`,
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+  },
+
+  {
     image: '026_01.jpg',
     id: 26,
     author: 'Vanna Vu',
