@@ -1,5 +1,41 @@
 const posterList = [
   {
+    image: '028_01.jpg',
+    id: 28,
+    author: 'Your Friendly Neighborhood Wall',
+    size: '30"W×40"H',
+    install_date: '31 May 2020',
+    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>.`
+  },
+
+  {
+    image: '028_02.jpg',
+    id: 28,
+    author: 'Your Friendly Neighborhood Wall',
+    size: '30"W×40"H',
+    install_date: '31 May 2020',
+    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>.`
+  },
+
+  {
+    image: '028_03.jpg',
+    id: 28,
+    author: 'Your Friendly Neighborhood Wall',
+    size: '30"W×40"H',
+    install_date: '31 May 2020',
+    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>.`
+  },
+
+  {
+    image: '028_04.jpg',
+    id: 28,
+    author: 'Your Friendly Neighborhood Wall',
+    size: '30"W×40"H',
+    install_date: '31 May 2020',
+    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>.`
+  },
+
+  {
     image: '027_01.jpg',
     id: 27,
     author: 'Utkan Dora Öncül',
