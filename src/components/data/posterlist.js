@@ -1,5 +1,70 @@
 const posterList = [
   {
+    image: '030_01.jpg',
+    id: 30,
+    author: 'Ed Ryan',
+    author_url: 'http://e-a-r.work/',
+    size: '30"W×40"H',
+    install_date: '03 June 2020',
+    description: `<p>COVID-19 has exposed an inherent instability in the way we were carrying on — not just in the bad, but in the good, too. Instability in the little things. Networks, spaces and institutions that we thought were sound were actually frayed, subject now to atrophy like useless limbs. Much of what we took for granted is already lounging in ruin.</p>
+
+    <p>As artists and designers, we are confronted with picking what to mend — how to we sift through and decide what to restore? For me, past a certain point, a lot of it is still in question. Do I even want to return to New York? Do I want to continue making the work I've been doing? How do we shoulder the responsibility of moving forward most equitably? Right now, unfortunately, there are still more q's than answers, more unconnected points than lines.</p>`,
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+  },
+
+  {
+    image: '030_02.jpg',
+    id: 30,
+    author: 'Ed Ryan',
+    author_url: 'http://e-a-r.work/',
+    size: '30"W×40"H',
+    install_date: '03 June 2020',
+    description: `<p>COVID-19 has exposed an inherent instability in the way we were carrying on — not just in the bad, but in the good, too. Instability in the little things. Networks, spaces and institutions that we thought were sound were actually frayed, subject now to atrophy like useless limbs. Much of what we took for granted is already lounging in ruin.</p>
+
+    <p>As artists and designers, we are confronted with picking what to mend — how to we sift through and decide what to restore? For me, past a certain point, a lot of it is still in question. Do I even want to return to New York? Do I want to continue making the work I've been doing? How do we shoulder the responsibility of moving forward most equitably? Right now, unfortunately, there are still more q's than answers, more unconnected points than lines.</p>`,
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+  },
+
+  {
+    image: '030_03.jpg',
+    id: 30,
+    author: 'Ed Ryan',
+    author_url: 'http://e-a-r.work/',
+    size: '30"W×40"H',
+    install_date: '03 June 2020',
+    description: `<p>COVID-19 has exposed an inherent instability in the way we were carrying on — not just in the bad, but in the good, too. Instability in the little things. Networks, spaces and institutions that we thought were sound were actually frayed, subject now to atrophy like useless limbs. Much of what we took for granted is already lounging in ruin.</p>
+
+    <p>As artists and designers, we are confronted with picking what to mend — how to we sift through and decide what to restore? For me, past a certain point, a lot of it is still in question. Do I even want to return to New York? Do I want to continue making the work I've been doing? How do we shoulder the responsibility of moving forward most equitably? Right now, unfortunately, there are still more q's than answers, more unconnected points than lines.</p>`,
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+  },
+
+  {
+    image: '030_04.jpg',
+    id: 30,
+    author: 'Ed Ryan',
+    author_url: 'http://e-a-r.work/',
+    size: '30"W×40"H',
+    install_date: '03 June 2020',
+    description: `<p>COVID-19 has exposed an inherent instability in the way we were carrying on — not just in the bad, but in the good, too. Instability in the little things. Networks, spaces and institutions that we thought were sound were actually frayed, subject now to atrophy like useless limbs. Much of what we took for granted is already lounging in ruin.</p>
+
+    <p>As artists and designers, we are confronted with picking what to mend — how to we sift through and decide what to restore? For me, past a certain point, a lot of it is still in question. Do I even want to return to New York? Do I want to continue making the work I've been doing? How do we shoulder the responsibility of moving forward most equitably? Right now, unfortunately, there are still more q's than answers, more unconnected points than lines.</p>`,
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+  },
+
+  {
+    image: '030_05.jpg',
+    id: 30,
+    author: 'Ed Ryan',
+    author_url: 'http://e-a-r.work/',
+    size: '30"W×40"H',
+    install_date: '03 June 2020',
+    description: `<p>COVID-19 has exposed an inherent instability in the way we were carrying on — not just in the bad, but in the good, too. Instability in the little things. Networks, spaces and institutions that we thought were sound were actually frayed, subject now to atrophy like useless limbs. Much of what we took for granted is already lounging in ruin.</p>
+
+    <p>As artists and designers, we are confronted with picking what to mend — how to we sift through and decide what to restore? For me, past a certain point, a lot of it is still in question. Do I even want to return to New York? Do I want to continue making the work I've been doing? How do we shoulder the responsibility of moving forward most equitably? Right now, unfortunately, there are still more q's than answers, more unconnected points than lines.</p>`,
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+  },
+
+  {
     image: '029_01.jpg',
     id: 29,
     author: 'Casey Bennett & Kate Schneider',
