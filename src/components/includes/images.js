@@ -135,13 +135,19 @@ const Images = (props) => (
       <Count>
         {zero_pad(props.count + 1)}/{zero_pad(props.totalCount + 1)}
       </Count>
+
       <div>
-        {
-          posterList[props.count].author_url ?
-            <span><a href={posterList[props.count].author_url} target='_blank' rel='noopener noreferrer'>{posterList[props.count].author}</a>, </span>
-          : posterList[props.count].author ?
-            posterList[props.count].author + ', '
-          : '(Re)'
+        {posterList[props.count].authors ?
+          posterList[props.count].authors.map((author, index) =>
+            <span key={index}>
+
+              {author.url ?
+                <span><a href={author.url} target='_blank' rel='noopener noreferrer'>{author.name}</a>, </span>
+              : author.name + ', '
+              }
+            </span>
+          )
+        : '(Re)'
         }
         <i>
           {posterList[props.count].title && posterList[props.count].title + ', '}
