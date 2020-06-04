@@ -45,7 +45,9 @@ function getAllPosterImages() {
     images.push(posterList[i].images);
   }
 
-  return images.flat()
+  var merged = [].concat.apply([], images)
+
+  return merged
 }
 
 function getPosterInfoIndexes() {
