@@ -38,13 +38,37 @@ const Half = styled.div`
   `}
 `
 
-const totalCount = posterList.length - 1
+function getAllPosterImages() {
+  const images = []
+
+  for (var i = 0; i < posterList.length; i++) {
+    images.push(posterList[i].images);
+  }
+
+  return images.flat()
+}
+
+function getPosterInfoIndexes() {
+  var Indexes = []
+
+  for (var i = 0; i < posterList.length; i++) {
+    for (var j = 0; j < posterList[i].images.length; j++) {
+      Indexes.push(i)
+    }
+  }
+
+  return Indexes
+}
+
+const allPosterImages = getAllPosterImages(),
+      totalCount = getAllPosterImages().length - 1,
+      PosterInfoIndexes = getPosterInfoIndexes()
 
 class App extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      count: 0
+      count: 0,
     }
     this.prev = this.prev.bind(this)
     this.next = this.next.bind(this)
@@ -52,13 +76,13 @@ class App extends Component {
 
   prev() {
     this.setState(prevState => ({
-      count: prevState.count > 0 ? prevState.count - 1 : totalCount
+      count: prevState.count > 0 ? prevState.count - 1 : totalCount,
     }))
   }
 
   next() {
     this.setState(prevState => ({
-      count: prevState.count < totalCount ? prevState.count + 1 : 0
+      count: prevState.count < totalCount ? prevState.count + 1 : 0,
     }))
   }
 
@@ -69,10 +93,12 @@ class App extends Component {
         <Head/>
         <Main>
           <Images
-            count={this.state.count}
             prev={this.prev}
             next={this.next}
+            count={this.state.count}
+            allPosterImages={allPosterImages}
             totalCount={totalCount}
+            PosterInfoIndexes={PosterInfoIndexes}
           />
           <Half>
             <Header/>

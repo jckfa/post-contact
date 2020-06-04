@@ -2,8 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import {site, colors} from '../config/vars'
 import media from '../utils/media'
-import posterList from '../data/posterlist'
 import DefaultPoster from '../default_poster'
+import posterList from '../data/posterlist'
 
 const Posters = styled.div`
   width: 100%;
@@ -125,7 +125,7 @@ const Images = (props) => (
 
     <ImgShell>
       <img
-        src={site.images_path_external + posterList[props.count].image}
+        src={site.images_path_external + props.allPosterImages[props.count]}
         alt=''
       />
       <DefaultPoster/>
@@ -137,8 +137,8 @@ const Images = (props) => (
       </Count>
 
       <div>
-        {posterList[props.count].authors ?
-          posterList[props.count].authors.map((author, index) =>
+        {posterList[props.PosterInfoIndexes[props.count]].authors ?
+          posterList[props.PosterInfoIndexes[props.count]].authors.map((author, index) =>
             <span key={index}>
 
               {author.url ?
@@ -150,18 +150,18 @@ const Images = (props) => (
         : '(Re)'
         }
         <i>
-          {posterList[props.count].title && posterList[props.count].title + ', '}
+          {posterList[props.PosterInfoIndexes[props.count]].title && posterList[props.PosterInfoIndexes[props.count]].title + ', '}
         </i>
-        {site.title + ' ' + zero_pad(posterList[props.count].id)}, {posterList[props.count].size}, Installed on {posterList[props.count].install_date}
+        {site.title + ' ' + posterList[props.PosterInfoIndexes[props.count]].images[0].slice(0, 3)}, {posterList[props.PosterInfoIndexes[props.count]].size}, Installed on {posterList[props.PosterInfoIndexes[props.count]].install_date}
       </div>
 
-      {posterList[props.count].description &&
-        <Description dangerouslySetInnerHTML={{__html: posterList[props.count].description}} />
+      {posterList[props.PosterInfoIndexes[props.count]].description &&
+        <Description dangerouslySetInnerHTML={{__html: posterList[props.PosterInfoIndexes[props.count]].description}} />
       }
 
-      {posterList[props.count].note &&
+      {posterList[props.PosterInfoIndexes[props.count]].note &&
         <Note dangerouslySetInnerHTML={{__html:
-        posterList[props.count].note}} />
+        posterList[props.PosterInfoIndexes[props.count]].note}} />
       }
     </PosterInfo>
   </Posters>
