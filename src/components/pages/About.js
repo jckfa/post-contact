@@ -1,8 +1,21 @@
 import React from 'react'
-// import styled from 'styled-components'
+import styled from 'styled-components'
+
+const Note = styled.section`
+  border: 2px solid currentColor;
+  border-radius: 8px;
+  padding: 0.5em;
+  margin-bottom: 1em;
+`
 
 const About = (props) => (
   <article>
+    <Note>
+      <p>
+        Given the recent events in the United States, Post-Contact is undergoing a transition. As a result, the statements below are now partially outdated. This project was originally created in response to one public health crisis—the coronavirus pandemic—and it is now expanding to address another—systemic racism.
+      </p>
+    </Note>
+
     <p>
       <i>Post-Contact</i> is both a condition and a call to action. <i>Post-</i>, as the prefix meaning “after,” describes the current state of <i>contact</i>, or touch—specifically the lack thereof—due to a global effort of social distancing, quarantine, and isolation. <i>Post</i>, as the verb meaning “to publish,” commands an alternative means of <i>contact</i>, or communication—one that does not involve physical touch with another person.
     </p>

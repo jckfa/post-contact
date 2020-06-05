@@ -1,6 +1,30 @@
 const posterList = [
   {
     images: [
+      '031_01.jpg',
+      '031_02.jpg',
+      '031_03.jpg',
+      '031_04.jpg',
+      '031_05.jpg',
+      '031_06.jpg',
+    ],
+    authors: [
+      {
+        name: 'Lauren N. Bailey',
+        url: 'http://laurenbaileydesign.com/',
+      },
+    ],
+    size: '30"W×40"H',
+    install_date: '05 June 2020',
+    description: `
+      <p>I’m not sure if this is what people need right now, but I saw a video circulating online of an older white woman saying “it was just one person” in response to the death of George Floyd and subsequent protests. If I could show her now, this would be my response — 100 Names and Faces of Black People Killed by Police.</p>
+
+      <p>Consider that 104 unarmed black people were killed by police in the US in 2015 alone — and their stories are only the wrongful deaths that were documented. One person should have been enough, but it’s not “just one person.” Police brutality is pervasive against black men, women, trans-persons (Mya Hall & Tony McDade), children (Tamir Rice & Aiyana Jones), elderly, able-bodied, and differently-abled (Jeremy McDole). Since cops don’t discriminate along those lines, the obvious factor is... RACE! Police that do not directly act out their racism are still complicit with their buddies that are (i.e. the 3 other cops) and the racist system that the Police Force was founded on. Cops do not serve the people unless they serve all of the people. Cops do not protect the people unless they protect all of the people. Defund and abolish the racist, murdering, and complicit cops. Fuck the Police. and SAY THEIR NAMES!</p>
+    `
+  },
+
+  {
+    images: [
       '030_01.jpg',
       '030_02.jpg',
       '030_03.jpg',
