@@ -21,17 +21,17 @@ const Main = styled.main`
   `}
 `
 
-const Notice = styled.a`
-  color: black;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  ${'' /* text-transform: uppercase; */}
-  line-height: 1;
-  width: 100%;
-  background-color: #fc0;
-  padding: 0.4em 0.25em 0.25em;
-`
+// const Notice = styled.a`
+//   color: black;
+//   text-align: center;
+//   text-decoration: none;
+//   display: block;
+//   ${'' /* text-transform: uppercase; */}
+//   line-height: 1;
+//   width: 100%;
+//   background-color: #fc0;
+//   padding: 0.4em 0.25em 0.25em;
+// `
 
 const Half = styled.div`
   width: 100%;

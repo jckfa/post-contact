@@ -1,6 +1,23 @@
 const posterList = [
   {
     images: [
+      '032_01.jpg',
+      '032_02.jpg',
+      '032_03.jpg',
+      '032_04.jpg',
+    ],
+    authors: [
+      {
+        name: 'Your Friendly Neighborhood Wall',
+      }
+    ],
+    size: '30"W×40"H',
+    install_date: '7 June 2020',
+    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>.`
+  },
+
+  {
+    images: [
       '031_01.jpg',
       '031_02.jpg',
       '031_03.jpg',
