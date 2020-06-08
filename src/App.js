@@ -21,17 +21,17 @@ const Main = styled.main`
   `}
 `
 
-// const Notice = styled.a`
-//   color: black;
-//   text-align: center;
-//   text-decoration: none;
-//   display: block;
-//   ${'' /* text-transform: uppercase; */}
-//   line-height: 1;
-//   width: 100%;
-//   background-color: #fc0;
-//   padding: 0.4em 0.25em 0.25em;
-// `
+const Notice = styled.div`
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  ${'' /* text-transform: uppercase; */}
+  line-height: 1;
+  width: 100%;
+  background-color: #fc0;
+  padding: 0.4em 0.25em 0.25em;
+`
 
 const Half = styled.div`
   width: 100%;
@@ -105,9 +105,9 @@ class App extends Component {
       <Router>
         <GlobalStyle/>
         <Head/>
-        {/* <Notice href='https://blacklivesmatters.carrd.co/' target='_blank' rel='noopener noreferrer'>
-          Support Black Lives Matter
-        </Notice> */}
+        <Notice>
+          BLM protest submissions highly encouraged!
+        </Notice>
         <Main>
           <Images
             prev={this.prev}
