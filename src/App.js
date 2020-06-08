@@ -11,6 +11,7 @@ import Submit from './components/pages/Submit'
 import About from './components/pages/About'
 import NotFound from './components/pages/NotFound'
 import posterList from './components/data/posterlist'
+import Notice from './components/utils/Notice'
 
 const Main = styled.main`
   display: flex;
@@ -19,18 +20,6 @@ const Main = styled.main`
   ${media.m`
     flex-direction: row;
   `}
-`
-
-const Notice = styled.div`
-  color: black;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  ${'' /* text-transform: uppercase; */}
-  line-height: 1;
-  width: 100%;
-  background-color: #fc0;
-  padding: 0.4em 0.25em 0.25em;
 `
 
 const Half = styled.div`
@@ -105,9 +94,10 @@ class App extends Component {
       <Router>
         <GlobalStyle/>
         <Head/>
-        <Notice>
-          BLM protest submissions highly encouraged!
-        </Notice>
+        <Notice
+          text={'BLM protest submissions highly encouraged!'}
+          repeat={4}
+        />
         <Main>
           <Images
             prev={this.prev}
