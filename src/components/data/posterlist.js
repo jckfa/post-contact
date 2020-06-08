@@ -1,6 +1,28 @@
 const posterList = [
   {
     images: [
+      '033_01.jpg',
+      '033_02.jpg',
+      '033_03.jpg',
+      '033_04.jpg',
+      '033_05.jpg',
+      '033_06.jpg',
+    ],
+    authors: [
+      {
+        name: 'Jack Halten Fahnestock',
+        url: 'https://jackf.me',
+      }
+    ],
+    title: 'Do Not Panic. Organize.',
+    size: '30"W×40"H',
+    install_date: '8 June 2020',
+    description: `There are many variations of this graphic swimming around but the <a href='https://flic.kr/p/Mjphvj' target='_blank' rel='noopener noreferrer'>original, Dutch version</a> was painted on a giant banner and affixed to the side of a building in Brussels. As far as I know it was done by an anonymous artist. The idea is based on the children’s book <span><a href='https://bookcandy.typepad.com/files/swimmy-by-leo-lionni.pdf' target='_blank' rel='noopener noreferrer'>Swimmy (1964)</a></span> by Dutch author and illustrator Leo Lionni.`,
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+  },
+
+  {
+    images: [
       '032_01.jpg',
       '032_02.jpg',
       '032_03.jpg',
