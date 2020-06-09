@@ -96,7 +96,7 @@ class App extends Component {
         <Head/>
         <Notice
           text={'BLM protest submissions highly encouraged!'}
-          repeat={4}
+          repeat={8}
         />
         <Main>
           <Images
