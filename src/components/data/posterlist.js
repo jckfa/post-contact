@@ -1,6 +1,27 @@
 const posterList = [
   {
     images: [
+      '034_01.jpg',
+      '034_02.jpg',
+      '034_03.jpg',
+      '034_04.jpg',
+      '034_05.jpg',
+    ],
+    authors: [
+      {
+        name: 'Jun Lin',
+        url: 'https://junlin.info/',
+      }
+    ],
+    title: 'Joy',
+    size: '30"W×40"H',
+    install_date: '10 June 2020',
+    description: `Don’t forget to celebrate the Highs in Low times. All graphics sourced from cardboard boxes.`,
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+  },
+
+  {
+    images: [
       '033_01.jpg',
       '033_02.jpg',
       '033_03.jpg',
