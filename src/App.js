@@ -72,9 +72,11 @@ class App extends Component {
     super(props)
     this.state = {
       count: 0,
+      grid_view: false
     }
     this.prev = this.prev.bind(this)
     this.next = this.next.bind(this)
+    this.toggle = this.toggle.bind(this)
   }
 
   prev() {
@@ -86,6 +88,12 @@ class App extends Component {
   next() {
     this.setState(prevState => ({
       count: prevState.count < totalCount ? prevState.count + 1 : 0,
+    }))
+  }
+
+  toggle() {
+    this.setState(prevState => ({
+      grid_view: !prevState.grid_view
     }))
   }
 
@@ -102,6 +110,8 @@ class App extends Component {
           <Images
             prev={this.prev}
             next={this.next}
+            toggle={this.toggle}
+            grid_view={this.state.grid_view}
             count={this.state.count}
             allPosterImages={allPosterImages}
             totalCount={totalCount}

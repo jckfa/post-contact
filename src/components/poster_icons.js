@@ -235,3 +235,35 @@ export const BigPosterIcon = () => (
     <Big4x4/>
   </FixBug>
 )
+
+const ViewIconShell = styled.table`
+  width: 1em;
+  height: 1em;
+  cursor: pointer;
+  border-Collapse: Collapse;
+`
+
+export const ViewIcon1x1 = () => (
+  <ViewIconShell>
+    <B>
+      <R>
+        <C/>
+      </R>
+    </B>
+  </ViewIconShell>
+)
+
+export const ViewIcon2x2 = () => (
+  <ViewIconShell>
+    <B>
+      <R>
+        <C/>
+        <C/>
+      </R>
+      <R>
+        <C/>
+        <C/>
+      </R>
+    </B>
+  </ViewIconShell>
+)
