@@ -1,6 +1,30 @@
 const posterList = [
   {
     images: [
+      '035_01.jpg',
+      '035_02.jpg',
+      '035_03.jpg',
+      '035_04.jpg',
+      '035_05.jpg',
+      '035_06.jpg',
+    ],
+    authors: [
+      {
+        name: 'Chloe Scheffe',
+        url: 'http://chloescheffe.com/',
+      }
+    ],
+    title: 'Be Water',
+    size: '30"W×40"H',
+    install_date: '12 June 2020',
+    description: `
+      <p>Here we are in flux, like water. A nation on the move, acknowledging and decrying its evils. This movement gives me hope.</p>
+      <p>(The title comes from this quote: “Now water can flow or it can crash. Be water, my friend.” —Bruce Lee)</p>
+    `,
+  },
+
+  {
+    images: [
       '034_01.jpg',
       '034_02.jpg',
       '034_03.jpg',
