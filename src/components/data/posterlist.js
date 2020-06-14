@@ -1,6 +1,38 @@
 const posterList = [
   {
     images: [
+      '036_01.jpg',
+      '036_02.jpg',
+      '036_03.jpg',
+      '036_04.jpg',
+      '036_05.jpg',
+      '036_06.jpg',
+      '036_07.jpg',
+    ],
+    authors: [
+      {
+        name: 'Your Friendly Neighborhood Wall',
+      }
+    ],
+    title: 'Just an Interesting Thought',
+    size: '30"W×40"H',
+    install_date: '14 June 2020',
+    description: `
+      <p>There are <a href='https://streetsmartoutdoor.com/rhode-island/' target='_blank' rel='noopener noreferrer'>hundreds of bus shelter ad walls</a> scattered across Rhode Island. And they’re double-sided.</p>
+
+      <p>Anyone could, hypothetically, insert their own poster or flip over the existing one, using it as a blank canvas. In that case a thick, dark-colored marking utensil would be most visible to a viewer.</p>
+
+      <p>Anyone could, again, hypothetically, hack one of these bus shelter ads either at night, or in broad daylight wearing a <a href="https://www.amazon.com/dp/B01N4MPQ0J/ref=cm_sw_r_tw_dp_U_x_A1N5Eb9YPDHYC" target='_blank' rel='noopener noreferrer'>high-visibility vest</a>.</p>
+
+      <p>Ad walls in other states and countries may have different security designs. For Europe, refer to <a href='http://brandalism.ch/take-action/' target='_blank' rel='noopener noreferrer'>Brandalism’s excellent guides</a>.</p>
+
+      <p>In most cases one would only need the following tools: a wrench (<a href='https://tinyurl.com/yc3782yv' target='_blank' rel='noopener noreferrer'>adjustable</a> or <a href='https://tinyurl.com/ycfjr3os' target='_blank' rel='noopener noreferrer'>ratcheting</a> with <a href='https://tinyurl.com/y7tzlosy' target='_blank' rel='noopener noreferrer'>sockets</a> in either SAE or metric sizes depending on one’s country), a <a href='https://tinyurl.com/yckhe5bh' target='_blank' rel='noopener noreferrer'>4-way utility key</a>, a <a href='https://tinyurl.com/y9b2p8x9' target='_blank' rel='noopener noreferrer'>tamper-resistant hex key / allen wrench</a> (as a wrench or <a href='https://tinyurl.com/yc883n9y' target='_blank' rel='noopener noreferrer'>bits</a>), and a <a href='https://tinyurl.com/ybz7cbt8' target='_blank' rel='noopener noreferrer'>tamper-resistant Torx key</a> (as a wrench or <a href='https://tinyurl.com/yc883n9y' target='_blank' rel='noopener noreferrer'>bits</a>).</p>
+    `,
+    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>.`
+  },
+
+  {
+    images: [
       '035_01.jpg',
       '035_02.jpg',
       '035_03.jpg',
