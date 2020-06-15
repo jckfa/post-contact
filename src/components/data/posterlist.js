@@ -1,6 +1,26 @@
 const posterList = [
   {
     images: [
+      '037_01.jpg',
+      '037_02.jpg',
+      '037_03.jpg',
+      '037_04.jpg',
+      '037_05.jpg',
+    ],
+    authors: [
+      {
+        name: 'Jack Halten Fahnestock',
+        url: 'https://jackf.me'
+      }
+    ],
+    title: 'Danger',
+    size: '30"W×40"H',
+    install_date: '15 June 2020',
+    description: `Rest in peace, Breonna Taylor (5 June 1993–13 March 2020).`,
+  },
+
+  {
+    images: [
       '036_01.jpg',
       '036_02.jpg',
       '036_03.jpg',
