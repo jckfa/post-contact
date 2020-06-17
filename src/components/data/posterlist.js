@@ -1,6 +1,24 @@
 const posterList = [
   {
     images: [
+      '038_01.jpg',
+      '038_02.jpg',
+      '038_03.jpg',
+      '038_04.jpg',
+    ],
+    authors: [
+      {
+        name: 'Kevin Clements',
+        url: 'https://www.instagram.com/kevin.p.clements/'
+      }
+    ],
+    title: 'Fight to Feel',
+    size: '30"W×40"H',
+    install_date: '17 June 2020',
+  },
+
+  {
+    images: [
       '037_01.jpg',
       '037_02.jpg',
       '037_03.jpg',
