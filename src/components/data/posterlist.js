@@ -1,6 +1,28 @@
 const posterList = [
   {
     images: [
+      '039_01.jpg',
+      '039_02.jpg',
+      '039_03.jpg',
+      '039_04.jpg',
+      '039_05.jpg',
+      '039_06.jpg',
+      '039_07.jpg',
+    ],
+    authors: [
+      {
+        name: 'Yanchi Huang',
+        url: 'https://www.instagram.com/yanchih_/'
+      }
+    ],
+    title: 'Hong Kong → Invalid',
+    size: '30"W×40"H',
+    install_date: '19 June 2020',
+    description: `In response to the security laws announced by the Chinese government to enforce in Hong Kong. With elements sourced from old tickets acquired during my last travel in Hong Kong, the arrangement of the types and graphics conveys this message: Hong Kong is now invalid. The autonomy that makes the city and the freedom of expression and other political and civil liberties, just like the Hong Kong I know from that trip and the validity of these tickets, are all gone.`,
+  },
+
+  {
+    images: [
       '038_01.jpg',
       '038_02.jpg',
       '038_03.jpg',
