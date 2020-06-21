@@ -9,6 +9,7 @@ import Header from './components/includes/Header'
 import Footer from './components/includes/Footer'
 import Submit from './components/pages/Submit'
 import About from './components/pages/About'
+import Download from './components/pages/Download'
 import NotFound from './components/pages/NotFound'
 import posterList from './components/data/posterlist'
 import Notice from './components/utils/Notice'
@@ -122,6 +123,7 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={Submit} />}
               <Route path="/about" component={About} />
+              <Route path="/download" component={Download} />
               <Route component={NotFound} />
             </Switch>
             <Footer/>

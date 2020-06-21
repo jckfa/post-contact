@@ -154,7 +154,14 @@ const posterList = [
     title: 'Do Not Panic. Organize.',
     size: '30"W×40"H',
     install_date: '8 June 2020',
-    description: `There are many variations of this graphic swimming around but the <a href='https://flic.kr/p/Mjphvj' target='_blank' rel='noopener noreferrer'>original, Dutch version</a> was painted on a giant banner and affixed to the side of a building in Brussels. As far as I know it was done by an anonymous artist. The idea is based on the children’s book <span><a href='https://bookcandy.typepad.com/files/swimmy-by-leo-lionni.pdf' target='_blank' rel='noopener noreferrer'>Swimmy (1963)</a></span> by Dutch author and illustrator Leo Lionni.`,
+    description: `
+      <p>
+        There are many variations of this graphic swimming around but this version is based on <a href='https://flic.kr/p/Mjphvj' target='_blank' rel='noopener noreferrer'>a Dutch version</a> that was painted on a giant banner and affixed to the side of a building in Brussels. As far as I know that version dates back to 2017 and was done by an anonymous artist or artists. But the concept is not new—it stems from the classical proverb “big fish eat little fish.”
+      </p>
+
+      <p>
+        In 1975 British political artist <a href='http://www.kenspraguefund.org/about.html' target='_blank' rel='noopener noreferrer'>Ken Sprague</a> did a two sequence cartoon called <span><a href='https://twitter.com/jckfa/status/1274455220303663105/photo/1' target='_blank' rel='noopener noreferrer'>The Parable of the Fishes</a></span>. It was based on the children’s book <span><a href='https://bookcandy.typepad.com/files/swimmy-by-leo-lionni.pdf' target='_blank' rel='noopener noreferrer'>Swimmy (1963)</a></span> by Dutch author and illustrator <a href='https://en.wikipedia.org/wiki/Leo_Lionni' target='_blank' rel='noopener noreferrer'>Leo Lionni</a>. And, according to <span><a href='https://t.co/p3wfsxUn65?amp=1' target='_blank' rel='noopener noreferrer'>Tradition and Innovation in Folk Literature (2015)</a></span> by Wolfgang Mieder, as early as 1858 German paremiographer Karl Friedrich Wilhelm Wander wrote, ‘"Big fish eat little," at least as long as the latter let themselves be eaten, and until they come up with the idea of joining together and eating the large ones.'
+      </p>`,
     note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/'  target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
   },
 

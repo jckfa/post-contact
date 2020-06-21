@@ -14,11 +14,11 @@ const Shell = styled.div`
 
 const Poster = styled.div`
   width: 50%;
-  padding: 0.25em;
+  padding: 0 0.25em 0.25em;
   display: inline-block;
 
   ${media.m`
-    padding: 0.375em;
+    padding: 0 0.375em 0.375em;
   `}
 
   & img {
