@@ -24,6 +24,7 @@ const posterList = [
         <span>—Shepard Fairey, <a href='https://www.youtube.com/watch?v=DJfeAvP8xTo&feature=youtu.be' target='_blank' rel='noopener noreferrer'>Street Basics</a></span>
       </p>
     `,
+    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>.`
   },
 
   {
