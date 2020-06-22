@@ -1,6 +1,24 @@
 const posterList = [
   {
     images: [
+      '041_01.jpg',
+      '041_02.jpg',
+      '041_03.jpg',
+      '041_04.jpg',
+      '041_05.jpg',
+    ],
+    authors: [
+      {
+        name: 'Jack Halten Fahnestock',
+        url: 'https://jackf.me'
+      }
+    ],
+    size: '30"W×40"H',
+    install_date: '22 June 2020',
+  },
+
+  {
+    images: [
       '040_01.jpg',
       '040_02.jpg',
       '040_03.jpg',
