@@ -1,6 +1,52 @@
 const posterList = [
   {
     images: [
+      '041_01.jpg',
+      '041_02.jpg',
+      '041_03.jpg',
+      '041_04.jpg',
+      '041_05.jpg',
+    ],
+    authors: [
+      {
+        name: 'Jack Halten Fahnestock',
+        url: 'https://jackf.me'
+      }
+    ],
+    size: '30"W×40"H',
+    install_date: '22 June 2020',
+  },
+
+  {
+    images: [
+      '040_01.jpg',
+      '040_02.jpg',
+      '040_03.jpg',
+      '040_04.jpg',
+      '040_05.jpg',
+    ],
+    authors: [
+      {
+        name: 'Your Friendly Neighborhood Wall',
+      }
+    ],
+    title: 'Giving Me a Voice: Wheat Pasting',
+    size: '30"W×40"H',
+    install_date: '21 June 2020',
+    description: `
+      <p>
+        "My philosophy with postering is that if you integrate it in a way that's tasteful—you know I guess that's subjective, to me it's just common sense... if a building is abandoned and it's in a condition where they're going to have to put work into it as soon as someone occupies it anyway then I don't feel like I'm lowering the property value or making anyone's life unreasonably miserable. And then, as far as city property goes, I look at it like I'm a tax payer and as long as I'm not covering a stop sign—so someone runs a stop sign and gets killed—you know, that if I use the back of the sign or an electrical box that that's a legitimate use of the public space. [...] I've always emphasized the reclamation of public space as a forum for free speech."
+      </p>
+
+      <p>
+        <span>—Shepard Fairey, <a href='https://www.youtube.com/watch?v=DJfeAvP8xTo&feature=youtu.be' target='_blank' rel='noopener noreferrer'>Street Basics</a></span>
+      </p>
+    `,
+    note: `Using <a href="https://sharptype.co/typefaces/Doyle/" target='_blank' rel='noopener noreferrer'>Doyle</a> courteous of <a href="https://sharptype.co/" target='_blank' rel='noopener noreferrer'>Sharp Type</a>.`
+  },
+  
+  {
+    images: [
       '039_01.jpg',
       '039_02.jpg',
       '039_03.jpg',
