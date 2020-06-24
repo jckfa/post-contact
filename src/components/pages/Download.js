@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import media from '../utils/media'
-import {site} from '../config/vars'
+import {site, colors} from '../config/vars'
 
 const Note = styled.section`
   border: 2px solid currentColor;
@@ -24,7 +24,7 @@ const Items = styled.div`
     `}
 
     & a {
-      width: 100%;
+      width: 50%;
     }
   }
 
@@ -32,6 +32,7 @@ const Items = styled.div`
     width: 100%;
     vertical-align: bottom;
     margin-bottom: 0.5em;
+    border: 2px solid ${colors.purple};
   }
 
   & figcaption {
