@@ -104,8 +104,8 @@ class App extends Component {
         <GlobalStyle/>
         <Head/>
         <Notice
-          text={'BLM protest submissions highly encouraged!'}
-          repeat={8}
+          text={'Open Call for Submissions'}
+          repeat={12}
         />
         <Main>
           <Images
