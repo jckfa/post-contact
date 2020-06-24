@@ -1,6 +1,31 @@
 const posterList = [
   {
     images: [
+      '042_01.jpg',
+      '042_02.jpg',
+      '042_03.jpg',
+      '042_04.jpg',
+      '042_05.jpg',
+      '042_06.jpg',
+    ],
+    authors: [
+      {
+        name: 'Jimena García Vázquez',
+        url: 'https://www.instagram.com/actualshittyperson/'
+      }
+    ],
+    title: 'PUT ON YOUR SHOES AND DANCE TO THE REVOLUTION',
+    size: '30"W×40"H',
+    install_date: '24 June 2020',
+    description: `
+      SPRING HAS SPRUNG<br/>
+      FLOWERS HAVE RISEN FROM THE ASHES<br/>
+      DO YOU DESIRE REVOLT¿
+    `,
+  },
+
+  {
+    images: [
       '041_01.jpg',
       '041_02.jpg',
       '041_03.jpg',
