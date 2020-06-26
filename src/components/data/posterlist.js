@@ -1,6 +1,25 @@
 const posterList = [
   {
     images: [
+      '043_01.jpg',
+      '043_02.jpg',
+      '043_03.jpg',
+      '043_04.jpg',
+      '043_05.jpg',
+    ],
+    authors: [
+      {
+        name: 'Felipe Rocha',
+        url: 'http://www.portorocha.com/'
+      }
+    ],
+    size: '30"W×40"H',
+    install_date: '26 June 2020',
+    description: ``,
+  },
+
+  {
+    images: [
       '042_01.jpg',
       '042_02.jpg',
       '042_03.jpg',
