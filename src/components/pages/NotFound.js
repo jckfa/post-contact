@@ -21,6 +21,7 @@ const Main = styled.main`
 const NotFound = ({ location }) => (
   <Main>
     <p>404 Page Not Found</p>
+    <p><a href='/'>Home</a></p>
   </Main>
 )
 
