@@ -121,10 +121,18 @@ class App extends Component {
           <Half>
             <Header/>
             <Switch>
-              <Route exact path="/" component={Submit} />}
-              <Route path="/about" component={About} />
-              <Route path="/download" component={Download} />
-              <Route component={NotFound} />
+              <Route exact path="/">
+                <Submit/>
+              </Route>
+              <Route path="/about">
+                <About/>
+              </Route>
+              <Route path="/download">
+                <Download/>
+              </Route>
+              <Route path="*">
+                <NotFound/>
+              </Route>
             </Switch>
             <Footer/>
           </Half>
