@@ -15,7 +15,6 @@
   "homepage": "https://post-contact.site",
   "devDependencies": {
     "flow-bin": "^0.122.0",
-    "react-scripts": "^3.4.1",
     "shelljs": "^0.8.4",
     "sw-precache": "^5.2.1"
   },
@@ -23,6 +22,7 @@
     "polished": "^3.6.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1",
     "react-helmet": "^6.1.0",
     "react-marquee-text-component": "^1.0.4",
     "react-router-dom": "^5.2.0",
@@ -40,11 +40,19 @@
     "eject": "react-scripts eject",
     "flow": "flow"
   },
-  "main": "deploy.js",
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
