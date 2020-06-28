@@ -8,17 +8,21 @@ const Container = styled.header`
   margin-bottom: 6em;
 `
 
-// const Beta = styled.span`
-//   font-size: 0.5em;
-//   line-height: 0.5;
-//   text-transform: uppercase;
-//   display: inline-block;
-//   border: 1px solid currentColor;
-//   border-radius: 4px;
-//   padding: 7px 3px 4px;
-//   position: relative;
-//   bottom: 0.3em;
-// `
+const Tag = styled.span`
+  font-size: 0.5em;
+  line-height: 0.5;
+  text-transform: uppercase;
+  display: inline-block;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  padding: 7px 3px 4px;
+  position: relative;
+  bottom: 0.3em;
+
+  & a {
+    text-decoration: none;
+  }
+`
 
 const Nav = styled.nav`
   width: 100%;
@@ -39,7 +43,9 @@ const Nav = styled.nav`
 
 const Header = () => (
   <Container>
-    <Heading>{site.title}</Heading>
+    <Heading>
+      {site.title} <Tag><a href='https://www.facebook.com/donate/566877594200161/' target='_blank' rel='noopener noreferrer'>Donate ↗</a></Tag>
+    </Heading>
     <Nav>
       <A exact to="/">Submit</A>
       <A to="/about">About</A>
