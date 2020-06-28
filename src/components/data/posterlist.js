@@ -1,6 +1,35 @@
 const posterList = [
   {
     images: [
+      '044_01.jpg',
+      '044_02.jpg',
+      '044_03.jpg',
+      '044_04.jpg',
+      '044_05.jpg',
+      '044_06.jpg',
+    ],
+    authors: [
+      {
+        name: 'Your Friendly Neighborhood Wall',
+      }
+    ],
+    title: 'Stonewall',
+    size: '30"W×40"H',
+    install_date: '28 June 2020',
+    description: `
+      <p>
+        Happy Pride, humans. If <a href='https://en.wikipedia.org/wiki/Stonewall_riots' target='_blank' rel='noopener noreferrer'>rioting</a> is what it takes to cause change, then, in the words of John Waters, “<a href='https://youtu.be/Hl05XGifKb4?t=666' target='_blank' rel='noopener noreferrer'>go out in the world and fuck it up beautifully.</a>”
+      </p>
+
+      <p>
+        Colors sourced from miscellaneous
+        found papers.
+      </p>
+    `,
+  },
+
+  {
+    images: [
       '043_01.jpg',
       '043_02.jpg',
       '043_03.jpg',
