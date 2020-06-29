@@ -44,7 +44,7 @@ const Nav = styled.nav`
 const Header = () => (
   <Container>
     <Heading>
-      {site.title} <Tag><a href='gofundme.com/f/post-contact' target='_blank' rel='noopener noreferrer'>Donate ↗</a></Tag>
+      {site.title} <Tag><a href='https://gofundme.com/f/post-contact' target='_blank' rel='noopener noreferrer'>Donate ↗</a></Tag>
     </Heading>
     <Nav>
       <A exact to="/">Submit</A>
