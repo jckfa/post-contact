@@ -1,6 +1,37 @@
 const posterList = [
   {
     images: [
+      '045_01.jpg',
+      '045_02.jpg',
+      '045_03.jpg',
+      '045_04.jpg',
+      '045_05.jpg',
+      '045_06.jpg',
+      '045_07.jpg',
+      '045_08.jpg',
+    ],
+    authors: [
+      {
+        name: 'Jack Halten Fahnestock',
+        url: 'http://jackf.me',
+      }
+    ],
+    title: 'Generation of Peacocks',
+    size: '30"W×40"H',
+    install_date: '29 June 2020',
+    description: `
+      <p>
+        “‘Look at me, look at me. I’m so smart, I’m so rich, I’m so famous.’ You can hear Malcom X say, ‘Peacocks strut because they can’t fly.’ I’m not impressed by peacocks. No matter how high and far you go up the social ladder if the hierarchy is still in place, and the hierarchy is not being interrogated, called into question, and called for transformation, then you’re just making those at the top more colorful and reinforcing the same kind of hierarchy that was doing you in when you were at the bottom.”
+      </p>
+
+      <p>
+        Cornel West, <a href='https://youtu.be/Aekb3ppKm5w?t=3295' target='_blank' rel='noopener noreferrer'>excerpt from the lecture “Race Matters... A Timely Discussion on the Fabric of America”</a>,  26 April 2019, University of Oregon
+      </p>
+    `,
+  },
+
+  {
+    images: [
       '044_01.jpg',
       '044_02.jpg',
       '044_03.jpg',
