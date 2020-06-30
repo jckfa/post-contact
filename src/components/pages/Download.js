@@ -66,7 +66,7 @@ const Download = () => (
           <img src={site.download_path + '033.png'} alt=''/>
         </a>
         <figcaption>
-          033 Do Not Panic, Organize <span>[sizes: letter, tabloid, 30x40in]</span>, <a href='https://drive.google.com/file/d/1yAfxENktT5TT3euQm8IMnX15kYaUUoVp/view?usp=sharing' target='_blank' rel='noopener noreferrer'>Download</a>
+          033 Do Not Panic, Organize <span>[sizes: letter, tabloid, 24x36in]</span>, <a href='https://drive.google.com/file/d/1yAfxENktT5TT3euQm8IMnX15kYaUUoVp/view?usp=sharing' target='_blank' rel='noopener noreferrer'>Download</a>
         </figcaption>
       </div>
     </Items>
