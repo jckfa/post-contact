@@ -1,6 +1,25 @@
 const posterList = [
   {
     images: [
+      '047_01.jpg',
+      '047_02.jpg',
+      '047_03.jpg',
+      '047_04.jpg',
+      '047_05.jpg',
+    ],
+    authors: [
+      {
+        name: 'Rona Binay',
+        url: 'http://ronabinay.com/',
+      }
+    ],
+    size: '30"W×40"H',
+    install_date: '3 July 2020',
+    description: `A start of a question for the reader to complete in their heads. Creating a moment to imagine a world of an other. Maybe even try to understand.`,
+  },
+
+  {
+    images: [
       '046_01.jpg',
       '046_02.jpg',
       '046_03.jpg',
