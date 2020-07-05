@@ -1,6 +1,25 @@
 const posterList = [
   {
     images: [
+      '048_01.jpg',
+      '048_02.jpg',
+      '048_03.jpg',
+      '048_04.jpg',
+      '048_05.jpg',
+    ],
+    authors: [
+      {
+        name: 'Your Friendly Neighborhood Wall',
+      }
+    ],
+    title: 'Open Call for Submissions',
+    size: '30"W×40"H',
+    install_date: '5 July 2020',
+    note: `Printed on paper generously donated by <a href='https://www.centralpaperonline.com/' target='_blank' rel='noopener noreferrer'>Central Paper Co.</a> in Pawtucket, RI.`
+  },
+
+  {
+    images: [
       '047_01.jpg',
       '047_02.jpg',
       '047_03.jpg',
