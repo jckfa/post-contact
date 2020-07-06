@@ -1,6 +1,27 @@
 const posterList = [
   {
     images: [
+      '049_01.jpg',
+      '049_02.jpg',
+      '049_03.jpg',
+      '049_04.jpg',
+      '049_05.jpg',
+      '049_06.jpg',
+    ],
+    authors: [
+      {
+        name: 'Kaming Lee',
+        url: 'https://www.instagram.com/karefullee/',
+      }
+    ],
+    title: 'My Flowers',
+    size: '30"W×40"H',
+    install_date: '6 July 2020',
+    description: `Check out my lovely flowers`,
+  },
+
+  {
+    images: [
       '048_01.jpg',
       '048_02.jpg',
       '048_03.jpg',
