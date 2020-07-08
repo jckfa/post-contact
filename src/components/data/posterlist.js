@@ -1,6 +1,27 @@
 const posterList = [
   {
     images: [
+      '050_01.jpg',
+      '050_02.jpg',
+      '050_03.jpg',
+      '050_04.jpg',
+      '050_05.jpg',
+      '050_06.jpg',
+    ],
+    authors: [
+      {
+        name: 'César Augusto',
+        url: 'https://www.instagram.com/trashtechno/',
+      }
+    ],
+    title: 'Abolish ICE',
+    size: '30"W×40"H',
+    install_date: '8 July 2020',
+    description: `During the pandemic, everybody is focused on being safe at home, meanwhile, thousands of immigrant kids are detained in cages, sprayed with disinfectant constantly, abused by officers, and living in terrible conditions, separated from their families. ICE is well known for being an abusive institution and it should be abolished. No human life is illegal.`,
+  },
+
+  {
+    images: [
       '049_01.jpg',
       '049_02.jpg',
       '049_03.jpg',
