@@ -1,6 +1,36 @@
 const posterList = [
   {
     images: [
+      '051_01.jpg',
+      '051_02.jpg',
+      '051_03.jpg',
+      '051_04.jpg',
+      '051_05.jpg',
+      '051_06.jpg',
+      '051_07.jpg',
+    ],
+    authors: [
+      {
+        name: 'Christopher Cote',
+        url: 'http://chris-cote.com/',
+      }
+    ],
+    title: 'Reconstructed Poses',
+    size: '30"W×40"H',
+    install_date: '10 July 2020',
+    description: `
+      <p>
+        After scrolling and exploring Instagram too much in the past weeks I noticed that many influencers use similar poses. I became curious about what these say about our time, culture, and the power they hold. I decided to look closer, but narrowed my search to the top-follwed fashion influencers.
+      </p>
+
+      <p>
+        After collecting the most common poses I recontextualized them myself. I did so by photographing myself in some of the most common poses without backgrounds, color, and minimal clothing (all black). This gave me an absurd overview of the prevalent body language and expressions used by top Instagram fashion influencers. They are the ones who arguably hold the power to influence and have a prominent role in body representation and identity expression. It has become a strange and humorous in-progress reconstruction of body positioning that I plan to continue to explore and ideate from in future research. At this point it reveals more questions than answers. And some interesting potential.
+      </p>
+    `,
+  },
+
+  {
+    images: [
       '050_01.jpg',
       '050_02.jpg',
       '050_03.jpg',
