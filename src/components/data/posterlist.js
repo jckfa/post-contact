@@ -1,6 +1,34 @@
 const posterList = [
   {
     images: [
+      '052_01.jpg',
+      '052_02.jpg',
+      '052_03.jpg',
+      '052_04.jpg',
+      '052_05.jpg',
+      '052_06.jpg',
+    ],
+    authors: [
+      {
+        name: 'Your Friendly Neighborhood Wall',
+      }
+    ],
+    title: 'Dear Street Parkers',
+    size: '30"W×40"H',
+    install_date: '12 July 2020',
+    description: `
+      <p>
+        Jack regularly takes photographs of me from across the street so parked vehicles breaching the area marked in front of me can disrupt certain shots.
+      </p>
+
+      <p>
+        If vehicle owners could park outside of that designated area, I would really appreciate it. Thank you!
+      </p>
+    `,
+  },
+
+  {
+    images: [
       '051_01.jpg',
       '051_02.jpg',
       '051_03.jpg',
