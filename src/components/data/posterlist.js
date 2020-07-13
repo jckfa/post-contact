@@ -1,6 +1,27 @@
 const posterList = [
   {
     images: [
+      '053_01.jpg',
+      '053_02.jpg',
+      '053_03.jpg',
+      '053_04.jpg',
+      '053_05.jpg',
+      '053_06.jpg',
+    ],
+    authors: [
+      {
+        name: 'Sevgi Tan',
+        url: 'https://www.instagram.com/igvestan/',
+      }
+    ],
+    title: 'Medusa',
+    size: '30"W×40"H',
+    install_date: '13 July 2020',
+    description: `The poem <span>Medusa</span> by Carol Ann Duffy, was my starting point. A reimagined game of Snakes and Ladders lead us through the grid and give us the unstable spirit of Medusa portrayed by Duffy. We try to follow an inexistent corridor down the stairs and keep up with the snake that's been already torn apart. Even though it turned into stone, we can still hear him.`,
+  },
+
+  {
+    images: [
       '052_01.jpg',
       '052_02.jpg',
       '052_03.jpg',
