@@ -1,6 +1,26 @@
 const posterList = [
   {
     images: [
+      '054_01.jpg',
+      '054_02.jpg',
+      '054_03.jpg',
+      '054_04.jpg',
+      '054_05.jpg',
+    ],
+    authors: [
+      {
+        name: 'César Axel',
+        url: 'https://www.instagram.com/bivouactenure/',
+      }
+    ],
+    title: "When We Move It's A Movement",
+    size: '30"W×40"H',
+    install_date: '15 July 2020',
+    description: `..when happiness and misery take shape`,
+  },
+
+  {
+    images: [
       '053_01.jpg',
       '053_02.jpg',
       '053_03.jpg',
