@@ -1,6 +1,27 @@
 const posterList = [
   {
     images: [
+      '055_01.jpg',
+      '055_02.jpg',
+      '055_03.jpg',
+      '055_04.jpg',
+      '055_05.jpg',
+      '055_06.jpg'
+    ],
+    authors: [
+      {
+        name: 'Eileen Tran',
+        url: 'http://instagram.com/eileenjawn',
+      }
+    ],
+    title: "Unlearn Bigotry",
+    size: '30"W×40"H',
+    install_date: '17 July 2020',
+    description: `“The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn.” ― Alvin Toffler`,
+  },
+
+  {
+    images: [
       '054_01.jpg',
       '054_02.jpg',
       '054_03.jpg',
