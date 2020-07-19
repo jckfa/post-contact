@@ -1,12 +1,27 @@
 const posterList = [
   {
     images: [
+      '056_01.jpg',
+      '056_02.jpg',
+      '056_03.jpg',
+    ],
+    authors: [
+      {
+        name: 'Your Friendly Neighborhood Wall',
+      }
+    ],
+    size: '30"W×40"H',
+    install_date: '19 July 2020',
+  },
+
+  {
+    images: [
       '055_01.jpg',
       '055_02.jpg',
       '055_03.jpg',
       '055_04.jpg',
       '055_05.jpg',
-      '055_06.jpg'
+      '055_06.jpg',
     ],
     authors: [
       {
