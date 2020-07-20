@@ -1,6 +1,24 @@
 const posterList = [
   {
     images: [
+      '057_01.jpg',
+      '057_02.jpg',
+      '057_03.jpg',
+      '057_04.jpg',
+      '057_05.jpg',
+    ],
+    authors: [
+      {
+        name: 'Anthony Zukofsky',
+        url: 'https://anthonyzukofsky.com/',
+      }
+    ],
+    size: '30"W×40"H',
+    install_date: '20 July 2020',
+  },
+
+  {
+    images: [
       '056_01.jpg',
       '056_02.jpg',
       '056_03.jpg',
