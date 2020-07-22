@@ -1,6 +1,37 @@
 const posterList = [
   {
     images: [
+      '058_01.jpg',
+      '058_02.jpg',
+      '058_03.jpg',
+      '058_04.jpg',
+    ],
+    authors: [
+      {
+        name: 'Victoria Chen',
+        url: 'http://instagram.com/vechenn',
+      }
+    ],
+    title: "American Pie",
+    size: '30"W×40"H',
+    install_date: '22 July 2020',
+    description: `
+    <p>I remember seeing this written on Twitter as a response to when Trump began calling COVID-19 the “Chinese Virus.” I loved it then, and I love it now because I can only hear it spoken in the voice of an elderly, white Southern woman.</p>
+
+    <p>I found out from my little sister yesterday that my mom was harassed by some white teenagers in our (all-white) neighborhood. “Asian, Covid stuff, you know” is what my sister had told me. Yea, we’re Asian, and my parents live in the deep South. Growing up, I’ve always been aware of racism toward POC, even though the education I received here pretends like it never happened. For example, the county we live in is named after a racist Confederate politician and the adjacent county is named after one of the founding grand wizards of the KKK, and I only found this out a few days ago. I’m in my mid 20’s.</p>
+
+    <p>Growing up, I used to always volunteer to go grocery shopping with my Mom because I felt like maybe my presence could protect her or at least if she did get some shit, she wouldn’t have to go through it alone. So it really sucks balls that I couldn’t be there when the most recent thing happened.</p>
+
+    <p>So that’s how I’ve been feeling. Angry. I guess making this poster made me feel a little bit better.</p>
+
+    <p>I trademarked AMERICAN because AMERICA is a logo; it is a slogan; it is a brand name that some people feel so protective and exclusive about. It’s like “you can’t have this or be this or be with us, you bastard.” What’s more American than making it illegal to be American?</p>
+
+    <p>If you listen to the Dolly Parton song, make sure to commit till the end. There’s a special prayer she ends with that’s not actually a part of the song.</p>
+    `,
+  },
+
+  {
+    images: [
       '057_01.jpg',
       '057_02.jpg',
       '057_03.jpg',
