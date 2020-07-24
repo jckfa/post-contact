@@ -1,6 +1,26 @@
 const posterList = [
   {
     images: [
+      '059_01.jpg',
+      '059_02.jpg',
+      '059_03.jpg',
+      '059_04.jpg',
+      '059_05.jpg',
+    ],
+    authors: [
+      {
+        name: 'Shiva Nallaperumal',
+        url: 'https://www.instagram.com/shiva_n_/',
+      }
+    ],
+    title: 'Educate/Agitate/Organize',
+    size: '30"W×40"H',
+    install_date: '24 July 2020',
+    description: `A symbol to pledge solidarity with those on the frontlines fighting inequality, injustice and global rise of Fascism. The slogan are the words of Babasaheb Ambedkar, the champion of social justice and equality.`,
+  },
+
+  {
+    images: [
       '058_01.jpg',
       '058_02.jpg',
       '058_03.jpg',
