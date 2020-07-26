@@ -1,6 +1,23 @@
 const posterList = [
   {
     images: [
+      '060_01.jpg',
+      '060_02.jpg',
+      '060_03.jpg',
+      '060_04.jpg',
+    ],
+    authors: [
+      {
+        name: '[Error Has Occurred]',
+      }
+    ],
+    size: '30"W×40"H',
+    install_date: '26 July 2020',
+    description: `Sorry for the inconvenience. The printer is down. A replacement fuser has been ordered with the extra funds generously donated via the GoFundMe page. Assuming that part fixes the problem, Post-Contact should resume operation on Friday.`,
+  },
+
+  {
+    images: [
       '059_01.jpg',
       '059_02.jpg',
       '059_03.jpg',
