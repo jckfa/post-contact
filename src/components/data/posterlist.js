@@ -1,6 +1,25 @@
 const posterList = [
   {
     images: [
+      '061_01.jpg',
+      '061_02.jpg',
+      '061_03.jpg',
+      '061_04.jpg',
+      '061_05.jpg',
+    ],
+    authors: [
+      {
+        name: 'Habib Placencia Adissi',
+        url: 'http://instagram.com/habibplacencia',
+      }
+    ],
+    size: '30"W×40"H',
+    install_date: '31 July 2020',
+    description: `A lot of authenticity, opportunity, and ability to liberate is lost otherwise. It’s time to reverse values.`,
+  },
+
+  {
+    images: [
       '060_01.jpg',
       '060_02.jpg',
       '060_03.jpg',
