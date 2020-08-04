@@ -1,6 +1,33 @@
 const posterList = [
   {
     images: [
+      '062_01.jpg',
+      '062_02.jpg',
+      '062_03.jpg',
+      '062_04.jpg',
+      '062_05.jpg',
+    ],
+    authors: [
+      {
+        name: 'Adam Lucas',
+        url: 'http://adamlucas.info/',
+      }
+    ],
+    title: 'Good Trouble',
+    size: '30"W×40"H',
+    install_date: '3 Aug 2020',
+    description: `
+      <p>
+        John Lewis, the civil rights leader who died on July 17th, wrote an essay shortly before his death, and sent it to the New York Times to be published upon the day of his funeral, on July 30th. He had a clear message: “stand up for what you truly believe.” Mr. Lewis did this his entire life. He demonstrated that the best way to stand up against violence, oppression, and injustice was through love and nonviolence — what he called “getting into good trouble.” He did and gave everything to create change for social justice. Ultimately, he's asking for something much simpler in return: VOTE. It's our privilege, and our duty as citizens in a democratic society, to do so.
+      </p>
+
+      <p>
+        Typeset in Martin by Tré Seals (<a href="https://www.vocaltype.co/" target='_blank' rel='noopener noreferrer'>Vocal Type</a>)
+      </p>`,
+  },
+
+  {
+    images: [
       '061_01.jpg',
       '061_02.jpg',
       '061_03.jpg',

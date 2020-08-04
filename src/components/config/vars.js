@@ -10,7 +10,8 @@ export const site = {
   instagram_handle: 'post_contact',
   source_code: 'https://github.com/jckfa/post-contact',
   download_path: 'assets/download/',
-  images_path_external: 'https://img.post-contact.site/',
+  // images_path_external: 'https://img.post-contact.site/',
+  images_path_external: 'https://post-contact-img.nyc3.cdn.digitaloceanspaces.com/',
 }
 
 export const colors = {
