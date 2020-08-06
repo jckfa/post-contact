@@ -63,7 +63,7 @@ const Contribute = () => (
         <i>{site.title}</i> is {site.description}
       </p>
       <p>
-        New posters are published on site and online every Monday, Wednesday, Friday, and Sunday.
+        New posters are published on site and online every Monday and Thursday.
       </p>
       <p>
         Visit the site in person at <a href={site.address_url} target='_blank' rel='noopener noreferrer'>{site.address}</a> or on Instagram <a href={'https://instagram.com/' + site.instagram_handle} target='_blank' rel='noopener noreferrer'>@{site.instagram_handle}</a>.
@@ -104,7 +104,7 @@ const Contribute = () => (
       <p>
         Please format it at 300DPI as a PDF, PNG, or JPG (with bleeds and crop marks if necessary) and include the following:
       </p>
-      
+
       <ul>
         <li>
           name (anonymity is not allowed)

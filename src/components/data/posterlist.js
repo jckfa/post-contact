@@ -1,6 +1,25 @@
 const posterList = [
   {
     images: [
+      '063_01.jpg',
+      '063_02.jpg',
+      '063_03.jpg',
+      '063_04.jpg',
+    ],
+    authors: [
+      {
+        name: 'Jonathan Xue',
+        url: 'http://jonathanxue.info/',
+      }
+    ],
+    title: 'Keep Your Pace',
+    size: '30"W×40"H',
+    install_date: '6 Aug 2020',
+    description: `I've been comparing myself to other people a lot recently. My dad - a runner - often reminds me to "Keep Your Pace".`,
+  },
+
+  {
+    images: [
       '062_01.jpg',
       '062_02.jpg',
       '062_03.jpg',
