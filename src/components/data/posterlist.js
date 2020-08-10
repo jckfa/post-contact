@@ -1,6 +1,24 @@
 const posterList = [
   {
     images: [
+      '064_01.jpg',
+      '064_02.jpg',
+      '064_03.jpg',
+    ],
+    authors: [
+      {
+        name: 'Jack Halten Fahnestock',
+        url: 'https://jackf.me',
+      }
+    ],
+    title: 'Add this to your watchlist',
+    size: '30"W×40"H',
+    install_date: '10 Aug 2020',
+    description: `You can watch it <a href='https://www.youtube.com/watch?v=fh2cDKyFdyU' target='_blank' rel='noopener noreferrer'>here on Youtube</a> for free... enjoy.`,
+  },
+
+  {
+    images: [
       '063_01.jpg',
       '063_02.jpg',
       '063_03.jpg',
