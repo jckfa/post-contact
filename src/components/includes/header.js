@@ -8,21 +8,21 @@ const Container = styled.header`
   margin-bottom: 6em;
 `
 
-const Tag = styled.span`
-  font-size: 0.5em;
-  line-height: 0.5;
-  text-transform: uppercase;
-  display: inline-block;
-  border: 1px solid currentColor;
-  border-radius: 4px;
-  padding: 7px 3px 4px;
-  position: relative;
-  bottom: 0.3em;
-
-  & a {
-    text-decoration: none;
-  }
-`
+// const Tag = styled.span`
+//   font-size: 0.5em;
+//   line-height: 0.5;
+//   text-transform: uppercase;
+//   display: inline-block;
+//   border: 1px solid currentColor;
+//   border-radius: 4px;
+//   padding: 7px 3px 4px;
+//   position: relative;
+//   bottom: 0.3em;
+//
+//   & a {
+//     text-decoration: none;
+//   }
+// `
 
 const Nav = styled.nav`
   width: 100%;
@@ -44,7 +44,7 @@ const Nav = styled.nav`
 const Header = () => (
   <Container>
     <Heading>
-      {site.title} <Tag><a href='https://gofundme.com/f/post-contact' target='_blank' rel='noopener noreferrer'>Donate ↗</a></Tag>
+      {site.title}
     </Heading>
     <Nav>
       <A exact to="/">Submit</A>

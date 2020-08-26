@@ -12,7 +12,7 @@ import About from './components/pages/About'
 import Download from './components/pages/Download'
 import NotFound from './components/pages/NotFound'
 import posterList from './components/data/posterlist'
-import Notice from './components/utils/Notice'
+// import Notice from './components/utils/Notice'
 
 const Main = styled.main`
   display: flex;
@@ -103,10 +103,10 @@ class App extends Component {
       <Router>
         <GlobalStyle/>
         <Head/>
-        <Notice
+        {/* <Notice
           text={'Open Call for Submissions'}
           repeat={12}
-        />
+        /> */}
         <Main>
           <Images
             prev={this.prev}

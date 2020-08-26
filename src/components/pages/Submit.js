@@ -50,11 +50,11 @@ const Email = styled.span`
 `
 
 // escape special characters
-const submit_email = `
-  mailto:${site.email}
-  ?subject=${encodeURIComponent(site.email_subject)}
-  &body=${encodeURIComponent(site.email_body)}
-`.replace(/\s+/g, '')
+// const submit_email = `
+//   mailto:${site.email}
+//   ?subject=${encodeURIComponent(site.email_subject)}
+//   &body=${encodeURIComponent(site.email_body)}
+// `.replace(/\s+/g, '')
 
 const Contribute = () => (
   <div>
@@ -63,16 +63,13 @@ const Contribute = () => (
         <i>{site.title}</i> is {site.description}
       </p>
       <p>
-        New posters are published on site and online every Monday and Thursday.
-      </p>
-      <p>
-        Visit the site in person at <a href={site.address_url} target='_blank' rel='noopener noreferrer'>{site.address}</a> or on Instagram <a href={'https://instagram.com/' + site.instagram_handle} target='_blank' rel='noopener noreferrer'>@{site.instagram_handle}</a>.
+        The project is now discontinued. See past installations here or on Instagram <a href={'https://instagram.com/' + site.instagram_handle} target='_blank' rel='noopener noreferrer'>@{site.instagram_handle}</a>.
       </p>
     </Visit>
 
     <section>
       <Heading>
-        <BlinkText>Open Call for Submissions</BlinkText>
+        <BlinkText>Submissions [CLOSED]</BlinkText>
       </Heading>
       <p>Please submit previously unpublished material for a 30"W×40"H poster to be printed in B&W and wheat-pasted to the façade of a <a href={site.address_url} target='_blank' rel='noopener noreferrer'>neighborhood apartment building</a> in Providence, Rhode Island (USA).</p>
 
@@ -96,9 +93,7 @@ const Contribute = () => (
 
       <p>
         Send material to the following address:
-        <a href={submit_email} target='_blank' rel='noopener noreferrer'>
-          <Email>{site.email}</Email>
-        </a>
+        <Email><i>Submissions are now closed.</i></Email>
       </p>
 
       <p>
