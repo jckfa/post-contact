@@ -9,7 +9,7 @@ import Header from './components/includes/Header'
 import Footer from './components/includes/Footer'
 import Submit from './components/pages/Submit'
 import About from './components/pages/About'
-import Download from './components/pages/Download'
+// import Download from './components/pages/Download'
 import NotFound from './components/pages/NotFound'
 import posterList from './components/data/posterlist'
 // import Notice from './components/utils/Notice'
@@ -127,9 +127,9 @@ class App extends Component {
               <Route path="/about">
                 <About/>
               </Route>
-              <Route path="/download">
+              {/* <Route path="/download">
                 <Download/>
-              </Route>
+              </Route> */}
               <Route path="*">
                 <NotFound/>
               </Route>

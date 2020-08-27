@@ -49,7 +49,7 @@ const Header = () => (
     <Nav>
       <A exact to="/">Submit</A>
       <A to="/about">About</A>
-      <A to="/download">Download</A>
+      {/* <A to="/download">Download</A> */}
     </Nav>
   </Container>
 )
