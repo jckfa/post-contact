@@ -63,7 +63,7 @@ const Contribute = () => (
         <i>{site.title}</i> is {site.description}
       </p>
       <p>
-        The project is now discontinued. See past installations here or on Instagram <a href={'https://instagram.com/' + site.instagram_handle} target='_blank' rel='noopener noreferrer'>@{site.instagram_handle}</a>.
+        <i>The project is now discontinued</i>. See past installations here or on Instagram <a href={'https://instagram.com/' + site.instagram_handle} target='_blank' rel='noopener noreferrer'>@{site.instagram_handle}</a>.
       </p>
     </Visit>
 
